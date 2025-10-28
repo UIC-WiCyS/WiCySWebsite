@@ -1,0 +1,23 @@
+*{
+  margin:0%;
+  padding-top:50%
+}
+
+body{
+    text-align: center;
+}
+
+/* headerMain{
+    color: #1e2325;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+} */
+
+.portraits{
+  width: 50%;
+  height: 25%;
+  border: 20% solid #FFFF;
+  border-radius: 5%;
+}
+
