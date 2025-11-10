@@ -1,48 +1,35 @@
+import { NavLink } from "react-router-dom";
 import TitleBar from "../../components/TitleBar.jsx";
 import folderImg from "../../assets/picsEvents/folder.svg";
-
+import "./Events.css";
 
 export default function Events() {
-    return (
-        <main>
-            <TitleBar title="Upcoming Events" />  
-        
-    
-      <div
-        style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(2, 1fr)",
-          gap: "2rem",
-          justifyItems: "center",
-          marginTop: "3rem",
-        }}
-      >
-        {[...Array(6)].map((_, i) => (
-          <button
-            key={i}
-            style={{
-              background: "none",
-              border: "none",
-              cursor: "pointer",
-            }}
-          >
-            <img
-              src={folderImg}
-              alt={`Folder ${i + 1}`}
-              style={{
-                width: "220px",
-                transition: "transform 0.2s",
-              }}
-              onMouseOver={(e) =>
-                (e.currentTarget.style.transform = "scale(1.05)")
-              }
-              onMouseOut={(e) =>
-                (e.currentTarget.style.transform = "scale(1)")
-              }
-            />
-          </button>
+  const MONTHS = [
+    { label: "Aug", to: "/events/aug" },
+    { label: "Sep", to: "/events/sep" },
+    { label: "Oct", to: "/events/oct" },
+    { label: "Nov", to: "/events/nov" },
+    { label: "Dec", to: "/events/dec" },
+    { label: "Jan", to: "/events/jan" },
+  ];
+
+  const folderLink = ({ isActive }) =>
+    "folder-link" + (isActive ? " active" : "");
+
+  return (
+    <main>
+      <TitleBar title="Upcoming Events" />
+
+      <div className="folder-grid">
+        {MONTHS.map(({ label, to }) => (
+          <NavLink key={label} to={to} className={folderLink}>
+            <div className="folder-wrapper">
+              <img src={folderImg} alt={label} className="folder-img" />
+              <span className="folder-label">{label}</span>
+            </div>
+          </NavLink>
         ))}
       </div>
-        </main>     
-    )
+    </main>
+  );
 }
