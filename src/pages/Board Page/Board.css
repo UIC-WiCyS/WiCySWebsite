@@ -1,65 +1,98 @@
 
+.TitleBar{
+    margin-bottom: 10%; 
+}
+
 .board {
     display: flex;
     flex-direction: column;
-    gap: 50px; 
-    
 }
 
-.member {
-
+.memberLeft {
     background-color: #00172f;
-    
+
     /*Boarder Style*/
     border-style: solid;
-    border-width: 10px;
+    border-width: 15px;
     border-color: #B1D34A;
     border-radius: 25px;
-    
-    
-    margin:10%;
-    
+
+    margin-top: 2.5%;
+    margin-bottom: 2.5%; 
+
+    margin-left:14%;
+    margin-right:14%;
+
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-evenly;
    
-    padding: 25px; 
-    
-
+    padding: 15px; 
 }
 
 .image img {
-    
+
     width: 70%;
-    height: 25%;
-    justify-content: flex-start;
+    height: auto;
+    
+    display: flex;
+    justify-content: center;
     border-radius: 25px;
 
-
-    margin-left: 10px;
-    margin-right: 0px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px; 
     
 }
 
 .text {
     text-align: center;
+    white-space: nowrap;
     
-    margin-left: 0px;
-    margin-right: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
     display: flex; 
     flex-direction: column;
+    font-size: 3vw;
     
 }
 
 .name {
-   
+    margin-top: 10px;
     margin-bottom: 0px;
-    font-size: xx-large;
+    font-weight: bolder;
+    
     color: rgb(255, 255, 255);
 }
 .position {
     margin-top: -5px;
     margin-bottom: -5px;
-    font-size: xx-large;
+    
     color: #00A5E0;
+}
+
+/*RIGHT LAYOUT*/
+.memberRight {
+    background-color: #00172f;
+    
+    /*Boarder Style*/
+    border-style: solid;
+    border-width: 15px;
+    border-color: #9741A3;
+    border-radius: 25px;
+
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+
+    margin-left:14%;
+    margin-right:14%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+   
+    padding: 15px; 
 }
