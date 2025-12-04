@@ -9,8 +9,11 @@ export default function Events() {
     { label: "Sep", to: "/events/sep" },
     { label: "Oct", to: "/events/oct" },
     { label: "Nov", to: "/events/nov" },
-    { label: "Dec", to: "/events/dec" },
     { label: "Jan", to: "/events/jan" },
+    { label: "Feb", to: "/events/feb" },
+    { label: "Mar", to: "/events/mar" },
+    { label: "Apr", to: "/events/apr" },
+    { label: "May", to: "/events/may" },
   ];
 
   const folderLink = ({ isActive }) =>
