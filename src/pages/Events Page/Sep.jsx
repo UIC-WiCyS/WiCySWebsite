@@ -18,9 +18,9 @@ export default function Sep() {
             alt="Welcome Back Mixer"
             className="event-img"
           />
-          <h2>Welcome Back Mixer</h2>
-          <p><strong>Date & Time:</strong> 8/25/25 </p>
-          <p><strong>Location:</strong> CDRLC 1413 </p>
+          <h2>Involvement Fair</h2>
+          <p><strong>Date & Time:</strong> 9/3/25 - 9/4/25, 11 AM - 3 PM  </p>
+          <p><strong>Location:</strong> UH Lawn </p>
           <p><strong>Details:</strong> welcome mixer for everyone. We will be providing snacks pull up! </p>
           
   
@@ -28,12 +28,12 @@ export default function Sep() {
         <div className="event-card-active">
             <img
             src={folderImg}              
-            alt="Welcome Back Mixer"
+            alt="GBM"
             className="event-img"
           />
-          <h2>Zebra Talk</h2>
-          <p><strong>Date & Time:</strong> 8/28/25 </p>
-          <p><strong>Location:</strong> CDRLC 1413 </p>
+          <h2>GBM</h2>
+          <p><strong>Date & Time:</strong> 9/8/25 </p>
+          <p><strong>Location:</strong> "CDRLC 1413, 11 AM - 3 PM"  </p>
           <p><strong>Details:</strong> welcome mixer for everyone. We will be providing snacks pull up! </p>
           
   
@@ -41,11 +41,11 @@ export default function Sep() {
         <div className="event-card-active">
             <img
             src={folderImg}             
-            alt="Welcome Back Mixer"
+            alt="Intro To Cybersecurity"
             className="event-img"
           />
-          <h2>GBM</h2>
-          <p><strong>Date & Time:</strong> 9/1/25 </p>
+          <h2>Intro To Cybersecurity</h2>
+          <p><strong>Date & Time:</strong> 9/15/25, 4 - 5 PM </p>
           <p><strong>Location:</strong> CDRLC 1413 </p>
           <p><strong>Details:</strong> welcome mixer for everyone. We will be providing snacks pull up! </p>
           
@@ -54,17 +54,20 @@ export default function Sep() {
         <div className="event-card-passed">
             <img
             src={folderImg}             
-            alt="Welcome Back Mixer"
+            alt="LuGxWiCyS"
             className="event-img"
           />
-          <h2>Hack-o-ween</h2>
-          <p><strong>Date & Time:</strong> 9/4/25 </p>
+          <h2>LuGxWiCyS</h2>
+          <p><strong>Date & Time:</strong> 9/23/25, 4-5 pm </p>
           <p><strong>Location:</strong> CDRLC 1413 </p>
           <p><strong>Details:</strong> welcome mixer for everyone. We will be providing snacks pull up! </p>
           
   
         </div>
-        </div>
+       
+       
+           </div>
+     
 
       </section>
     </main>
