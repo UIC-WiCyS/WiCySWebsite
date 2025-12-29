@@ -1,5 +1,8 @@
 import TitleBar from "../../components/TitleBar.jsx";
-import folderImg from "../../assets/picsEvents/folder.svg";
+import involvementFair from "../../assets/picsEvents/involvementFair.png";
+import sepGBM from "../../assets/picsEvents/sepGBM.JPG";
+import introToCyber from "../../assets/picsEvents/introToCyber.png";
+import wicysXlug from "../../assets/picsEvents/wicysXlug.png";
 import "./Sep.css"; 
 
 export default function Sep() {
@@ -14,7 +17,7 @@ export default function Sep() {
         <div className="event-grid">
         <div className="event-card-active">
             <img
-            src={folderImg}              
+            src={involvementFair}              
             alt="Involvement Fair"
             className="event-img"
           />
@@ -27,7 +30,7 @@ export default function Sep() {
         </div>
         <div className="event-card-active">
             <img
-            src={folderImg}              
+            src={sepGBM}              
             alt="GBM"
             className="event-img"
           />
@@ -40,7 +43,7 @@ export default function Sep() {
         </div>
         <div className="event-card-active">
             <img
-            src={folderImg}             
+            src={introToCyber}             
             alt="Intro To Cybersecurity"
             className="event-img"
           />
@@ -53,7 +56,7 @@ export default function Sep() {
         </div>
         <div className="event-card-passed">
             <img
-            src={folderImg}             
+            src={wicysXlug}             
             alt="LuGxWiCyS"
             className="event-img"
           />

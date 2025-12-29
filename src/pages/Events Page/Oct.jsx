@@ -1,4 +1,10 @@
 import TitleBar from "../../components/TitleBar.jsx";
+import zebra from "../../assets/picsEvents/zebra.png";
+import introToRiskManagement from "../../assets/picsEvents/introToRiskManagement.JPG";
+import johnTheRipper from "../../assets/picsEvents/johnTheRipper.png";
+import morningstar from "../../assets/picsEvents/morningstar.png";
+import sidley from "../../assets/picsEvents/sidley.png";
+import hackoween from "../../assets/picsEvents/hackoween.JPG";
 import folderImg from "../../assets/picsEvents/folder.svg";
 import "./Oct.css"; 
 
@@ -14,7 +20,7 @@ export default function Oct() {
         <div className="event-grid">
         <div className="event-card-active">
             <img
-            src={folderImg}              
+            src={zebra}              
             alt="WiCySxZebra"
             className="event-img"
           />
@@ -27,7 +33,7 @@ export default function Oct() {
         </div>
         <div className="event-card-active">
             <img
-            src={folderImg}              
+            src={introToRiskManagement}              
             alt="Intro to Cybersecurity: Risk Management"
             className="event-img"
           />
@@ -53,7 +59,7 @@ export default function Oct() {
         </div>
         <div className="event-card-passed">
             <img
-            src={folderImg}             
+            src={johnTheRipper}             
             alt="Intro to John the Ripper"
             className="event-img"
           />
@@ -66,7 +72,7 @@ export default function Oct() {
         </div>
         <div className="event-card-passed">
             <img
-            src={folderImg}             
+            src={morningstar}             
             alt="Morningstar"
             className="event-img"
           />
@@ -93,7 +99,7 @@ export default function Oct() {
         </div>
          <div className="event-card-passed">
             <img
-            src={folderImg}             
+            src={sidley}             
             alt="WiCySxSidley"
             className="event-img"
           />
@@ -105,7 +111,7 @@ export default function Oct() {
         </div>
         <div className="event-card-passed">
             <img
-            src={folderImg}             
+            src={hackoween}             
             alt="Hack-o-ween"
             className="event-img"
           />

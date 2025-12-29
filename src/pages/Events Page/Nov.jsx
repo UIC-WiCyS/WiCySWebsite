@@ -1,5 +1,8 @@
 import TitleBar from "../../components/TitleBar.jsx";
-import folderImg from "../../assets/picsEvents/folder.svg";
+import mandiant from "../../assets/picsEvents/mandiant.png";
+import gathers from "../../assets/picsEvents/gathers.png";
+
+
 import "./Nov.css"; 
 
 export default function Nov() {
@@ -14,7 +17,7 @@ export default function Nov() {
         <div className="event-grid">
         <div className="event-card-active">
             <img
-            src={folderImg}              
+            src={mandiant}              
             alt="MandiantxWiCyS"
             className="event-img"
           />
@@ -29,7 +32,7 @@ export default function Nov() {
         
         <div className="event-card-passed">
             <img
-            src={folderImg}             
+            src={gathers}             
             alt="Gathers Fundraiser"
             className="event-img"
           />
