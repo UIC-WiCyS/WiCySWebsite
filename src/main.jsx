@@ -11,6 +11,7 @@ import About from './pages/About Page/About.jsx'
 import Board from './pages/Board Page/Board.jsx'
 import Announcements from './pages/Announcements Page/Announcements.jsx'
 import Join from './pages/Join Page/Join.jsx'
+import BoardMemebers from './pages/Board Page/BoardOne.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -31,6 +32,8 @@ createRoot(document.getElementById('root')).render(
           <Route path="/events" element={<Events />} />
           <Route path="/about" element={<About />} />
           <Route path="/board" element={<Board />} />
+          <Route path="/board/executive" element={<Board />} /> /*added to create button */
+          <Route path="/board/members" element={<BoardMemebers />} /> /*added to create button */
           <Route path="/announcements" element={<Announcements />} />
           <Route path="/join" element={<Join />} />
           <Route path="*" element={<div style={{padding:16}}>Not Found</div>} />

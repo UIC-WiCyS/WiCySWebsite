@@ -5,11 +5,72 @@
 
 .board {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
 }
 
-.memberLeft {
+.buttons {
+    margin-top: .5%; 
+    margin-bottom: 2.5%; 
+
+    margin-left:24%;
+    margin-right:24%; /*change when right button is added*/
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.buttonExecutive {
+    margin-top: .5%; 
+    margin-bottom: 2.5%; 
+
     background-color: #00172f;
+    color: #00A5E0;
+
+    border-style: solid;
+    border-width: 6px;
+    border-color: #B1D34A;
+    border-radius: 30px;
+
+    padding: 10px;
+}
+
+.buttonBoard {
+    margin-top: .5%; 
+    margin-bottom: 2.5%; 
+
+    background-color: #00172f;
+
+    border-style: solid;
+    border-width: 6px;
+    border-color: #9741A3;
+    border-radius: 30px;
+
+    padding: 10px;
+}
+
+.buttons button{
+    margin-top: .5%; 
+    margin-bottom: 2.5%; 
+
+    background-color: #00172f;
+    border:#00172f;
+    color: #00A5E0;
+
+    font-size: 2vw;
+    text-align: center;
+    text-decoration: underline;
+    
+    text-decoration-line: underline;
+}
+.memberLeft {
+    /*margin settings*/
+    margin-top: 2.5%;
+    margin-bottom: 2.5%; 
+
+    margin-left:14%;
+    margin-right:14%;
 
     /*Boarder Style*/
     border-style: solid;
@@ -17,12 +78,8 @@
     border-color: #B1D34A;
     border-radius: 25px;
 
-    margin-top: 2.5%;
-    margin-bottom: 2.5%; 
-
-    margin-left:14%;
-    margin-right:14%;
-
+    
+    background-color: #00172f;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -33,7 +90,7 @@
 
 .image img {
 
-    width: 70%;
+    width: 40%;
     height: auto;
     
     display: flex;
@@ -95,4 +152,20 @@
     justify-content: space-evenly;
    
     padding: 15px; 
+}
+
+.imgRight img {
+
+    width: 40%;
+    height: auto;
+    
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+
+    margin-left: 50%;
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    
 }

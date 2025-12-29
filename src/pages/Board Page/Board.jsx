@@ -1,5 +1,6 @@
 import TitleBar from "../../components/TitleBar.jsx";
 import './Board.css'
+import './BoardOne.jsx'
 
 import coda from "../../assets/boardpics/coda-prez.png"
 import yuupar from "../../assets/boardpics/yuupar-evp.png"
@@ -8,13 +9,31 @@ import saja from "../../assets/boardpics/saja-engagedirector.png"
 import aye from "../../assets/boardpics/aye-treasurer.png"
 import raima from "../../assets/boardpics/raima-secretary.png"
 
+import {Link} from "react-router-dom"
 
 export default function Board(){ 
+    
     return (
         <main>
+
             <div className = "TitleBar">
                 <TitleBar title="Our Board"/>
             </div>
+
+            <div className="buttons">
+                <div className = "buttonExecutive">
+                    <Link to = "/board/executive">
+                        <button>Executive Board</button>
+                    </Link>
+                </div>
+
+                <div className = "buttonBoard">
+                    <Link to = "/board/members">
+                        <button>Board</button>
+                    </Link>
+                </div>
+            </div>
+            
 
             <div className= "board">
                 
@@ -37,7 +56,7 @@ export default function Board(){
                         <p className = "position">External Vice President</p>
                     </div>
 
-                    <div className="image"> 
+                    <div className="imgRight"> 
                         <img src={yuupar} alt="Photo of the vice president Yuupar"/> 
                     </div>
                 </div>
@@ -61,7 +80,7 @@ export default function Board(){
                         <p className = "position">Engagement Director</p>
                     </div>
 
-                    <div className="image"> 
+                    <div className="imgRight"> 
                         <img src={saja} alt="Photo of the engagement director Saja"/> 
                     </div>
                 </div>
@@ -85,7 +104,7 @@ export default function Board(){
                         <p className = "position">Secratary</p>
                     </div>
 
-                    <div className="image"> 
+                    <div className="imgRight"> 
                         <img src={raima} alt="Photo of the secratary Raima"/> 
                     </div>
                 </div>
