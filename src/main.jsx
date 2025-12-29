@@ -40,7 +40,7 @@ createRoot(document.getElementById('root')).render(
           
           <Route path="/home" element={<Home />} />
           <Route path="/events" element={<Events />} />
-          <Route path="/events/aug" element={<Aug />} />
+          {/* <Route path="/events/aug" element={<Aug />} /> */}
           <Route path="/events/sep" element={<Sep />} />
           <Route path="/events/oct" element={<Oct />} />
           <Route path="/events/nov" element={<Nov />} />

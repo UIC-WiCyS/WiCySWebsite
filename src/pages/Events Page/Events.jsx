@@ -5,7 +5,7 @@ import "./Events.css";
 
 export default function Events() {
   const MONTHS = [
-    { label: "Aug", to: "/events/aug" },
+    // { label: "Aug", to: "/events/aug" },
     { label: "Sep", to: "/events/sep" },
     { label: "Oct", to: "/events/oct" },
     { label: "Nov", to: "/events/nov" },

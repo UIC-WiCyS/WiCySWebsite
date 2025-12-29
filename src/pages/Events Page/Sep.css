@@ -10,7 +10,7 @@
   color: #ffffff;
 }
 
-/* 2 cards side-by-side */
+
 .event-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -18,7 +18,7 @@
   margin-top: 2rem;
 }
 
-/* Active & Passed Card Styles */
+
 .event-card-active,
 .event-card-passed {
   padding: 1.5rem;

@@ -15,52 +15,28 @@ export default function Nov() {
         <div className="event-card-active">
             <img
             src={folderImg}              
-            alt="Welcome Back Mixer"
+            alt="MandiantxWiCyS"
             className="event-img"
           />
-          <h2>Welcome Back Mixer</h2>
-          <p><strong>Date & Time:</strong> 8/25/25 </p>
-          <p><strong>Location:</strong> CDRLC 1413 </p>
-          <p><strong>Details:</strong> welcome mixer for everyone. We will be providing snacks pull up! </p>
+          <h2>MandiantxWiCyS</h2>
+          <p><strong>Date & Time:</strong> 11/3/25, 6 PM - 7 PM </p>
+          <p><strong>Location:</strong> ARC 135</p>
+          <p><strong>Details:</strong> Mandiant, Inc. is an American cybersecurity firm! Learn more about them. </p>
           
   
         </div>
-        <div className="event-card-active">
-            <img
-            src={folderImg}              
-            alt="Welcome Back Mixer"
-            className="event-img"
-          />
-          <h2>Zebra Talk</h2>
-          <p><strong>Date & Time:</strong> 8/28/25 </p>
-          <p><strong>Location:</strong> CDRLC 1413 </p>
-          <p><strong>Details:</strong> welcome mixer for everyone. We will be providing snacks pull up! </p>
-          
-  
-        </div>
-        <div className="event-card-active">
-            <img
-            src={folderImg}             
-            alt="Welcome Back Mixer"
-            className="event-img"
-          />
-          <h2>GBM</h2>
-          <p><strong>Date & Time:</strong> 9/1/25 </p>
-          <p><strong>Location:</strong> CDRLC 1413 </p>
-          <p><strong>Details:</strong> welcome mixer for everyone. We will be providing snacks pull up! </p>
-          
-  
-        </div>
+        
+        
         <div className="event-card-passed">
             <img
             src={folderImg}             
-            alt="Welcome Back Mixer"
+            alt="Gathers Fundraiser"
             className="event-img"
           />
-          <h2>Hack-o-ween</h2>
-          <p><strong>Date & Time:</strong> 9/4/25 </p>
-          <p><strong>Location:</strong> CDRLC 1413 </p>
-          <p><strong>Details:</strong> welcome mixer for everyone. We will be providing snacks pull up! </p>
+          <h2>Gathers Fundraiser</h2>
+          <p><strong>Date & Time:</strong> 12/3/25, ALL DAY! </p>
+          <p><strong>Location:</strong> Gathers Tea Bar</p>
+          <p><strong>Details:</strong> Support WiCys by buying a drink at gathers and clicking the gathers option at checkout! For every drink purchased under WiCys, a dollar is donated. Clicking the WiCys option DOES NOT increase the price of your drink. The fundraising runs all day December 3rd. </p>
           
   
         </div>
