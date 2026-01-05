@@ -29,7 +29,7 @@
 
 .title-text {
     font-family: "VT323", monospace;
-    font-size: clamp(2.0rem, 7vw, 6rem);
+    font-size: clamp(1.0rem, 7vw, 6rem);
     line-height: 1.05;
     color: var(--accent);
     letter-spacing: .06em;
@@ -39,7 +39,7 @@
 .title-underline {
     display: block;
     height: clamp(6px, 1vw, 12px);
-    width: clamp(20vw, 35vw, 50vw);
+    width: clamp(22vw, 35vw, 50vw);
     margin: 0 auto;
     background: var(--accent);
     border-radius: 2px;
@@ -48,13 +48,13 @@
 /* size/position the corner svgs */
 .title-corner{
   position: absolute;
-  width: clamp(15px, 14vw, 190px);
+  width: clamp(10px, 14vw, 190px);
   height: auto;
   filter: drop-shadow(0 2px 8px rgba(0,0,0,.25));
 }
 
 .title-corner .title-corner-path{
-  fill: #b1d34a;     /* lime */
+  fill: #b1d34a;    
 }
 
 
@@ -62,14 +62,13 @@
 .title-corner.tl{ top: 26px; left: 26px; fill: #b1d34a; }
 .title-corner.br{
   right: 26px; bottom: 26px;
-  transform: scale(-1, -1);   /* mirror TL to BR */
+  transform: scale(-1, -1);   /* mirror */
   rotate: (270deg);
   fill: #b1d34a;
 }
 
-/* Make skinnier / smaller (non-uniform scale) */
+/* make skinnier/smaller */
 .title-corner.--skinny { transform: scaleX(0.85) scaleY(0.85); }
 .title-corner.br.--skinny { transform: scale(-1, -1) scaleX(0.8); } /* mirrored & narrower */
 
-/* make sure content below your fixed navbar doesn’t hide */
 .app-content{ padding-top: 70px; }

@@ -89,16 +89,24 @@
 }
 
 @media (max-width: 768px) {
-  .announcements-page {
+  .announcements {
     grid-template-columns: 1fr;
+    padding: clamp(32px, 6vw, 72px);
+    padding: 1.5rem 1rem;
+    gap: 1.25rem;
   }
 
   .directory-card {
-    grid-row: auto;
     grid-column: 1;
+    grid-row: 1;
   }
 
-  .featured-card,
+  .featured-card {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  
   .wide-card {
     grid-column: 1;
   }
