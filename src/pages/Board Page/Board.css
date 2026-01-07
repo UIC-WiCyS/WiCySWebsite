@@ -8,20 +8,21 @@
     flex-direction: column;    
 }
 
+/*BUTTONS*/
 .buttons {
     margin-top: .5%; 
     margin-bottom: 2.5%; 
 
-    margin-left:24%;
-    margin-right:24%; /*change when right button is added*/
+    margin-left:25%;
+    margin-right:25%; 
 
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content:space-between;
+    justify-content:space-between; 
 }
 
-.buttonExecutive {
+.executiveButton {
     margin-top: .5%; 
     margin-bottom: 2.5%; 
 
@@ -31,12 +32,12 @@
     border-style: solid;
     border-width: 6px;
     border-color: #B1D34A;
-    border-radius: 30px;
+    border-radius: 25px;
 
     padding: 10px;
 }
 
-.buttonBoard {
+.boardButton {
     margin-top: .5%; 
     margin-bottom: 2.5%; 
 
@@ -60,11 +61,20 @@
 
     font-size: 2vw;
     text-align: center;
-    text-decoration: underline;
-    
-    text-decoration-line: underline;
+    text-decoration: none;
+    display: inline-block; 
+    outline: none;
 }
-.memberLeft {
+
+.buttons button:hover{
+    color: white;
+    text-decoration: underline;
+    border-color:#00172f;
+    outline: none;
+}
+
+/*MEMBER PHOTO LAYOUT*/
+.leftMember {
     /*margin settings*/
     margin-top: 2.5%;
     margin-bottom: 2.5%; 
@@ -88,84 +98,106 @@
     padding: 15px; 
 }
 
-.image img {
-
-    width: 40%;
-    height: auto;
-    
-    display: flex;
-    justify-content: center;
-    border-radius: 25px;
-
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 10px;
-    margin-bottom: 10px; 
-    
-}
-
-.text {
-    text-align: center;
-    white-space: nowrap;
-    
-    margin-left: 10%;
-    margin-right: 10%;
-    display: flex; 
-    flex-direction: column;
-    font-size: 3vw;
-    
-}
-
-.name {
-    margin-top: 10px;
-    margin-bottom: 0px;
-    font-weight: bolder;
-    
-    color: rgb(255, 255, 255);
-}
-.position {
-    margin-top: -5px;
-    margin-bottom: -5px;
-    
-    color: #00A5E0;
-}
-
-/*RIGHT LAYOUT*/
-.memberRight {
-    background-color: #00172f;
-    
-    /*Boarder Style*/
-    border-style: solid;
-    border-width: 15px;
-    border-color: #9741A3;
-    border-radius: 25px;
-
+.rightMember {
+    /*margin setting*/
     margin-top: 2.5%;
     margin-bottom: 2.5%;
 
     margin-left:14%;
     margin-right:14%;
 
+    /*Boarder Style*/
+    border-style: solid;
+    border-width: 15px;
+    border-color: #9741A3;
+    border-radius: 25px;
+
+    background-color: #00172f;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: space-evenly;
    
     padding: 15px; 
 }
 
-.imgRight img {
-
-    width: 40%;
+/*PHOTO SETTING*/
+.executiveLeftPhoto img {
+    width: 50%;
     height: auto;
     
     display: flex;
     justify-content: center;
     border-radius: 25px;
 
-    margin-left: 50%;
+    margin-left: 20%;
     margin-right: 10%;
     margin-top: 10px;
     margin-bottom: 10px; 
+}
+
+.executiveRightPhoto img {
+    width: 50%;
+    height: auto;
     
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+
+    margin-left: 30%;
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;   
+}
+
+.leftPhoto img {
+    width: 30%;
+    height: auto;
+    
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+
+    margin-left: 10%;
+    margin-right: 55%;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+.rightPhoto img {
+    width: 30%;
+    height: auto;
+    
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+
+    margin-left: 55%;
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;   
+}
+
+/*CAPTION SETTING*/
+.caption {
+    text-align: center;
+    white-space: nowrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex; 
+    flex-direction: column;
+    font-size: 3vw;  
+}
+
+.name {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+}
+
+.position {
+    margin-top: -5px;
+    margin-bottom: -5px;
+    color: #00A5E0;
 }

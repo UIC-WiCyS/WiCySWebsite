@@ -1,12 +1,12 @@
 import TitleBar from "../../components/TitleBar.jsx";
 import './Board.css'
 
-import coda from "../../assets/boardpics/coda-prez.png"
-import yuupar from "../../assets/boardpics/yuupar-evp.png"
-import aleena from "../../assets/boardpics/aleena-ivp.png"
-import saja from "../../assets/boardpics/saja-engagedirector.png"
-import aye from "../../assets/boardpics/aye-treasurer.png"
-import raima from "../../assets/boardpics/raima-secretary.png"
+import coda from "../../assets/executiveMembers/coda-prez.png"
+import yuupar from "../../assets/executiveMembers/yuupar-evp.png"
+import aleena from "../../assets/executiveMembers/aleena-ivp.png"
+import saja from "../../assets/executiveMembers/saja-engagedirector.png"
+import aye from "../../assets/executiveMembers/aye-treasurer.png"
+import raima from "../../assets/executiveMembers/raima-secretary.png"
 
 import {Link} from "react-router-dom"
 

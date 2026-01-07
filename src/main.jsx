@@ -8,10 +8,11 @@ import Navbar from './components/NavBar.jsx'
 import Home from './pages/Home Page/Home.jsx'
 import Events from './pages/Events Page/Events.jsx'
 import About from './pages/About Page/About.jsx'
-import Board from './pages/Board Page/Board.jsx'
+import Board from './pages/Board Page/ExecutiveBoardMembers.jsx' //file for executive members
+import BoardMemebers from './pages/Board Page/BoardMembers.jsx' //file for board members
 import Announcements from './pages/Announcements Page/Announcements.jsx'
 import Join from './pages/Join Page/Join.jsx'
-import BoardMemebers from './pages/Board Page/BoardOne.jsx'
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -31,9 +32,10 @@ createRoot(document.getElementById('root')).render(
           <Route path="/home" element={<Home />} />
           <Route path="/events" element={<Events />} />
           <Route path="/about" element={<About />} />
-          <Route path="/board" element={<Board />} />
-          <Route path="/board/executive" element={<Board />} /> /*added to create button */
-          <Route path="/board/members" element={<BoardMemebers />} /> /*added to create button */
+
+          <Route path="/board" element={<Board />} /> 
+          <Route path="/board/members" element={<BoardMemebers />} /> //for board members button
+          
           <Route path="/announcements" element={<Announcements />} />
           <Route path="/join" element={<Join />} />
           <Route path="*" element={<div style={{padding:16}}>Not Found</div>} />
