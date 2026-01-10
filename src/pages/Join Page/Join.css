@@ -15,7 +15,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction:row;
+    flex-direction:row-reverse;
 }
 .bx1 img{
     width: 45%;
@@ -37,7 +37,7 @@
 
 .bx1 h2{
     color: #FFFFFF;
-    font-size:clamp(18px, 3vw,30px);
+    font-size:clamp(15px, 3vw,30px);
     text-align: center;
 }
 .bx2{
@@ -56,11 +56,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row-reverse;
 }
 .bx2 p{
     color: #FFFFFF;
-    font-size:clamp(18px, 3vw,30px);
+    font-size:clamp(15px, 3vw,30px);
     text-align: center;
 }
 .bx2 h1{
@@ -106,46 +105,44 @@
     width: 70vw;
     margin: 12px auto;
 }
-.bxgr{
+.joingr{
     background: #B1D34A;
     padding: 40px;
     border-radius: 24px;        
-    width: 30%;
-    height:60px;
-    max-width: 800px;
+    width:40%;
+    height:clamp(130px, 4vw, 150px);
     color: #B1D34A; 
 }
-.bxgr h1{
+.joingr h1{
     color: #FFFFFF;
-    font-size: clamp(35px, 3vw, 40px);
+    font-size: clamp(30px, 4.5vw, 40px);
     margin-top: -20px;
     text-align: center;
 }
-.bxgr h2{
+.joingr h2{
     color: #FFFFFF;
-    font-size: clamp(25px, 3vw, 35px);
+    font-size: clamp(23px, 3vw, 35px);
     text-align: center;
     margin-top: -20px;
 } 
-.bxpurp{
+.joinpu{
     background: #9741A3;
     padding: 40px;
     border-radius: 24px;        
-    width: 30%;
-    height:60px;
-    max-width: 800px;
+    width:40%;
+    height:clamp(130px, 3vw, 150px);
     color: #9741A3; 
     margin-left: auto;
 }
-.bxpurp h1{
+.joinpu h1{
     color: #FFFFFF;
-    font-size: clamp(30px, 5vw, 40px);
+    font-size: clamp(20px, 4.5vw, 40px);
     margin-top: -20px;
     text-align: center;
 }
-.bxpurp h2{
+.joinpu h2{
     color: #FFFFFF;
-    font-size: clamp(25px, 3vw, 35px);
+    font-size: clamp(20px, 3vw, 30px);
     margin-top: -20px;
     text-align: center;
 }

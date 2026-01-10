@@ -31,17 +31,16 @@ export default function Join() {
         <p1>UIC: Our chapter of WiCys on campus for FREE
         National Member: Annual Membership Fee </p1>
       </div>
-
       <div class="joinRow">
-      <div className="bxgr">
-        <h1>JOIN </h1>
-        <h2>UIC CHAPTER</h2>
-      </div>
+      <button onClick={()=>window.location.href='https://tr.ee/xiblB3PHxi'} className="joingr">
+      <h1>JOIN </h1>
+      <h2>UIC CHAPTER</h2>
+      </button>
 
-      <div className="bxpurp">
+      <button onClick={()=>window.location.href='https://womenincybersecuritywicys.my.site.com/registration/s/'} className="joinpu">
         <h1>BECOME A </h1>
         <h2>NATIONAL MEMBER</h2>
-      </div>
+      </button>
       
       </div>
     </main>
