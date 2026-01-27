@@ -40,106 +40,122 @@ export default function BoardExecutive(){
 
             <div className= "board">
 
-                <div className = "rightMember">    
-                    <div className="rightPhoto"> 
-                        <img src={ammani}/> 
-                    </div>
+                <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+                    <div className = "rightMember">    
+                        <div className="rightPhoto"> 
+                            <img src={ammani}/> 
+                        </div>
 
-                    <div className="caption">
-                        <p className = "name">Ammani</p>
+                        <div className="caption">
+                            <p className = "name">Ammani</p>
+                        </div>
                     </div>
-                </div>
+                </a>
 
-                <div className = "leftMember">
-                    <div className="leftPhoto"> 
-                        <img src={bre}/> 
-                    </div>
+                <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+                    <div className = "leftMember">
+                        <div className="leftPhoto"> 
+                            <img src={bre}/> 
+                        </div>
 
-                    <div className="caption">
-                        <p className = "name">Bre</p>
+                        <div className="caption">
+                            <p className = "name">Bre</p>
+                        </div>
                     </div>
+                </a>
 
-                </div>
+                <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+                    <div className = "rightMember">    
+                        <div className="rightPhoto"> 
+                            <img src={deeya}/> 
+                        </div>
 
-                <div className = "rightMember">    
-                    <div className="rightPhoto"> 
-                        <img src={deeya}/> 
+                        <div className="caption">
+                            <p className = "name">Deeya</p>
+                        </div>
                     </div>
+                </a>
 
-                    <div className="caption">
-                        <p className = "name">Deeya</p>
+                <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+                    <div className = "leftMember"> 
+                        <div className="leftPhoto"> 
+                            <img src={giselle}/> 
+                        </div>
+                        <div className="caption">
+                            <p className = "name">Giselle</p>
+                        </div>
                     </div>
-                </div>
+                </a>
 
-                <div className = "leftMember"> 
-                    <div className="leftPhoto"> 
-                        <img src={giselle}/> 
-                    </div>
-                    <div className="caption">
-                        <p className = "name">Giselle</p>
-                    </div>
-                </div>
+                <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+                    <div className = "rightMember">    
+                        <div className="rightPhoto"> 
+                            <img src={julia}/> 
+                        </div>
 
-                <div className = "rightMember">    
-                    <div className="rightPhoto"> 
-                        <img src={julia}/> 
+                        <div className="caption">
+                            <p className = "name">Julia</p>
+                        </div>
                     </div>
+                </a>
 
-                    <div className="caption">
-                        <p className = "name">Julia</p>
+                <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+                    <div className = "leftMember"> 
+                        <div className="leftPhoto"> 
+                            <img src={krisha}/> 
+                        </div>
+                        <div className="caption">
+                            <p className = "name">Krisha</p>
+                        </div>
                     </div>
-                </div>
+                </a>
 
-                <div className = "leftMember"> 
-                    <div className="leftPhoto"> 
-                        <img src={krisha}/> 
-                    </div>
-                    <div className="caption">
-                        <p className = "name">Krisha</p>
-                    </div>
-                </div>
+                <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+                    <div className = "rightMember"> 
+                        <div className="rightPhoto"> 
+                            <img src={martha}/> 
+                        </div>
 
-                <div className = "rightMember"> 
-                    <div className="rightPhoto"> 
-                        <img src={martha}/> 
+                        <div className="caption">
+                            <p className = "name">Martha</p>
+                        </div>
                     </div>
+                </a>
 
-                    <div className="caption">
-                        <p className = "name">Martha</p>
+                <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+                    <div className = "leftMember"> 
+                        <div className="leftPhoto"> 
+                            <img src={samira}/> 
+                        </div>
+
+                        <div className="caption">
+                            <p className = "name">Samira</p>
+                        </div>
                     </div>
-                    
-                </div>
+                </a>
 
-                <div className = "leftMember"> 
-                    <div className="leftPhoto"> 
-                        <img src={samira}/> 
+                <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+                    <div className = "rightMember"> 
+                        <div className="rightPhoto"> 
+                            <img src={simran}/> 
+                        </div>   
+
+                        <div className="caption">
+                            <p className = "name">Simran</p>
+                        </div>
                     </div>
-
-                    <div className="caption">
-                        <p className = "name">Samira</p>
+                </a>
+                
+                <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+                    <div className = "leftMember"> 
+                        <div className="leftPhoto"> 
+                            <img src={srijani}/> 
+                        </div>
+                        <div className="caption">
+                            <p className = "name">Srijani</p>
+                        </div>
                     </div>
-                </div>
-
-                <div className = "rightMember"> 
-                    <div className="rightPhoto"> 
-                        <img src={simran}/> 
-                    </div>   
-
-                    <div className="caption">
-                        <p className = "name">Simran</p>
-                    </div>
-                    
-                </div>
-
-                <div className = "leftMember"> 
-                    <div className="leftPhoto"> 
-                        <img src={srijani}/> 
-                    </div>
-                    <div className="caption">
-                        <p className = "name">Srijani</p>
-                    </div>
-                </div>
-
+                </a>
 
             </div>
 

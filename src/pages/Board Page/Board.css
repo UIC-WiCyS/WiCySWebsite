@@ -10,11 +10,9 @@
 
 /*BUTTONS*/
 .buttons {
-    margin-top: .5%; 
-    margin-bottom: 2.5%; 
-
-    margin-left:25%;
-    margin-right:25%; 
+    margin-bottom: 5%; 
+    margin-left:20%;
+    margin-right:20%; 
 
     display: flex;
     flex-direction: row;
@@ -23,8 +21,7 @@
 }
 
 .executiveButton {
-    margin-top: .5%; 
-    margin-bottom: 2.5%; 
+    margin-right: 10%; 
 
     background-color: #00172f;
     color: #00A5E0;
@@ -35,45 +32,172 @@
     border-radius: 25px;
 
     padding: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
 }
 
 .boardButton {
-    margin-top: .5%; 
-    margin-bottom: 2.5%; 
-
+    padding: 10px;
     background-color: #00172f;
 
     border-style: solid;
     border-width: 6px;
     border-color: #9741A3;
-    border-radius: 30px;
+    border-radius: 25px;
 
     padding: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 .buttons button{
-    margin-top: .5%; 
-    margin-bottom: 2.5%; 
-
+    padding: 15px;
     background-color: #00172f;
     border:#00172f;
     color: #00A5E0;
 
-    font-size: 2vw;
+    font-size: 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block; 
     outline: none;
+    position: relative;
+    transition: color .5s ease-in-out;
 }
 
 .buttons button:hover{
     color: white;
-    text-decoration: underline;
     border-color:#00172f;
     outline: none;
 }
 
-/*MEMBER PHOTO LAYOUT*/
+.buttons button:after{
+  background: none repeat scroll 0 0 transparent;
+  bottom: 10px;
+  content: "";
+  display: block;
+  height: 3.5px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.7s ease 0s, left 0.7s ease 0s;
+  
+  width: 0;
+}
+
+.buttons button:hover:after{
+  width: 80%; 
+  left: 10%;
+}
+
+@media screen and (max-height: 300px) {
+	button {
+		margin-top: 40px;
+	}
+}
+
+
+/* Column Members - President, 
+External Vice President & 
+Iternal Vice President */
+
+.columnMembers{
+    display: flex;
+    flex-direction: row;
+    gap: 0%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.columnOne,
+.columnTwo,
+.columnThree {
+
+
+    /*Boarder Style*/
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 25px;
+    
+    background-color: #00172f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+   
+    padding: 15px; 
+}
+
+.columnOne{
+    border-color: #9741A3;
+    margin-left:5%;
+    margin-right:5%;
+    margin-top:0%;
+    margin-bottom: 10%;
+
+}
+
+.columnOne:hover{ 
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px #9741A3;
+}
+
+.columnTwo,
+.columnThree{
+    margin-top: 10%;
+    margin-bottom: 0%;
+    border-color: #B1D34A;
+}
+
+.columnTwo:hover,
+.columnThree:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px #B1D34A;
+}
+
+.columnTwo {
+    /*margin settings*/
+    /* margin-top: 2.5%;
+    margin-bottom: 2.5%;  */
+    margin-left: .5%;
+}
+
+.columnThree {
+    /*margin settings*/
+    /* margin-top: 2.5%;
+    margin-bottom: 2.5%;  */
+    margin-right: .5%;
+    
+}
+
+.columnImg img{
+    width: 50%;
+    height: auto;
+    
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.captionColumn {
+    text-align: center;
+    white-space: nowrap;
+    display: flex; 
+    flex-direction: column;
+    font-size: 3vw;
+}
+
+/*MEMBER PHOTO LAYOUT
+Executive & Board */
 .leftMember {
     /*margin settings*/
     margin-top: 2.5%;
@@ -84,7 +208,7 @@
 
     /*Boarder Style*/
     border-style: solid;
-    border-width: 15px;
+    border-width: 5px;
     border-color: #B1D34A;
     border-radius: 25px;
 
@@ -96,6 +220,11 @@
     justify-content: space-evenly;
    
     padding: 15px; 
+}
+
+.leftMember:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 15px #b1d34A;
 }
 
 .rightMember {
@@ -108,7 +237,7 @@
 
     /*Boarder Style*/
     border-style: solid;
-    border-width: 15px;
+    border-width: 5px;
     border-color: #9741A3;
     border-radius: 25px;
 
@@ -121,6 +250,11 @@
     padding: 15px; 
 }
 
+.rightMember:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 15px #9741A3;
+}
+
 /*PHOTO SETTING*/
 .executiveLeftPhoto img {
     width: 50%;
@@ -131,7 +265,7 @@
     border-radius: 25px;
 
     margin-left: 20%;
-    margin-right: 10%;
+    margin-right: 20%;
     margin-top: 10px;
     margin-bottom: 10px; 
 }

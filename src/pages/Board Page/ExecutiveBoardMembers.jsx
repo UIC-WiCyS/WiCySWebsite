@@ -38,78 +38,123 @@ export default function Board(){
             {/* Executive Board Members */}
 
             <div className= "board">
-                
-                <div className = "leftMember"> 
-                    <div className="executiveLeftPhoto"> 
-                        <img src={coda} alt="Photo of the president Coda"/> 
+
+                <div className="columnMembers">
+
+                    {/* External Vice President: Yuupar */}
+                    <div className = "columnTwo"> 
+                        <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+                            <div className="captionColumn">
+                                <p className = "name">Yuupar</p>
+                                {/* <p className = "position">Executive Position:</p>
+                                <p className = "position">External Vice President</p> */}
+                            </div>
+
+                            <div className="columnImg"> 
+                                <img src={yuupar} alt="Photo of the vice president Yuupar"/> 
+                            </div>
+                            
+                            <div className="captionColumn">
+                                {/* <p className = "name">Yuupar</p> */}
+                                <p className = "position">Executive Position:</p>
+                                <p className = "position">External Vice</p>
+                                <p className = "position">President</p>
+                            </div>
+                        </a> 
                     </div>
 
-                    <div className="caption">
-                        <p className = "name"> Coda Richmond</p>
-                        <p className = "position">Executive Position:</p>
-                        <p className = "position">President</p>
-                    </div>
-                </div>
+                    {/* President: Coda */}
 
-                <div className = "rightMember"> 
-                    <div className="executiveRightPhoto"> 
-                        <img src={yuupar} alt="Photo of the vice president Yuupar"/> 
+                    <div className = "columnOne"> 
+                        <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+                            <div className="captionColumn">
+                                <p className = "name"> Coda Richmond</p> 
+                                {/* <p className = "position">Executive Position:</p>
+                                <p className = "position">President</p> */}
+                            </div>
+
+                            <div className="columnImg"> 
+                                <img src={coda} alt="Photo of the president Coda"/> 
+                            </div>
+
+                            <div className="captionColumn">
+                                {/* <p className = "name"> Coda Richmond</p> */}
+                                <p className = "position">Executive Position:</p>
+                                <p className = "position">President</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    {/*Internal Vice President: Aleena */}
+                    <div className = "columnThree"> 
+                        <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+                            <div className="captionColumn">
+                                <p className = "name"> Aleena</p>
+                                {/* <p className = "position">Executive Position:</p>
+                                <p className = "position">Internal Vice President</p> */}
+                            </div>
+
+                            <div className="columnImg"> 
+                                <img src={aleena} alt="Photo of the internal vice president Aleena"/> 
+                            </div>
+
+                            <div className="captionColumn">
+                                {/* <p className = "name"> Aleena</p> */}
+                                <p className = "position">Executive Position:</p>
+                                <p className = "position">Internal Vice</p>
+                                <p className = "position">President</p>
+                            </div>
+                        </a>
                     </div>
                     
-                    <div className="caption">
-                        <p className = "name">Yuupar</p>
-                        <p className = "position">Executive Position:</p>
-                        <p className = "position">External Vice President</p>
-                    </div>
                 </div>
 
-                <div className = "leftMember"> 
-                    <div className="executiveLeftPhoto"> 
-                        <img src={aleena} alt="Photo of the internal vice president Aleena"/> 
-                    </div>
 
-                    <div className="caption">
-                        <p className = "name"> Aleena</p>
-                        <p className = "position">Executive Position:</p>
-                        <p className = "position">Internal Vice President</p>
-                    </div>
-                </div>
+                {/*Engagement Director: Saja*/}
+                <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+                    <div className = "rightMember"> 
+                            
+                            <div className="executiveRightPhoto"> 
+                                <img src={saja} alt="Photo of the engagement director Saja"/> 
+                            </div>
 
-                <div className = "rightMember"> 
-                    <div className="executiveRightPhoto"> 
-                        <img src={saja} alt="Photo of the engagement director Saja"/> 
+                            <div className="caption">
+                                <p className = "name">Saja</p>
+                                <p className = "position">Executive Position:</p>
+                                <p className = "position">Engagement Director</p>
+                            </div>
                     </div>
+                </a>
 
-                    <div className="caption">
-                        <p className = "name">Saja</p>
-                        <p className = "position">Executive Position:</p>
-                        <p className = "position">Engagement Director</p>
+                {/*Treasurer: Aye*/}
+                <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+                    <div className = "leftMember"> 
+                            <div className="executiveLeftPhoto"> 
+                                <img src={aye} alt="Photo of the treasurer Aye"/> 
+                            </div>
+                            
+                            <div className="caption">
+                                <p className = "name">Aye</p>
+                                <p className = "position">Executive Position:</p>
+                                <p className = "position">Treasurer</p>
+                            </div>
                     </div>
-                </div>
+                </a>
 
-                <div className = "leftMember"> 
-                    <div className="executiveLeftPhoto"> 
-                        <img src={aye} alt="Photo of the treasurer Aye"/> 
-                    </div>
-                    
-                    <div className="caption">
-                        <p className = "name">Aye</p>
-                        <p className = "position">Executive Position:</p>
-                        <p className = "position">Treasurer</p>
-                    </div>
-                </div>
+                {/*Secratary: Raima */}
+                <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+                    <div className = "rightMember"> 
+                        <div className="executiveRightPhoto"> 
+                            <img src={raima} alt="Photo of the secratary Raima"/> 
+                        </div>
 
-                <div className = "rightMember"> 
-                    <div className="executiveRightPhoto"> 
-                        <img src={raima} alt="Photo of the secratary Raima"/> 
+                        <div className="caption">
+                            <p className = "name">Raima</p>
+                            <p className = "position">Executive Position:</p>
+                            <p className = "position">Secratary</p>
+                        </div>
                     </div>
-
-                    <div className="caption">
-                        <p className = "name">Raima</p>
-                        <p className = "position">Executive Position:</p>
-                        <p className = "position">Secratary</p>
-                    </div>
-                </div>
+                </a>
 
             </div>
         </main>
