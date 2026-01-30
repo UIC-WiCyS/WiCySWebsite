@@ -1,12 +1,12 @@
 import TitleBar from "../../components/TitleBar.jsx";
 import './Board.css'
 
-import coda from "../../assets/executiveMembers/coda-prez.png"
-import yuupar from "../../assets/executiveMembers/yuupar-evp.png"
-import aleena from "../../assets/executiveMembers/aleena-ivp.png"
-import saja from "../../assets/executiveMembers/saja-engagedirector.png"
-import aye from "../../assets/executiveMembers/aye-treasurer.png"
-import raima from "../../assets/executiveMembers/raima-secretary.png"
+import coda from "../../assets/executive26/coda2026.JPG"
+import yuupar from "../../assets/executive26/yuupar2026.JPG"
+import aleena from "../../assets/executive26/aleena2026.jpg"
+import saja from "../../assets/executive26/saja2026.jpg"
+import aye from "../../assets/executive26/aye2026.jpg"
+import raima from "../../assets/executive26/raima2026.jpg"
 
 import {Link} from "react-router-dom"
 
@@ -43,7 +43,7 @@ export default function Board(){
 
                     {/* External Vice President: Yuupar */}
                     <div className = "columnTwo"> 
-                        <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/heramyat/" target="_blank" rel="noopener noreferrer">
                             <div className="captionColumn">
                                 <p className = "name">Yuupar</p>
                                 {/* <p className = "position">Executive Position:</p>
@@ -66,7 +66,8 @@ export default function Board(){
                     {/* President: Coda */}
 
                     <div className = "columnOne"> 
-                        <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/coda-richmond?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" 
+                        target="_blank" rel="noopener noreferrer">
                             <div className="captionColumn">
                                 <p className = "name"> Coda Richmond</p> 
                                 {/* <p className = "position">Executive Position:</p>
@@ -87,7 +88,7 @@ export default function Board(){
 
                     {/*Internal Vice President: Aleena */}
                     <div className = "columnThree"> 
-                        <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+                        {/*<a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">*/}
                             <div className="captionColumn">
                                 <p className = "name"> Aleena</p>
                                 {/* <p className = "position">Executive Position:</p>
@@ -104,14 +105,14 @@ export default function Board(){
                                 <p className = "position">Internal Vice</p>
                                 <p className = "position">President</p>
                             </div>
-                        </a>
+                        {/*</a>*/}
                     </div>
                     
                 </div>
 
 
                 {/*Engagement Director: Saja*/}
-                <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+                {/*<a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">*/}
                     <div className = "rightMember"> 
                             
                             <div className="executiveRightPhoto"> 
@@ -124,17 +125,19 @@ export default function Board(){
                                 <p className = "position">Engagement Director</p>
                             </div>
                     </div>
-                </a>
+                {/*</a>*/}
 
                 {/*Treasurer: Aye*/}
-                <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+                
+                <a href= "https://www.linkedin.com/in/ayekyawtzin/"
+                target="_blank" rel="noopener noreferrer">
                     <div className = "leftMember"> 
                             <div className="executiveLeftPhoto"> 
                                 <img src={aye} alt="Photo of the treasurer Aye"/> 
                             </div>
                             
                             <div className="caption">
-                                <p className = "name">Aye</p>
+                                <p className = "name">Aye Kyawt Zin</p>
                                 <p className = "position">Executive Position:</p>
                                 <p className = "position">Treasurer</p>
                             </div>
@@ -142,7 +145,7 @@ export default function Board(){
                 </a>
 
                 {/*Secratary: Raima */}
-                <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+                {/*<a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">*/}
                     <div className = "rightMember"> 
                         <div className="executiveRightPhoto"> 
                             <img src={raima} alt="Photo of the secratary Raima"/> 
@@ -154,7 +157,7 @@ export default function Board(){
                             <p className = "position">Secratary</p>
                         </div>
                     </div>
-                </a>
+                {/*</a>*/}
 
             </div>
         </main>
