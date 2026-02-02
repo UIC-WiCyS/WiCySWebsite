@@ -7,24 +7,32 @@ export default function Join() {
   return (
     <main>
       <TitleBar title="Join Us" />
-
-      <div className="bx1">
-          <div style={{textAlign: "left"}}>
-            <h1>Immerse</h1>
-            <h2>yourself in an environment full of talented individuals working together 
-            towards a shared passion for cyber security! </h2>
+        <div className= "bx1">
+          <div className="topBox">
+            <div style={{textAlign: "left"}}>
+              <h1>Immerse</h1>
+              <h2>yourself in an environment full of talented individuals working together 
+              towards a shared passion for cyber security! </h2>
+            </div>
           </div>
-          <img src= {brdimg} alt="board img"/>
+            <div className= "imgBox1">
+              <img src= {brdimg} alt="board img"/>
+            </div>
         </div>
 
+        
+      
       <div className="bx2">
-        <div className ="text2">
-          <h1>Grow</h1>
-          <p>your skills and feed your interest while 
-          participating in a welcoming community</p>
-        </div>
-            <img src= {grpimg} alt="board img" />
+          <div className ="bottomBox">
+            <h1>Grow</h1>
+            <h2>your skills and feed your interest while 
+            participating in a welcoming community</h2>
+          </div>
+          <div className="bottomPBox">
+              <img src= {grpimg} alt="board img" />
+          </div>
       </div>
+      
 
       <div className="bx3whskinny">
         <h1> Join WiCyS today!  </h1>
