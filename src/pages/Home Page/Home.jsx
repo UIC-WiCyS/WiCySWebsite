@@ -47,6 +47,32 @@ export default function Home() {
     </p>
   </div>
 </section>
+<section className="remember">
+          <div className="remember-title">remember to</div>
+
+          <div className="remember-grid">
+            <div className="remember-card">
+              <div className="remember-photo">
+                <img src={pic1} alt="Empower" />
+              </div>
+              <div className="remember-word green">Empower!</div>
+            </div>
+
+            <div className="remember-card">
+              <div className="remember-photo">
+                <img src={pic1} alt="Connect" />
+              </div>
+              <div className="remember-word green">Connect!</div>
+            </div>
+
+            <div className="remember-card">
+              <div className="remember-photo">
+                <img src={pic1} alt="Grow" />
+              </div>
+              <div className="remember-word green">Grow!</div>
+            </div>
+          </div>
+        </section>
 
       </div>
       
