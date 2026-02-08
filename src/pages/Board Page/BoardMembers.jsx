@@ -104,7 +104,7 @@ export default function BoardExecutive(){
                 {/*</a>*/}
 
                 {/*Board Member 6*/}
-                {/*<a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">*/}
+                <a href="https://www.linkedin.com/in/hibamirza0/" target="_blank" rel="noopener noreferrer">
                     <div className = "leftMember"> 
                         <div className="leftPhoto"> 
                             <img src={hiba}/> 
@@ -113,7 +113,7 @@ export default function BoardExecutive(){
                             <p className = "name">Hiba</p>
                         </div>
                     </div>
-                {/*</a>*/}
+                </a>
 
                 {/*Board Member 7*/}
                 {/*<a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">*/}
