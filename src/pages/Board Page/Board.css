@@ -31,7 +31,7 @@
     border-color: #B1D34A;
     border-radius: 25px;
 
-    padding: 10px;
+
     width: 50%;
     display: flex;
     justify-content: center;
@@ -39,7 +39,7 @@
 }
 
 .boardButton {
-    padding: 10px;
+    
     background-color: #00172f;
 
     border-style: solid;
@@ -47,19 +47,19 @@
     border-color: #9741A3;
     border-radius: 25px;
 
-    padding: 10px;
     width: 50%;
     display: flex;
     justify-content: center;
 }
 
 .buttons button{
-    padding: 15px;
+    padding: 10px;
+    border-radius: 25px;
     background-color: #00172f;
     border:#00172f;
     color: #00A5E0;
 
-    font-size: 25px;
+    font-size: 150%;
     text-align: center;
     text-decoration: none;
     display: inline-block; 
@@ -118,7 +118,6 @@ Iternal Vice President */
 .columnTwo,
 .columnThree {
 
-
     /*Boarder Style*/
     border-style: solid;
     border-width: 5px;
@@ -129,9 +128,8 @@ Iternal Vice President */
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    
    
-    padding: 15px; 
+    
 }
 
 .columnOne{
@@ -140,7 +138,6 @@ Iternal Vice President */
     margin-right:5%;
     margin-top:0%;
     margin-bottom: 10%;
-
 }
 
 .columnOne:hover{ 
@@ -177,15 +174,13 @@ Iternal Vice President */
 }
 
 .columnImg img{
+    
     width: 50%;
     height: auto;
-    
-    display: flex;
-    justify-content: center;
-    border-radius: 25px;
 
-    margin-left: auto;
-    margin-right: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 25px;
 }
 
 .captionColumn {
@@ -194,6 +189,11 @@ Iternal Vice President */
     display: flex; 
     flex-direction: column;
     font-size: 3vw;
+    margin: 0 auto;
+    margin-left: 1cap;
+    margin-right: 1cap;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
 }
 
 /*MEMBER PHOTO LAYOUT
