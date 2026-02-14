@@ -1,4 +1,6 @@
- *,
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+*,
 *::before,
 *::after {
   box-sizing: border-box;
@@ -7,39 +9,39 @@
 body {
   margin: 0;
   overflow-x: hidden;
+  font-family: 'VT323', monospace;
 }
 
  .app-content {
     padding-top: 50px;
 }
-
 .Home{
-    display: flex;
+  display: flex;
   justify-content: center;
-  align-items: center;
   align-items: flex-start;
-  height: 100vh;
+  min-height: 100vh;   /* ✅ instead of height: 100vh */
+  height: auto;
 }
 
 .rectangle {
   width: 90vw;
-   min-height: 9000px;
-   position: relative;
+  min-height: 100vh;
+  height: auto;
+
   background-color: #01172F;
+  background-size: 700px;        /* fills rectangle */
+  background-position: center;   /* center it */
+  background-repeat: no-repeat;
+
   border: 8px solid #2C2C54;
   border-radius: 5px;
 
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
 
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-}
-.rectangle {
-  overflow: hidden;
-}
+
 
 .screen-img{
 width: 90vw;
@@ -90,7 +92,8 @@ height: 90vh;
   cursor: pointer;
   pointer-events: auto;
   text-transform: lowercase;
-  font-family: monospace;
+  font-family: 'VT323', monospace;
+
 }
 
 .overlay-text button:hover {
@@ -125,12 +128,13 @@ height: 90vh;
 
 .mission-text {
   flex: 1;
+  margin-top: 200px;
   max-width: 520px;
   text-align: center;
 }
 
 .mission-text h2 {
-  font-family: monospace;
+  font-family: 'VT323', monospace;
   color: #B1D34A;
   font-size: clamp(24px, 3.5vw, 46px);
   letter-spacing: 2px;
@@ -146,7 +150,7 @@ height: 90vh;
 }
 
 .mission-text p {
-  font-family: monospace;
+  font-family: 'VT323', monospace;
   color: white;
   line-height: 1.6;
   font-size: clamp(14px, 1.8vw, 20px);
@@ -175,7 +179,7 @@ height: 90vh;
 .remember-title {
    margin-top: 100px;
   text-align: center;
-  font-family: monospace;
+  font-family: 'VT323', monospace;
   color: #B1D34A;
   letter-spacing: 2px;
   margin-bottom: clamp(14px, 2vw, 26px);
@@ -212,7 +216,7 @@ height: 90vh;
 
 .remember-word {
   margin-top: 20px;
-  font-family: monospace;
+  font-family: 'VT323', monospace;
   font-size: clamp(22px, 3vw, 44px);
   letter-spacing: 2px;
   text-shadow: 0 0 10px rgba(255,255,255,0.15);
@@ -241,3 +245,57 @@ height: 90vh;
   }
 }
 
+.sponsors {
+  width: min(1100px, 92vw);
+  margin: 100px auto 0;   /* top space ✅ */
+  padding: clamp(18px, 3vw, 40px);
+  text-align: center;
+  margin-bottom: 100px;
+
+}
+
+.sponsors-title {
+  font-family: 'VT323', monospace;
+  color: #B1D34A;
+  font-size: clamp(22px, 3vw, 40px);
+  letter-spacing: 2px;
+  margin: 0;              /* keep tight */
+  text-shadow: 0 0 10px rgba(177, 211, 74, 0.35);
+}
+
+.sponsors-line {
+  width: min(420px, 70%);
+  height: 2px;
+  background: rgba(177, 211, 74, 0.6);
+  margin: 18px auto 34px;  /* this controls spacing ✅ */
+}
+
+.sponsors-grid {
+  display: flex;
+  justify-content: center;
+  gap: clamp(18px, 4vw, 60px);
+  flex-wrap: wrap;
+}
+
+
+.partner-card {
+  
+  width: 220px;
+  height: 150px;
+  
+  border-radius: 10px;
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  
+}
+
+.partner-logo {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
