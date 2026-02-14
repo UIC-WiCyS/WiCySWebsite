@@ -19,7 +19,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  min-height: 100vh;   /* ✅ instead of height: 100vh */
+  min-height: 100vh; 
   height: auto;
 }
 
@@ -247,7 +247,7 @@ height: 90vh;
 
 .sponsors {
   width: min(1100px, 92vw);
-  margin: 100px auto 0;   /* top space ✅ */
+  margin: 100px auto 0;   
   padding: clamp(18px, 3vw, 40px);
   text-align: center;
   margin-bottom: 100px;
@@ -259,7 +259,7 @@ height: 90vh;
   color: #B1D34A;
   font-size: clamp(22px, 3vw, 40px);
   letter-spacing: 2px;
-  margin: 0;              /* keep tight */
+  margin: 0;       
   text-shadow: 0 0 10px rgba(177, 211, 74, 0.35);
 }
 
@@ -267,7 +267,7 @@ height: 90vh;
   width: min(420px, 70%);
   height: 2px;
   background: rgba(177, 211, 74, 0.6);
-  margin: 18px auto 34px;  /* this controls spacing ✅ */
+  margin: 18px auto 34px; 
 }
 
 .sponsors-grid {
