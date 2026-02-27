@@ -124,7 +124,7 @@ export default function Board(){
                             </div>
                             
                             <div className="caption">
-                                <p className = "name">Aye Kyawt Zin</p>
+                                <p className = "name">Aye</p>
                                 <p className = "position">Treasurer</p>
                             </div>
                     </div>

@@ -50,13 +50,13 @@ export default function BoardExecutive(){
                             <img src={ammani}/> 
                         </div>
                         <div className="caption">
-                            <p className = "name">Ammani Khan</p>
+                            <p className = "name">Ammani</p>
                         </div>
                     </div>
                 </a>
 
                 {/*Board Member 2*/}
-                {/*<a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">*/}
+                <a href="https://www.linkedin.com/in/angela-camargo-/" target="_blank" rel="noopener noreferrer">
                     <div className = "leftMember">
                         <div className="leftPhoto"> 
                             <img src={angela}/> 
@@ -65,7 +65,7 @@ export default function BoardExecutive(){
                             <p className = "name">Angela</p>
                         </div>
                     </div>
-                {/*</a>*/}
+                </a>
 
                 {/*Board Member 3*/}
                 {/*<a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">*/}
