@@ -1,10 +1,56 @@
 import TitleBar from "../../components/TitleBar.jsx";
+import "./Join.css";
+import brdimg from "../../assets/brdph.svg";
+import grpimg from "../../assets/grpph.svg";
 
-export default function Join(){ 
-    return (
-        <main>
-            <TitleBar title="Join Us" />
-            
-        </main>
-    )
+export default function Join() {
+  return (
+    <main>
+      <TitleBar title="Join Us" />
+        <div className= "bx1">
+          <div className="topBox">
+            <div style={{textAlign: "left"}}>
+              <h1>Immerse</h1>
+              <h2>yourself in an environment full of talented individuals working together 
+              towards a shared passion for cyber security! </h2>
+            </div>
+          </div>
+            <div className= "imgBox1">
+              <img src= {brdimg} alt="board img"/>
+            </div>
+        </div>
+
+        
+      
+      <div className="bx2">
+          <div className ="bottomBox">
+            <h1>Grow</h1>
+            <h2>your skills and feed your interest while 
+            participating in a welcoming community</h2>
+          </div>
+          <div className="bottomPBox">
+              <img src= {grpimg} alt="board img" />
+          </div>
+      </div>
+      
+
+      <div className="bx3whskinny">
+        <h1> Join WiCyS today!  </h1>
+        <p1>UIC: Our chapter of WiCys on campus for FREE
+        National Member: Annual Membership Fee </p1>
+      </div>
+      <div class="joinRow">
+      <button onClick={()=>window.location.href='https://tr.ee/xiblB3PHxi'} className="joingr">
+      <h1>JOIN </h1>
+      <h2>UIC CHAPTER</h2>
+      </button>
+
+      <button onClick={()=>window.location.href='https://womenincybersecuritywicys.my.site.com/registration/s/'} className="joinpu">
+        <h1>BECOME A </h1>
+        <h2>NATIONAL MEMBER</h2>
+      </button>
+      
+      </div>
+    </main>
+  );
 }
