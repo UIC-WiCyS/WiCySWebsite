@@ -45,7 +45,7 @@ export default function Board(){
                     <div className = "columnTwo"> 
                         <a href="https://www.linkedin.com/in/heramyat/" target="_blank" rel="noopener noreferrer">
                             <div className="captionColumn">
-                                <p className = "name">Yuupar</p>
+                                <p className = "name">Khin Yuupar Myat</p>
                             </div>
 
                             <div className="columnImg"> 
@@ -82,7 +82,7 @@ export default function Board(){
                     <div className = "columnThree"> 
                         {/*<a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">*/}
                             <div className="captionColumn">
-                                <p className = "name"> Aleena</p>
+                                <p className = "name"> Aleena Mehmood</p>
                             </div>
 
                             <div className="columnImg"> 
@@ -108,7 +108,7 @@ export default function Board(){
                             </div>
 
                             <div className="caption">
-                                <p className = "name">Saja</p>
+                                <p className = "name">Saja Bushara</p>
                                 <p className = "position">Engagement Director</p>
                             </div>
                     </div>
@@ -124,7 +124,7 @@ export default function Board(){
                             </div>
                             
                             <div className="caption">
-                                <p className = "name">Aye</p>
+                                <p className = "name">Aye Kyawt Zin</p>
                                 <p className = "position">Treasurer</p>
                             </div>
                     </div>
@@ -138,7 +138,7 @@ export default function Board(){
                         </div>
 
                         <div className="caption">
-                            <p className = "name">Raima</p>
+                            <p className = "name">Raima Chowdhury</p>
                             <p className = "position">Secratary</p>
                         </div>
                     </div>
