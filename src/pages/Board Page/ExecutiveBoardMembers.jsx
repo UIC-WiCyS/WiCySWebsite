@@ -46,8 +46,6 @@ export default function Board(){
                         <a href="https://www.linkedin.com/in/heramyat/" target="_blank" rel="noopener noreferrer">
                             <div className="captionColumn">
                                 <p className = "name">Yuupar</p>
-                                {/* <p className = "position">Executive Position:</p>
-                                <p className = "position">External Vice President</p> */}
                             </div>
 
                             <div className="columnImg"> 
@@ -55,10 +53,8 @@ export default function Board(){
                             </div>
                             
                             <div className="captionColumn">
-                                {/* <p className = "name">Yuupar</p> */}
-                                <p className = "position">Executive Position:</p>
-                                <p className = "position">External Vice</p>
-                                <p className = "position">President</p>
+                                <p className = "position">External</p>
+                                <p className = "position">Vice President</p>
                             </div>
                         </a> 
                     </div>
@@ -70,8 +66,6 @@ export default function Board(){
                         target="_blank" rel="noopener noreferrer">
                             <div className="captionColumn">
                                 <p className = "name"> Coda Richmond</p> 
-                                {/* <p className = "position">Executive Position:</p>
-                                <p className = "position">President</p> */}
                             </div>
 
                             <div className="columnImg"> 
@@ -79,8 +73,6 @@ export default function Board(){
                             </div>
 
                             <div className="captionColumn">
-                                {/* <p className = "name"> Coda Richmond</p> */}
-                                <p className = "position">Executive Position:</p>
                                 <p className = "position">President</p>
                             </div>
                         </a>
@@ -91,8 +83,6 @@ export default function Board(){
                         {/*<a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">*/}
                             <div className="captionColumn">
                                 <p className = "name"> Aleena</p>
-                                {/* <p className = "position">Executive Position:</p>
-                                <p className = "position">Internal Vice President</p> */}
                             </div>
 
                             <div className="columnImg"> 
@@ -100,10 +90,8 @@ export default function Board(){
                             </div>
 
                             <div className="captionColumn">
-                                {/* <p className = "name"> Aleena</p> */}
-                                <p className = "position">Executive Position:</p>
-                                <p className = "position">Internal Vice</p>
-                                <p className = "position">President</p>
+                                <p className = "position">Internal </p>
+                                <p className = "position">Vice President</p>
                             </div>
                         {/*</a>*/}
                     </div>
@@ -121,7 +109,6 @@ export default function Board(){
 
                             <div className="caption">
                                 <p className = "name">Saja</p>
-                                <p className = "position">Executive Position:</p>
                                 <p className = "position">Engagement Director</p>
                             </div>
                     </div>
@@ -137,8 +124,7 @@ export default function Board(){
                             </div>
                             
                             <div className="caption">
-                                <p className = "name">Aye Kyawt Zin</p>
-                                <p className = "position">Executive Position:</p>
+                                <p className = "name">Aye</p>
                                 <p className = "position">Treasurer</p>
                             </div>
                     </div>
@@ -153,7 +139,6 @@ export default function Board(){
 
                         <div className="caption">
                             <p className = "name">Raima</p>
-                            <p className = "position">Executive Position:</p>
                             <p className = "position">Secratary</p>
                         </div>
                     </div>

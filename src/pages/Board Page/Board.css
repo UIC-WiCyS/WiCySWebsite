@@ -9,59 +9,61 @@
 }
 
 /*BUTTONS*/
-.buttons {
-    margin-bottom: 5%; 
-    margin-left:20%;
-    margin-right:20%; 
-
+.buttons { 
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content:space-between; 
+    flex-wrap: wrap;
+    justify-content:center; 
+    column-gap: 150px;
+    row-gap: 10px;
+
+    width: 70vw;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    
 }
 
 .executiveButton {
-    margin-right: 10%; 
+    width: 250px;
+    height: auto;
 
     background-color: #00172f;
-    color: #00A5E0;
-
-    border-style: solid;
-    border-width: 6px;
-    border-color: #B1D34A;
+    border: 5px solid #B1D34A;
     border-radius: 25px;
 
-    padding: 10px;
-    width: 50%;
     display: flex;
     justify-content: center;
-
+    align-items: center;
 }
 
 .boardButton {
-    padding: 10px;
-    background-color: #00172f;
+    width: 250px;
+    height: auto;
 
-    border-style: solid;
-    border-width: 6px;
-    border-color: #9741A3;
+    background-color: #00172f;
+    border: 5px solid #9741A3;
     border-radius: 25px;
 
-    padding: 10px;
-    width: 50%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .buttons button{
-    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    padding: 5px;
     background-color: #00172f;
     border:#00172f;
     color: #00A5E0;
 
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
-    text-decoration: none;
+    
+    flex: 1;
     display: inline-block; 
     outline: none;
     position: relative;
@@ -76,21 +78,20 @@
 
 .buttons button:after{
   background: none repeat scroll 0 0 transparent;
-  bottom: 10px;
+  bottom: 3.5px;
   content: "";
   display: block;
   height: 3.5px;
   left: 50%;
-  position: absolute;
-  background: #fff;
-  transition: width 0.7s ease 0s, left 0.7s ease 0s;
-  
   width: 0;
+  position: absolute;
+  background: white;
+  transition: width 0.7s ease 0s, left 0.7s ease 0s;
 }
 
 .buttons button:hover:after{
-  width: 80%; 
-  left: 10%;
+  width: 90%; 
+  left: 5%;
 }
 
 @media screen and (max-height: 300px) {
@@ -107,17 +108,22 @@ Iternal Vice President */
 .columnMembers{
     display: flex;
     flex-direction: row;
-    gap: 0%;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-    margin-left: 5%;
-    margin-right: 5%;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+    
+    padding: 40px 0px;
+    width: 70vw;
+    max-width: 100%;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .columnOne,
 .columnTwo,
 .columnThree {
-
 
     /*Boarder Style*/
     border-style: solid;
@@ -126,66 +132,56 @@ Iternal Vice President */
     
     background-color: #00172f;
     display: flex;
+    flex: 1;
+    padding:0px 25px;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
-    
-   
-    padding: 15px; 
+    justify-content: center;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
 
 .columnOne{
+    transform: translateY(-90px);
     border-color: #9741A3;
-    margin-left:5%;
-    margin-right:5%;
-    margin-top:0%;
-    margin-bottom: 10%;
-
 }
 
 .columnOne:hover{ 
-    transform: scale(1.05);
+    transform: scale(1.1);
+    transform: translateY(-70px);
+    background-color: #00172fd1;
     box-shadow: 0px 0px 15px #9741A3;
 }
 
 .columnTwo,
 .columnThree{
-    margin-top: 10%;
-    margin-bottom: 0%;
+    transform: translateY(-25px);
     border-color: #B1D34A;
 }
 
 .columnTwo:hover,
 .columnThree:hover{
+    transform: translateY(0px);
     transform: scale(1.05);
+    background-color: #00172fd1;
     box-shadow: 0px 0px 15px #B1D34A;
+   
 }
-
-.columnTwo {
-    /*margin settings*/
-    /* margin-top: 2.5%;
-    margin-bottom: 2.5%;  */
-    margin-left: .5%;
-}
-
-.columnThree {
-    /*margin settings*/
-    /* margin-top: 2.5%;
-    margin-bottom: 2.5%;  */
-    margin-right: .5%;
-    
-}
-
-.columnImg img{
-    width: 50%;
-    height: auto;
-    
+.columnImg{
+    flex: 0 0 25%; 
     display: flex;
     justify-content: center;
-    border-radius: 25px;
+    align-items: center;    
+}
 
-    margin-left: auto;
-    margin-right: auto;
+ 
+.columnImg img{
+    width:100%;
+    max-width:150%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 25px;
+    margin: 0 auto;
+    display: block;
 }
 
 .captionColumn {
@@ -194,24 +190,27 @@ Iternal Vice President */
     display: flex; 
     flex-direction: column;
     font-size: 3vw;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom:10px;
 }
 
 /*MEMBER PHOTO LAYOUT
 Executive & Board */
-.leftMember {
+.leftMember,
+.rightMember {
     /*margin settings*/
-    margin-top: 2.5%;
-    margin-bottom: 2.5%; 
+    margin-top: 15px;
+    margin-bottom: 15px; 
 
-    margin-left:14%;
-    margin-right:14%;
+    margin-left:70px;
+    margin-right:70px;
 
     /*Boarder Style*/
     border-style: solid;
     border-width: 5px;
-    border-color: #B1D34A;
+    border-color: #B1D34A; 
     border-radius: 25px;
-
     
     background-color: #00172f;
     display: flex;
@@ -219,119 +218,86 @@ Executive & Board */
     align-items: center;
     justify-content: space-evenly;
    
+    width: 70vw;
+    margin: 20px auto;
+    max-width: 100%;
+
     padding: 15px; 
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
 
-.leftMember:hover{
-    transform: scale(1.02);
-    box-shadow: 0px 0px 15px #b1d34A;
+.leftMember {
+    border-color: #B1D34A; 
+    flex-direction: row;
+    align-items: center;
 }
 
 .rightMember {
-    /*margin setting*/
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-
-    margin-left:14%;
-    margin-right:14%;
-
-    /*Boarder Style*/
-    border-style: solid;
-    border-width: 5px;
     border-color: #9741A3;
-    border-radius: 25px;
-
-    background-color: #00172f;
     display: flex;
     flex-direction: row-reverse;
-    align-items: center;
-    justify-content: space-evenly;
-   
-    padding: 15px; 
 }
 
+/*Hover Properties*/
+.leftMember:hover,
 .rightMember:hover{
+    background-color: #00172fd1;
     transform: scale(1.02);
+}
+.leftMember:hover{
+    box-shadow: 0px 0px 15px #b1d34A;
+}
+.rightMember:hover{
     box-shadow: 0px 0px 15px #9741A3;
 }
 
+.leftPhoto, .rightPhoto, 
+.executiveLeftPhoto, .executiveRightPhoto {
+    flex: 0 0 25%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
 /*PHOTO SETTING*/
-.executiveLeftPhoto img {
-    width: 50%;
-    height: auto;
-    
-    display: flex;
-    justify-content: center;
-    border-radius: 25px;
-
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 10px;
-    margin-bottom: 10px; 
-}
-
-.executiveRightPhoto img {
-    width: 50%;
-    height: auto;
-    
-    display: flex;
-    justify-content: center;
-    border-radius: 25px;
-
-    margin-left: 30%;
-    margin-right: 10%;
-    margin-top: 10px;
-    margin-bottom: 10px;   
-}
-
-.leftPhoto img {
-    width: 30%;
-    height: auto;
-    
-    display: flex;
-    justify-content: center;
-    border-radius: 25px;
-
-    margin-left: 10%;
-    margin-right: 55%;
-    margin-top: 10px;
-    margin-bottom: 10px; 
-}
-
+.executiveLeftPhoto img,
+.executiveRightPhoto img,
+.leftPhoto img,
 .rightPhoto img {
-    width: 30%;
+    width:100%;
+    max-width:150%;
     height: auto;
-    
-    display: flex;
-    justify-content: center;
+    object-fit: cover;
     border-radius: 25px;
-
-    margin-left: 55%;
-    margin-right: 10%;
-    margin-top: 10px;
-    margin-bottom: 10px;   
+    margin: 0 auto;
+    display: block;   
 }
 
 /*CAPTION SETTING*/
 .caption {
+    flex: 1;
     text-align: center;
-    white-space: nowrap;
-    margin-left: 10%;
-    margin-right: 10%;
-    display: flex; 
+    display: flex;
     flex-direction: column;
-    font-size: 3vw;  
+    white-space: nowrap;
+    margin:0;
+    padding: 0 20px;
+
 }
 
 .name {
     margin-top: 10px;
     margin-bottom: 0px;
     font-weight: bolder;
+    font-size: 3.5vw;  
     color: rgb(255, 255, 255);
 }
 
 .position {
-    margin-top: -5px;
-    margin-bottom: -5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     color: #00A5E0;
+    font-size: 3vw;  
 }
