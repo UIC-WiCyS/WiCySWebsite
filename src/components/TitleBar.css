@@ -1,5 +1,5 @@
 .app-content {
-    padding-top: 50px;
+    /* padding-top: 50px; */
 }
 .title-card {
     --panel: #01172F;
@@ -7,12 +7,12 @@
     --radius: 8px;
 
     position: relative;
-    width: 70vw;
-    height: 40vw;
-    margin: 24px auto;
+    width: 100vw;
+    height: 50vw;
+    /* margin: 24px auto; */
     border-radius: var(--radius);
     background: var(--panel);
-    outline: 4px solid white;
+    /* outline: 4px solid white; */
     box-shadow: 0 12px 40px rgba(0, 0, 0, .35);
     overflow: hidden;
 
@@ -73,5 +73,3 @@
 /* make skinnier/smaller */
 .title-corner.--skinny { transform: scaleX(0.85) scaleY(0.85); }
 .title-corner.br.--skinny { transform: scale(-1, -1) scaleX(0.8); } /* mirrored & narrower */
-
-.app-content{ padding-top: 70px; }
