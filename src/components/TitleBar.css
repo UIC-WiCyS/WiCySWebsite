@@ -1,3 +1,6 @@
+.app-content {
+    padding-top: 50px;
+}
 .title-card {
     --panel: #01172F;
     --accent: #b1d34a;
