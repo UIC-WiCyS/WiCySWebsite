@@ -1,4 +1,4 @@
-
+/* START OF ANIMATION CODE */
 @supports(animation-timeline:view()){ /* animation for browsers that support view*/
     .reveal{                           
     animation: appear 1.5s linear;
@@ -33,86 +33,105 @@
     animation-range:entry 0% cover 40%;
 }
 
+/* END OF ANIMATION */
+/*
 
-.topBox, .bottomBox,
+
+
+
+
+
+*/
+
+
+/* .topBox, .bottomBox,
 .imgBox1, .bottomPBox{
   flex: 1 1 0;
   min-width: 0;
-}
+} */
 
-
+/* 
 .imgBox1, .bottomPBox{
     padding: 0;
-}
+} */
+
  
-  .imgBox1 img,
-  .bottomPBox img{
-    width: 100%;
-    max-width:1000px;
-    height:auto;           
+.imgBox1 img,
+.bottomPBox img{
+    width: 75%;
+    max-width: 275px;
+    height: auto;           
     object-fit: cover;
     border-radius: 28px;
     outline: 10px solid #B1D34A;
     background: #B1D34A;
     display: block;
-  }
-  .topBox, .bottomBox{
+}
+
+.top-box {
+    padding-top: 50px;
+}
+
+.topBox, .bottomBox{
     background: #011725;
-    outline: 4px solid #011725;
-    border-radius: 30px;
     padding: clamp(16px, 2vw, 28px);
     text-align: center;
-  }
+    width: 100%;
+    box-sizing: border-box;
+}
+
 .bx1, .bx2{
-    width: min(100vw, 1100px);
+    width: min(100vw, 2000px);
     margin: 70px auto;
     display: flex;
     align-items: center;
     justify-content:center;
-    /* gap: clamp(10px, 3vw, 30px); */
-    gap: clamp(18px, 4vw, 60px);
+    gap: clamp(10px, 3vw, 30px);
+    flex-wrap: wrap;
+    /* gap: clamp(10px, 4vw, 60px); */
     height: auto;
-  }
-  .bx1{
+
+}
+
+.bx1{
     flex-direction: row-reverse;
-  }
+}
 
 .bx1 h1{
     color: #6DD3CE;
-    font-size:clamp(8px, 8vw, 52px);
+    font-size: clamp(8px, 4vw, 50px);
     text-align: left;
 }
 
 .bx1 h2{
     color: #FFFFFF;
-    font-size: clamp(26px, 4vw, 52px);
+    font-size: clamp(8px, 3vw, 30px);
     text-align: right;
 }
 .bx2 h2{
     color: #FFFFFF;
-    font-size: clamp(26px, 4vw, 52px);
+    font-size: clamp(8px, 3vw, 30px);
     text-align: left;
 }
 .bx2 h1{
     color: #6DD3CE;
-    font-size:clamp(8px, 8vw, 52px);
+    font-size: clamp(8px, 4vw, 50px);
     text-align: right;
 }
-.bottomPBox,.imgBox1{
+.bottomPBox, .imgBox1{
     width: auto;
     height: auto;
     border-radius: 30px;
-    flex: 1 1 0;
+    /* flex: 1 1 0; */
     min-width:0;
 }
 
 .bx3whskinny{
---panel: 
-#01172F;
---radius: 8px;
+    --panel: #01172F;
+    --radius: 8px;
     position: relative;
     width: 80vw;
-    height: 40vw;
+    height: 20vw;
     margin: 70px auto;
     border-radius: var(--radius);
     background: var(--panel);
@@ -121,24 +140,27 @@
     overflow: hidden;
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction:column;
+    justify-content: space-evenly;
+    flex-direction: column;
 }
+
 .bx3whskinny h1{
     color: #FFFFFF;
-    font-size:clamp(45px, 3vw, 70px);
-    text-align:left;
-    
+    font-size: clamp(45px, 3vw, 50px);
+    text-align: left;
+    margin: 0;
 }
 .bx3whskinny h2{
     color: #6DD3CE;
-    font-size:clamp(35px, 3vw,60px);
+    font-size:clamp(35px, 3vw,50px);
     text-align: center;
+    margin: 0;
 } 
 .bx3whskinny h3{
     color: #6DD3CE;
-    font-size:clamp(35px, 3vw,60px);
+    font-size:clamp(35px, 3vw,50px);
     text-align: center;
+    margin: 0;
 } 
 
 
@@ -200,3 +222,41 @@
     text-align: center;
 }
 
+.bx1, .bx2{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap: clamp(12px, 4vw, 60px);
+}
+
+
+.bx1 > *, .bx2 > *{
+    flex: 1 1 420px;
+    min-width: 0;
+    box-sizing: border-box;
+}
+
+.bx1 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.imgBox1, .bottomPBox{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.imgBox1 img, .bottomPBox img{
+    width: min(75%, 520px);
+    height: auto;
+}
+
+.topBox {
+    margin-right: 20px;
+}
+
+.bottomBox {
+    margin-left: 20px;
+}

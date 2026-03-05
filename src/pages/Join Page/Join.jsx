@@ -29,9 +29,10 @@ export default function Join() {
               <h2>yourself in an environment full of talented individuals working together 
               towards a shared passion for cyber security! </h2>
           </div>
-            <div className= "imgBox1">
-              <img src= {brdimg} alt="board img"/>
-            </div>
+          
+          <div className= "imgBox1">
+            <img src= {brdimg} alt="board img"/>
+          </div>    
         </div>
 
         

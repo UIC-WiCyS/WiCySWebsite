@@ -50,28 +50,28 @@ body {
 }
 
 .cam-overlay {
-    position: absolute; /*due to cam-frame */
-    inset: 0; /* top, bottom, left, right all 0 */
-    background: rgba(0,0,0,0.3); 
+  position: absolute; /*due to cam-frame */
+  inset: 0; /* top, bottom, left, right all 0 */
+  background: rgba(0,0,0,0.3); 
 }
 
 .cam-hud {
-    position: absolute;
-    inset: 0;
-    display: flex;
-    justify-content: space-between;
-    padding: 8px 12px;
-    color: #9741A3;
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 12px;
+  color: #9741A3;
 }
 
 .rec {
-    animation: blink 1s steps(2, jump-none) infinite;
-    font-size: 1.5rem;
+  animation: blink 1s steps(2, jump-none) infinite;
+  font-size: clamp(1.0rem, 1.0rem, 1.5rem);
 }
 @keyframes blink { 50% {opacity: 0.2; } }
 
 .time {
-    font-size: 1.5rem;
+  font-size: 1.0rem;
 }
 
 /* all frames stacked */

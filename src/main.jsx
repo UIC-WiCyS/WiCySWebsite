@@ -21,6 +21,7 @@ import Feb from "./pages/Events Page/Feb.jsx";
 import Mar from "./pages/Events Page/Mar.jsx";
 import Apr from "./pages/Events Page/Apr.jsx";
 import May from "./pages/Events Page/May.jsx";
+import Footer from "./components/Footer.jsx";
 
 
 
@@ -61,6 +62,8 @@ createRoot(document.getElementById('root')).render(
           <Route path="*" element={<div style={{padding:16}}>Not Found</div>} />
           
         </Routes>
+
+        <Footer />
         
     </div>
     </BrowserRouter>
