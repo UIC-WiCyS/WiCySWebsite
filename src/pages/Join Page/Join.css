@@ -39,9 +39,11 @@
   flex: 1 1 0;
   min-width: 0;
 }
+
+
 .imgBox1, .bottomPBox{
-    padding:0;
-  }
+    padding: 0;
+}
  
   .imgBox1 img,
   .bottomPBox img{
@@ -67,7 +69,8 @@
     display: flex;
     align-items: center;
     justify-content:center;
-    gap: clamp(10px, 3vw, 30px);
+    /* gap: clamp(10px, 3vw, 30px); */
+    gap: clamp(18px, 4vw, 60px);
     height: auto;
   }
   .bx1{

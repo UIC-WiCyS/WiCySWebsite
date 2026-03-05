@@ -42,7 +42,7 @@
 .title-underline {
     display: block;
     height: clamp(6px, 1vw, 12px);
-    width: clamp(22vw, 35vw, 50vw);
+    width: clamp(24vw, 60vw, 60vw);
     margin: 0 auto;
     background: var(--accent);
     border-radius: 2px;

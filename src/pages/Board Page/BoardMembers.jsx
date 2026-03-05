@@ -208,7 +208,7 @@ export default function BoardExecutive(){
                             <img src={valeria}/> 
                         </div>   
                         <div className="caption">
-                            <p className = "name">Valeria Marquez Enriquez</p>
+                            <p className = "name wrap">Valeria Marquez Enriquez</p>
                             <p className = "position">Web Admin Committee</p>
                         </div>
                     </div>
