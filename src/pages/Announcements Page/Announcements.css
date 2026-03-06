@@ -1,0 +1,114 @@
+.announcements {
+    display: grid;
+    grid-template-columns: minmax(230px, 280px) 1fr;
+    gap: 2rem 2.5rem;
+
+    width: 70vw;
+    margin: 24px auto 0;
+
+    padding: 2.5rem 2rem;
+    scroll-behavior: smooth;
+    font-family: "VT323", monospace;
+}
+
+.directory-card {
+    grid-column: 1;
+    grid-row: 1;
+    background: #01172F;
+    border: 6px solid white;
+    border-radius: 28px;
+    padding: 1.5rem 1.25rem;
+    color: white;
+}
+
+.directory-card h2 {
+    font-size: 2rem;
+    letter-spacing: 0.12em;
+    margin: 0 0 1rem 0;
+}
+
+.directory-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.directory-card li {
+    margin-bottom: 0.6rem;
+}
+
+.directory-card a {
+    color: white;
+    text-decoration: none;
+}
+
+.directory-card a:hover {
+    text-decoration: underline;
+}
+
+.tag-new {
+    font-size: 0.75rem;
+    color: #3A8DEB;
+}
+
+.announcement-card {
+    background: #01172F;
+    color: white;
+    border-radius: 32px;
+    padding: 1.74rem 2rem;
+    scroll-margin-top: 120px;
+}
+
+.announcement-card header h3 {
+    margin: 0 0 0.25rem 0;
+    font-size: 2rem;
+}
+
+.announcement-meta {
+    margin: 0 0 1rem 0;
+    font-size: 0.8rem;
+    opacity: 0.75;
+}
+
+.announcement-body {
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.featured-card {
+    grid-column: 2;
+    grid-row: 1;
+    border: 10px solid #9741A3;
+    min-height: 220px;
+}
+
+.wide-card {
+    grid-column: 1 / -1;
+    border: 10px solid #B1D34A;
+    min-height: 260px;
+}
+
+@media (max-width: 768px) {
+  .announcements {
+    grid-template-columns: 1fr;
+    padding: clamp(32px, 6vw, 72px);
+    padding: 1.5rem 1rem;
+    gap: 1.25rem;
+  }
+
+  .directory-card {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .featured-card {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  
+  .wide-card {
+    grid-column: 1;
+  }
+}
+

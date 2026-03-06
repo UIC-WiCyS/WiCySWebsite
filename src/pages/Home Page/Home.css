@@ -15,12 +15,21 @@ body {
  .app-content {
     padding-top: 50px;
 }
+
 .Home{
   display: flex;
   justify-content: center;
   align-items: flex-start;
   min-height: 100vh; 
   height: auto;
+}
+
+/* Parent Container */
+.SecurityCam {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 .rectangle {
