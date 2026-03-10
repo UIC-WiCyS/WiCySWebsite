@@ -16,7 +16,7 @@
         transform:translateX(0px);
     }
 }
-.reveal{  /* safari support version, might update it later not what i wanted*/
+.reveal{  /* safari support version, might update it later*/
     opacity: 0;
     transform:translateX(-100px);
     transition:1.5s ease;
