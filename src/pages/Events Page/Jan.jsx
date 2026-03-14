@@ -12,57 +12,20 @@ export default function Jan() {
         <p>Here are all the events happening this month:</p>
 
         <div className="event-grid">
-        <div className="event-card-active">
-            <img
-            src={folderImg}              
-            alt="Welcome Back Mixer"
-            className="event-img"
-          />
-          <h2>Welcome Back Mixer</h2>
-          <p><strong>Date & Time:</strong> 8/25/25 </p>
-          <p><strong>Location:</strong> CDRLC 1413 </p>
-          <p><strong>Details:</strong> welcome mixer for everyone. We will be providing snacks pull up! </p>
-          
-  
-        </div>
-        <div className="event-card-active">
-            <img
-            src={folderImg}              
-            alt="Welcome Back Mixer"
-            className="event-img"
-          />
-          <h2>Zebra Talk</h2>
-          <p><strong>Date & Time:</strong> 8/28/25 </p>
-          <p><strong>Location:</strong> CDRLC 1413 </p>
-          <p><strong>Details:</strong> welcome mixer for everyone. We will be providing snacks pull up! </p>
-          
-  
-        </div>
-        <div className="event-card-active">
-            <img
-            src={folderImg}             
-            alt="Welcome Back Mixer"
-            className="event-img"
-          />
-          <h2>GBM</h2>
-          <p><strong>Date & Time:</strong> 9/1/25 </p>
-          <p><strong>Location:</strong> CDRLC 1413 </p>
-          <p><strong>Details:</strong> welcome mixer for everyone. We will be providing snacks pull up! </p>
-          
-  
-        </div>
         <div className="event-card-passed">
             <img
-            src={folderImg}             
-            alt="Welcome Back Mixer"
+            src={folderImg}              
+            alt="Intro to Wireshark: Find the Rotten Tomato "
             className="event-img"
           />
-          <h2>Hack-o-ween</h2>
-          <p><strong>Date & Time:</strong> 9/4/25 </p>
-          <p><strong>Location:</strong> CDRLC 1413 </p>
-          <p><strong>Details:</strong> welcome mixer for everyone. We will be providing snacks pull up! </p>
+          <h2>Intro to Wireshark: Find the Rotten Tomato</h2>
+          <p><strong>Date & Time:</strong> 1/26/26 4-5 PM</p>
+          <p><strong>Location:</strong> EIB 224 </p>
+          <p><strong>Details:</strong> This technical workshop introduces students to Wireshark, a widely used and essential tool for network and cybersecurity professionals. Students will learn how to use Wireshark by exploring key features such as sql-like display filters and packet analysis techniques. The session will also include a beginner-friendly lab in which students will investigate network traffic to identify the “bad tomato” attempting to phish company employees. </p>
           
   
+      
+        
         </div>
         </div>
 
