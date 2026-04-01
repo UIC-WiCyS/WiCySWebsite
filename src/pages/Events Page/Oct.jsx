@@ -5,6 +5,8 @@ import johnTheRipper from "../../assets/picsEvents/johnTheRipper.png";
 import morningstar from "../../assets/picsEvents/morningstar.png";
 import sidley from "../../assets/picsEvents/sidley.png";
 import hackoween from "../../assets/picsEvents/hackoween.JPG";
+import wicysXrasoi from "../../assets/picsEvents/wicysXrasoi.png";
+import wicysXcoldstone from "../../assets/picsEvents/wicysXcoldstone.png";
 import folderImg from "../../assets/picsEvents/folder.svg";
 import "./Oct.css"; 
 
@@ -58,7 +60,7 @@ export default function Oct() {
         </div>
         <div className="event-card-active">
             <img
-            src={folderImg}             
+            src={wicysXcoldstone}             
             alt="WiCys X Coldstone Event "
             className="event-img"
           />
@@ -110,7 +112,7 @@ export default function Oct() {
         </div>
          <div className="event-card-passed">
             <img
-            src={folderImg}             
+            src={wicysXrasoi}             
             alt="Diwali WiCys x Rasoi Pop up"
             className="event-img"
           />
