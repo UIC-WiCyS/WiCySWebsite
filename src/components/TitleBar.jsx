@@ -1,4 +1,5 @@
 import "./TitleBar.css"
+import { ReactTyped } from "react-typed";
 
 
 export default function TitleBar({ title, subtitle }) {
@@ -27,18 +28,20 @@ export default function TitleBar({ title, subtitle }) {
         </svg>
 
         {/* TOP-LEFT */}
-        <svg className="title-corner tl" viewBox="0 0 694 608" aria-hidden="true">
+        {/* <svg className="title-corner tl" viewBox="0 0 694 608" aria-hidden="true">
         <use href="#cornerBlob" className="corner-fill" />
-        </svg>
+        </svg> */}
 
         {/* BOTTOM-RIGHT (mirror of the same path) */}
-        <svg className="title-corner br" viewBox="0 0 694 608" aria-hidden="true">
-        <use href="#cornerBlob" className="corner-fill" />
-        </svg>
+        {/* <svg className="title-corner br" viewBox="0 0 694 608" aria-hidden="true"> */}
+        {/* <use href="#cornerBlob" className="corner-fill" />
+        </svg> */}
         
 
             <div className="title-inner">
-                <h1 className="title-text">{title}</h1>
+                <h1 className="title-text">
+                    <ReactTyped strings={[title]} typeSpeed={50} showCursor={true}/>
+                </h1>
                 <span className="title-underline" aria-hidden="true" />
             </div>
         </section>

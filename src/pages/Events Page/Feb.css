@@ -1,5 +1,5 @@
 .feb-page {
-  padding: 2rem;
+  /* padding: 2rem; */
   min-height: 150vh;
 }
 
@@ -59,7 +59,7 @@
 
 .event-card-active strong,
 .event-card-passed strong {
-  color: #48a1c1;
+  color: #6DD3CE;
   font-weight: 700;
 }
 
