@@ -18,6 +18,7 @@ body {
 
 .typingTitle {
   width: 100%;
+  max-width: 95vw;
   text-align: center;
   font-family: 'VT323', monospace;
   color: #B1D34A;
@@ -29,6 +30,8 @@ body {
     0 0 10px #B1D34A,
     0 0 20px #B1D34A;
   letter-spacing: 2px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 .SecurityCam {
   display: flex;
@@ -375,4 +378,13 @@ height: 90vh;
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
+}
+@media (max-width: 600px) {
+
+  .typingTitle {
+    font-size: clamp(22px, 7vw, 40px);
+    letter-spacing: 1px;
+    padding: 0 14px;
+  }
+
 }
