@@ -1,5 +1,12 @@
 import TitleBar from "../../components/TitleBar.jsx";
 import folderImg from "../../assets/picsEvents/folder.svg";
+import byteTheFlame from "../../assets/picsEvents/byteTheFlame.png";
+import siliconValley from "../../assets/picsEvents/siliconvalley.png";
+import thriftShop from "../../assets/picsEvents/thriftShop.png";
+import gathersFundraiserMarch from "../../assets/picsEvents/gathersFundraiserMarch.png";
+import wicysXaon from "../../assets/picsEvents/wicysXaon.png";
+
+
 import "./Mar.css"; 
 
 export default function Mar() {
@@ -14,7 +21,7 @@ export default function Mar() {
         <div className="event-grid">
         <div className="event-card-passed">
             <img
-            src={folderImg}              
+            src={siliconValley}              
             alt="WiCyS Silicon Valley x WiCyS UIC x LOGICA"
             className="event-img"
           />
@@ -27,7 +34,7 @@ export default function Mar() {
         </div>
         <div className="event-card-passed">
             <img
-            src={folderImg}              
+            src={wicysXaon}              
             alt="Aon GRC event [AON X WiCyS]"
             className="event-img"
           />
@@ -35,11 +42,17 @@ export default function Mar() {
           <p><strong>Date & Time:</strong> 3/9/26, 5-6:30 PM </p>
           <p><strong>Location:</strong> SEL-East Room 2061 </p>
           <p><strong>Details:</strong> Aon partner!</p>
+          <p>
+            <strong>Slides: </strong>
+              <a href="/slides/WiCyS-Aon-GRC.pdf" target="_blank">
+                WiCyS Aon GRC Slides
+              </a>
+            </p>
   
         </div>
         <div className="event-card-passed">
             <img
-            src={folderImg}             
+            src={byteTheFlame}             
             alt="Byte the Flame"
             className="event-img"
           />
@@ -50,7 +63,7 @@ export default function Mar() {
           
   
         </div>
-        <div className="event-card-active">
+        {/* <div className="event-card-passed">
             <img
             src={folderImg}             
             alt="Pipe cleaner flower tutorial"
@@ -62,10 +75,10 @@ export default function Mar() {
           <p><strong>Details:</strong> Come hang out and socialize! </p>
           
   
-        </div>
-        <div className="event-card-active">
+        </div> */}
+        <div className="event-card-passed">
             <img
-            src={folderImg}             
+            src={gathersFundraiserMarch}             
             alt="Gathers Fundraiser"
             className="event-img"
           />
@@ -78,12 +91,12 @@ export default function Mar() {
         </div>
         <div className="event-card-active">
             <img
-            src={folderImg}             
+            src={thriftShop}             
             alt="Thrift & Coffee Fundraiser"
             className="event-img"
           />
           <h2>Thrift & Coffee Fundraiser</h2>
-          <p><strong>Date & Time:</strong> 3/31/26, TBD </p>
+          <p><strong>Date & Time:</strong> 3/31/26, POSTPONED </p>
           <p><strong>Location:</strong> Quad </p>
           <p><strong>Details:</strong> Support Wicys by shopping and thrifting with us! </p>
           

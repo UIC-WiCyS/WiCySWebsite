@@ -9,10 +9,10 @@ export default function May() {
 
       <section className="may-content">
         <h2>Welcome to May 🎉</h2>
-        <p>Here are all the events happening this month:</p>
+        <p> Have a great Summer, see you next fall! </p>
 
         <div className="event-grid">
-        <div className="event-card-active">
+        {/* <div className="event-card-active">
             <img
             src={folderImg}              
             alt="Welcome Back Mixer"
@@ -24,46 +24,10 @@ export default function May() {
           <p><strong>Details:</strong> welcome mixer for everyone. We will be providing snacks pull up! </p>
           
   
-        </div>
-        <div className="event-card-active">
-            <img
-            src={folderImg}              
-            alt="Welcome Back Mixer"
-            className="event-img"
-          />
-          <h2>Zebra Talk</h2>
-          <p><strong>Date & Time:</strong> 8/28/25 </p>
-          <p><strong>Location:</strong> CDRLC 1413 </p>
-          <p><strong>Details:</strong> welcome mixer for everyone. We will be providing snacks pull up! </p>
-          
-  
-        </div>
-        <div className="event-card-active">
-            <img
-            src={folderImg}             
-            alt="Welcome Back Mixer"
-            className="event-img"
-          />
-          <h2>GBM</h2>
-          <p><strong>Date & Time:</strong> 9/1/25 </p>
-          <p><strong>Location:</strong> CDRLC 1413 </p>
-          <p><strong>Details:</strong> welcome mixer for everyone. We will be providing snacks pull up! </p>
-          
-  
-        </div>
-        <div className="event-card-passed">
-            <img
-            src={folderImg}             
-            alt="Welcome Back Mixer"
-            className="event-img"
-          />
-          <h2>Hack-o-ween</h2>
-          <p><strong>Date & Time:</strong> 9/4/25 </p>
-          <p><strong>Location:</strong> CDRLC 1413 </p>
-          <p><strong>Details:</strong> welcome mixer for everyone. We will be providing snacks pull up! </p>
-          
-  
-        </div>
+        </div> */
+}
+        
+       
         </div>
 
       </section>

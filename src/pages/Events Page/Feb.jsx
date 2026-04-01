@@ -1,5 +1,14 @@
 import TitleBar from "../../components/TitleBar.jsx";
 import folderImg from "../../assets/picsEvents/folder.svg";
+import loveBug from "../../assets/picsEvents/loveBug.png";
+import igniteTheFlame from "../../assets/picsEvents/igniteTheFlame.png";
+import febGBM26 from "../../assets/picsEvents/febGBM26.png";
+import forensicAnalysis from "../../assets/picsEvents/forensicAnalysis.png";
+import wicysXoverlayfeb26 from "../../assets/picsEvents/wicysXoverlayfeb26.png";
+import burpSuite from "../../assets/picsEvents/burpSuite.png";
+import intoTheFlame from "../../assets/picsEvents/intoTheFlame.png";
+
+
 import "./Feb.css"; 
 
 export default function Feb() {
@@ -14,7 +23,7 @@ export default function Feb() {
         <div className="event-grid">
         <div className="event-card-passed">
             <img
-            src={folderImg}              
+            src={febGBM26}              
             alt="WiCyS General Board Meeting GBM"
             className="event-img"
           />
@@ -23,11 +32,12 @@ export default function Feb() {
           <p><strong>Location:</strong> CDRLC 1407 </p>
           <p><strong>Details:</strong> Introduction to wicys! </p>
           
+          
   
         </div>
         <div className="event-card-passed">
             <img
-            src={folderImg}              
+            src={forensicAnalysis}              
             alt="Digital Forensics Using Autopsy"  
             className="event-img"
           />
@@ -35,12 +45,17 @@ export default function Feb() {
           <p><strong>Date & Time:</strong> 2/3/26, 4 - 5:30 PM </p>
           <p><strong>Location:</strong> EIB 224 </p>
           <p><strong>Details:</strong> Technical Event in which the students will be taught how to use autopsy(a forensic imaging tool) A guide will be given before the event in order to help students download the proper tool. Students with Mac's will have to create a virtual machine (tutorial will be given before event in guide) and all students will have to download Autopsy. There will be help with creating the VM during the event but it is preferred that the student has started this process on their own. </p>
-          
-  
+          <p>
+            <strong>Slides: </strong>
+              <a href="/slides/Forensic-Imaging-Lab.pdf" target="_blank">
+                Forensic Lab Slides
+              </a>
+            </p>
+
         </div>
         <div className="event-card-passed">
             <img
-            src={folderImg}             
+            src={loveBug}             
             alt="Caught the lovebug, Valentines day CTF"
             className="event-img"
           />
@@ -48,12 +63,16 @@ export default function Feb() {
           <p><strong>Date & Time:</strong> 2/11/26, 5-7 PM</p>
           <p><strong>Location:</strong> ARC 240 </p>
           <p><strong>Details:</strong> Valentines Day Themed CTF, Food: Jimmy John's --- Dress Code for team: Something Red or Pink </p>
-          
-  
+          <p>
+            <strong>Slides: </strong>
+              <a href="/slides/Caught-The-Lovebug.pdf" target="_blank">
+                Caught The Lovebug Slides
+              </a>
+            </p>
         </div>
         <div className="event-card-passed">
             <img
-            src={folderImg}             
+            src={wicysXoverlayfeb26}             
             alt="WiCys x Overlay Valentines Day bake sale"
             className="event-img"
           />
@@ -66,7 +85,7 @@ export default function Feb() {
         </div>
         <div className="event-card-passed">
             <img
-            src={folderImg}             
+            src={burpSuite}             
             alt="Burp Suite Tutorial"
             className="event-img"
           />
@@ -74,12 +93,17 @@ export default function Feb() {
           <p><strong>Date & Time:</strong> 2/16/26, 4-5 PM</p>
           <p><strong>Location:</strong> EIB 224 </p>
           <p><strong>Details:</strong> Technical event where students learn to use the community version of Burp Suite. The students will be given a demo where we provide them with a basic understanding of how to use the tool/how to download. We then set them off to try out a lab, anyone who finishes gets free stickers made by us.  </p>
-          
+          <p>
+            <strong>Slides: </strong>
+              <a href="/slides/Burp-Suite-Tutorial-Slides.pdf" target="_blank">
+                Burp Suite Slides
+              </a>
+            </p>
   
         </div>
         <div className="event-card-passed">
             <img
-            src={folderImg}             
+            src={igniteTheFlame}             
             alt="Ignite the Flame"
             className="event-img"
           />
@@ -87,12 +111,17 @@ export default function Feb() {
           <p><strong>Date & Time:</strong> 2/19/26, 5-7 PM</p>
           <p><strong>Location:</strong> ARC 240 </p>
           <p><strong>Details:</strong> CTF!! </p>
-          
+          <p>
+            <strong>Slides: </strong>
+              <a href="/slides/Ignite_The_Flame_Presentation.pdf" target="_blank">
+                Ignite the Flame Slides
+              </a>
+            </p>
   
         </div>
         <div className="event-card-passed">
             <img
-            src={folderImg}             
+            src={intoTheFlame}             
             alt="Into the Flame"
             className="event-img"
           />
@@ -100,7 +129,12 @@ export default function Feb() {
           <p><strong>Date & Time:</strong> 2/25/26, 5-7 PM</p>
           <p><strong>Location:</strong> ARC 240 </p>
           <p><strong>Details:</strong> CTF!!! </p>
-          
+          <p>
+            <strong>Slides: </strong>
+              <a href="/slides/Into-The-Flame.pdf" target="_blank">
+                Into the Flame Slides
+              </a>
+            </p>
   
         </div>
         </div>
