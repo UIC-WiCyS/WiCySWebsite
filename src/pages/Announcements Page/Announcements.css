@@ -34,7 +34,7 @@
 }
 
 .directory-card li {
-    margin-bottom: 0.6rem;
+    margin-bottom: 1.2rem;
 }
 
 .directory-card a {
@@ -71,7 +71,7 @@
 }
 
 .announcement-body {
-    font-size: 0.9rem;
+    font-size: 1.3rem;
     line-height: 1.5;
 }
 

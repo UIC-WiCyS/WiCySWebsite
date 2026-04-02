@@ -10,6 +10,7 @@ import pic5 from "../../assets/pics/MainPage/love-bug.png";
 import pic4 from "../../assets/pics/MainPage/Photo4.svg";
 import zebra from "../../assets/pics/MainPage/zebra.svg";
 import imanage from "../../assets/pics/MainPage/imanage.svg";
+import logicGate from "../../assets/pics/MainPage/LogicGate_Logo.svg";
 import tetris from "../../assets/pics/MainPage/tetris.svg";
 
 const IMAGES = [pic1, pic2, pic3];
@@ -98,13 +99,11 @@ export default function Home() {
           <div className="sponsors-line" />
 
           <div className="sponsors-grid">
+            
             <div className="partner-card">
-              <img src={zebra} alt="Zebra" className="partner-logo" />
+              <img src={logicGate} alt="LogicGate" className="partner-logo" />
             </div>
 
-            <div className="partner-card">
-              <img src={imanage} alt="iManage" className="partner-logo" />
-            </div>
           </div>
         </section>
       </div>

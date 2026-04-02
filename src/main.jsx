@@ -2,6 +2,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+
 import './index.css'
 
 import Navbar from './components/NavBar.jsx'
@@ -28,7 +29,7 @@ import Footer from "./components/Footer.jsx";
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/WiCySWebsite"> 
 
     <div className="grid-overlay" aria-hidden="true" />
 

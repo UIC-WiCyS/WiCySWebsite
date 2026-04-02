@@ -244,9 +244,14 @@ height: 90vh;
     text-align: center;
   }
 
-  .mission-card,
+  .mission-card {
+    max-width: 100%;
+    margin-top: 200px; 
+  }
+
   .mission-text {
     max-width: 100%;
+    margin-top: 12px; 
   }
 }
 /* ===== Remember to section ===== */
