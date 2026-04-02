@@ -10,13 +10,14 @@ import pic5 from "../../assets/pics/MainPage/love-bug.png";
 import pic4 from "../../assets/pics/MainPage/Photo4.svg";
 import zebra from "../../assets/pics/MainPage/zebra.svg";
 import imanage from "../../assets/pics/MainPage/imanage.svg";
-import logicGate from "../../assets/pics/MainPage/LogicGate_Logo.svg";
+import logicGate from "../../assets/pics/MainPage/logicGateLogo.svg";
 import tetris from "../../assets/pics/MainPage/tetris.svg";
 
 const IMAGES = [pic1, pic2, pic3];
 
 export default function Home() {
   const [i, setI] = useState(0);
+  const [time, setTime] = useState("");
 
   useEffect(() => {
     const id = setInterval(() => {
@@ -24,6 +25,22 @@ export default function Home() {
     }, 2500);
 
     return () => clearInterval(id);
+  }, []);
+
+  useEffect(() => {
+    const clock = setInterval(() => {
+      const now = new Date();
+
+      setTime(
+        now.toLocaleTimeString([], {
+          hour: "2-digit",
+          minute: "2-digit",
+          second: "2-digit",
+        })
+      );
+    }, 1000);
+
+    return () => clearInterval(clock);
   }, []);
 
   return (
@@ -47,7 +64,7 @@ export default function Home() {
             <div className="cam-overlay" />
             <div className="cam-hud">
               <span className="rec">● REC</span>
-              <span className="time">TO BE ADDED</span>
+              <span className="time">{time}</span>
             </div>
           </div>
         </div>
