@@ -1,6 +1,8 @@
 import TitleBar from "../../components/TitleBar.jsx";
 import folderImg from "../../assets/picsEvents/folder.svg";
 import tamingTheDragon from "../../assets/picsEvents/tamingTheDragon.png";
+import wicysXOverlayApr from "../../assets/picsEvents/wicysXOverlayApr.png";
+import cyberEscapeRoom from "../../assets/picsEvents/cyberEscapeRoom.png";
 import "./Apr.css"; 
 
 export default function Apr() {
@@ -28,7 +30,7 @@ export default function Apr() {
         </div>
         <div className="event-card-active">
             <img
-            src={folderImg}              
+            src={wicysXOverlayApr}              
             alt="WiCyS X Overlay Collab"
             className="event-img"
           />
@@ -41,7 +43,7 @@ export default function Apr() {
         </div>
         <div className="event-card-active">
             <img
-            src={folderImg}             
+            src={cyberEscapeRoom}             
             alt="Cyber Escape Room"
             className="event-img"
           />

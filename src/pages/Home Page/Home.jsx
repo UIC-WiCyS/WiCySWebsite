@@ -10,7 +10,7 @@ import pic5 from "../../assets/pics/MainPage/love-bug.png";
 import pic4 from "../../assets/pics/MainPage/Photo4.svg";
 import zebra from "../../assets/pics/MainPage/zebra.svg";
 import imanage from "../../assets/pics/MainPage/imanage.svg";
-import logicGate from "../../assets/pics/MainPage/logicGateLogo.svg";
+import logicGate from "../../assets/pics/MainPage/logicGate_Logo.svg";
 import tetris from "../../assets/pics/MainPage/tetris.svg";
 
 const IMAGES = [pic1, pic2, pic3];
