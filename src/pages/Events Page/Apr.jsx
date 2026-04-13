@@ -3,6 +3,12 @@ import folderImg from "../../assets/picsEvents/folder.svg";
 import tamingTheDragon from "../../assets/picsEvents/tamingTheDragon.png";
 import wicysXOverlayApr from "../../assets/picsEvents/wicysXOverlayApr.png";
 import cyberEscapeRoom from "../../assets/picsEvents/cyberEscapeRoom.png";
+import sessionHijacking from "../../assets/picsEvents/sessionHijacking.png";
+import protocols from "../../assets/picsEvents/protocols.png";
+import honeypotsAndDeceptions from "../../assets/picsEvents/honeypotsAndDeceptions.png";
+import thriftShop from "../../assets/picsEvents/thriftShop.png";
+
+
 import "./Apr.css"; 
 
 export default function Apr() {
@@ -15,7 +21,7 @@ export default function Apr() {
         <p>Here are all the events happening this month:</p>
 
         <div className="event-grid">
-        <div className="event-card-active">
+        <div className="event-card-passed">
             <img
             src={tamingTheDragon}              
             alt="Taming the Dragon: Ghidra Workshop"
@@ -28,7 +34,7 @@ export default function Apr() {
           
   
         </div>
-        <div className="event-card-active">
+        <div className="event-card-passed">
             <img
             src={wicysXOverlayApr}              
             alt="WiCyS X Overlay Collab"
@@ -41,57 +47,71 @@ export default function Apr() {
           
   
         </div>
-        <div className="event-card-active">
+        <div className="event-card-passed">
             <img
             src={cyberEscapeRoom}             
             alt="Cyber Escape Room"
             className="event-img"
           />
           <h2>Cyber Escape Room</h2>
-          <p><strong>Date & Time:</strong> TBD </p>
-          <p><strong>Location:</strong> TBD </p>
+          <p><strong>Date & Time:</strong> April 9th, 12-1 PM </p>
+          <p><strong>Location:</strong> EIB 271 </p>
           <p><strong>Details:</strong> Teams race to solve a chain of easy puzzles hidden in a “digital evidence folder.” Each solved puzzle gives a code word/number. Combine them to unlock the final “vault” and win. </p>
           
   
         </div>
         <div className="event-card-active">
             <img
-            src={folderImg}             
+            src={sessionHijacking}             
             alt="Session Hijacking"
             className="event-img"
           />
           <h2>Session Hijacking</h2>
           <p><strong>Date & Time:</strong> 4/13/26, 5-6 PM</p>
-          <p><strong>Location:</strong> TBD </p>
+          <p><strong>Location:</strong> EIB 224 </p>
           <p><strong>Details:</strong> Technical workshop about session hijacking! </p>
           
   
         </div>
         <div className="event-card-active">
             <img
-            src={folderImg}             
+            src={protocols}             
             alt="Protocols"
             className="event-img"
           />
           <h2> Protocols </h2>
           <p><strong>Date & Time:</strong> 4/16/26, 4-5 PM</p>
-          <p><strong>Location:</strong> TBD </p>
+          <p><strong>Location:</strong> SELE 2264 </p>
           <p><strong>Details:</strong> Technical workshop about protocols in cyber security! </p>
           
   
         </div>
         <div className="event-card-active">
             <img
-            src={folderImg}             
+            src={honeypotsAndDeceptions}             
             alt="Honeypots and Deceptions"
             className="event-img"
           />
           <h2> Honeypots and Deceptions </h2>
           <p><strong>Date & Time:</strong> 4/21/26, 4-5 PM</p>
-          <p><strong>Location:</strong> TBD </p>
+          <p><strong>Location:</strong> SELE 2264 </p>
           <p><strong>Details:</strong>  Honeypots and deception workshop. Attendees will learn how defenders use digital traps to catch attackers and deploy their own live canary token. </p>
           
         </div>
+        <div className="event-card-active">
+                    <img
+                    src={thriftShop}             
+                    alt="Thrift & Coffee Fundraiser"
+                    className="event-img"
+                  />
+                  <h2>Thrift & Coffee Fundraiser</h2>
+                  <p><strong>Date & Time:</strong> 4/23/26, 12-3 PM </p>
+                  <p><strong>Location:</strong> Quad </p>
+                  <p><strong>Details:</strong> Support Wicys by shopping and thrifting with us! </p>
+                  
+          
+                </div>
+        
         </div>
 
       </section>

@@ -1,11 +1,11 @@
 export const announcements = [
     {
         id: "event-001",
-        date: "3/31",
-        title: "Thrift Event Postponed",
+        date: "4/13",
+        title: "Thrift Event",
         author: "Deeya Rawat",
         summary: "Thrift Event Postponed!",
-        body: `Due to the heavy rain, we will be hosting our thrift event on a later day! Keep an eye out on our socials!! 
+        body: `Thrift event now on April 23rd stop by and shop thrifted items donated by our board!! 
         `
         
     },
