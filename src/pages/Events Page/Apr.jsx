@@ -101,10 +101,10 @@ export default function Apr() {
         <div className="event-card-active">
                     <img
                     src={thriftShop}             
-                    alt="Thrift & Coffee Fundraiser"
+                    alt="Thrift Fundraiser"
                     className="event-img"
                   />
-                  <h2>Thrift & Coffee Fundraiser</h2>
+                  <h2>Thrift Fundraiser</h2>
                   <p><strong>Date & Time:</strong> 4/23/26, 12-3 PM </p>
                   <p><strong>Location:</strong> Quad </p>
                   <p><strong>Details:</strong> Support Wicys by shopping and thrifting with us! </p>
