@@ -112,13 +112,13 @@ export default function Home() {
         </section>
 
         <section className="sponsors">
-          <h2 className="sponsors-title">Meet our partners!</h2>
+          <h2 className="sponsors-title">Meet our sponsors!</h2>
           <div className="sponsors-line" />
 
           <div className="sponsors-grid">
             
-            <div className="partner-card">
-              <img src={logicGate} alt="LogicGate" className="partner-logo" />
+            <div className="sponsors-card">
+              <img src={logicGate} alt="LogicGate" className="sponsors-logo" />
             </div>
 
           </div>
