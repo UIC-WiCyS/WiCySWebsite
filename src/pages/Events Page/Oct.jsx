@@ -87,7 +87,7 @@ export default function Oct() {
           <p><strong>Details:</strong> An introduction to John the Ripper. Which is a well known free password cracking software tool! </p>
           <p>
             <strong>Slides: </strong>
-              <a href="/WiCySWebsite/slides/John-the-Ripper-Presentation" target="_blank">
+              <a href="/WiCySWebsite/slides/John-the-Ripper-Presentation.pdf" target="_blank">
                  John the Ripper Slides
               </a>
             </p>
