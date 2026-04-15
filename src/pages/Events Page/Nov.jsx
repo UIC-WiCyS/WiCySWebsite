@@ -1,6 +1,7 @@
 import TitleBar from "../../components/TitleBar.jsx";
 import mandiant from "../../assets/picsEvents/mandiant.png";
 import gathers from "../../assets/picsEvents/gathers.png";
+import BackButton from "../../components/BackButton.jsx";
 
 
 import "./Nov.css"; 
@@ -11,6 +12,7 @@ export default function Nov() {
       <TitleBar title="November Events" />
 
       <section className="nov-content">
+        <BackButton />
         <h2>Welcome to November 🎉</h2>
         <p>Here are all the events happening this month:</p>
 

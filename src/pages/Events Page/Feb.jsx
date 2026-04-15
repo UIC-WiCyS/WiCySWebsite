@@ -7,6 +7,7 @@ import forensicAnalysis from "../../assets/picsEvents/forensicAnalysis.png";
 import wicysXoverlayfeb26 from "../../assets/picsEvents/wicysXoverlayfeb26.png";
 import burpSuite from "../../assets/picsEvents/burpSuite.png";
 import intoTheFlame from "../../assets/picsEvents/intoTheFlame.png";
+import BackButton from "../../components/BackButton.jsx";
 
 
 import "./Feb.css"; 
@@ -17,6 +18,7 @@ export default function Feb() {
       <TitleBar title="Febuary Events" />
 
       <section className="feb-content">
+        <BackButton />
         <h2>Welcome to Febuary 🎉</h2>
         <p>Here are all the events happening this month:</p>
 
@@ -47,7 +49,7 @@ export default function Feb() {
           <p><strong>Details:</strong> Technical Event in which the students will be taught how to use autopsy(a forensic imaging tool) A guide will be given before the event in order to help students download the proper tool. Students with Mac's will have to create a virtual machine (tutorial will be given before event in guide) and all students will have to download Autopsy. There will be help with creating the VM during the event but it is preferred that the student has started this process on their own. </p>
           <p>
             <strong>Slides: </strong>
-              <a href="/slides/Forensic-Imaging-Lab.pdf" target="_blank">
+              <a href="/WiCySWebsite/slides/Forensic-Imaging-Lab.pdf" target="_blank">
                 Forensic Lab Slides
               </a>
             </p>
@@ -65,7 +67,7 @@ export default function Feb() {
           <p><strong>Details:</strong> Valentines Day Themed CTF, Food: Jimmy John's --- Dress Code for team: Something Red or Pink </p>
           <p>
             <strong>Slides: </strong>
-              <a href="/slides/Caught-The-Lovebug.pdf" target="_blank">
+              <a href="/WiCySWebsite/slides/Caught-The-Lovebug.pdf" target="_blank">
                 Caught The Lovebug Slides
               </a>
             </p>
@@ -95,7 +97,7 @@ export default function Feb() {
           <p><strong>Details:</strong> Technical event where students learn to use the community version of Burp Suite. The students will be given a demo where we provide them with a basic understanding of how to use the tool/how to download. We then set them off to try out a lab, anyone who finishes gets free stickers made by us.  </p>
           <p>
             <strong>Slides: </strong>
-              <a href="/slides/Burp-Suite-Tutorial-Slides.pdf" target="_blank">
+              <a href="/WiCySWebsite/slides/Burp-Suite-Tutorial-Slides.pdf" target="_blank">
                 Burp Suite Slides
               </a>
             </p>
@@ -113,7 +115,7 @@ export default function Feb() {
           <p><strong>Details:</strong> CTF!! </p>
           <p>
             <strong>Slides: </strong>
-              <a href="/slides/Ignite_The_Flame_Presentation.pdf" target="_blank">
+              <a href="/WiCySWebsite/slides/Ignite-The-Flame-Presentation.pdf" target="_blank">
                 Ignite the Flame Slides
               </a>
             </p>
@@ -131,7 +133,7 @@ export default function Feb() {
           <p><strong>Details:</strong> CTF!!! </p>
           <p>
             <strong>Slides: </strong>
-              <a href="/slides/Into-The-Flame.pdf" target="_blank">
+              <a href="/WiCySWebsite/slides/Into-The-Flame.pdf" target="_blank">
                 Into the Flame Slides
               </a>
             </p>

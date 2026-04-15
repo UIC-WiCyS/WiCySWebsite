@@ -5,6 +5,7 @@ import siliconValley from "../../assets/picsEvents/siliconvalley.png";
 import thriftShop from "../../assets/picsEvents/thriftShop.png";
 import gathersFundraiserMarch from "../../assets/picsEvents/gathersFundraiserMarch.png";
 import wicysXaon from "../../assets/picsEvents/wicysXaon.png";
+import BackButton from "../../components/BackButton.jsx";
 
 
 import "./Mar.css"; 
@@ -15,6 +16,7 @@ export default function Mar() {
       <TitleBar title="March Events" />
 
       <section className="mar-content">
+        <BackButton />
         <h2>Welcome to March 🎉</h2>
         <p>Here are all the events happening this month:</p>
 
@@ -44,7 +46,7 @@ export default function Mar() {
           <p><strong>Details:</strong> Aon partner!</p>
           <p>
             <strong>Slides: </strong>
-              <a href="/slides/WiCyS-Aon-GRC.pdf" target="_blank">
+              <a href="/WiCySWebsite/slides/WiCyS-Aon-GRC.pdf" target="_blank">
                 WiCyS Aon GRC Slides
               </a>
             </p>

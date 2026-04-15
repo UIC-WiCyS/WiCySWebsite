@@ -8,7 +8,9 @@ import hackoween from "../../assets/picsEvents/hackoween.JPG";
 import wicysXrasoi from "../../assets/picsEvents/wicysXrasoi.png";
 import wicysXcoldstone from "../../assets/picsEvents/wicysXcoldstone.png";
 import folderImg from "../../assets/picsEvents/folder.svg";
+import BackButton from "../../components/BackButton.jsx";
 import "./Oct.css"; 
+
 
 export default function Oct() {
   return (
@@ -16,6 +18,7 @@ export default function Oct() {
       <TitleBar title="October Events" />
 
       <section className="oct-content">
+        <BackButton />
         <h2>Welcome to October 🎉</h2>
         <p>Here are all the events happening this month:</p>
 
@@ -32,7 +35,7 @@ export default function Oct() {
           <p><strong>Details:</strong> Job how they secured a cyber job,day in the life of what they do in their job, what tools they recommend to learn based off of what they do and what skills they reccomend you should study if you want to x cyber job. heres how to advance your career </p>
           <p>
             <strong>Slides: </strong>
-              <a href="/slides/WiCys-October-2025-Zebra.pdf" target="_blank">
+              <a href="/WiCySWebsite/slides/WiCys-October-2025-Zebra.pdf" target="_blank">
                  Zebra Slides
               </a>
             </p>
@@ -51,7 +54,7 @@ export default function Oct() {
           <p><strong>Details:</strong> Helps students get a grasp of what cybersecurity is and it's importance of risk management with beginner level case studies. </p>
           <p>
             <strong>Slides: </strong>
-              <a href="/slides/WiCyS-Network-Security-Lab-2025.pdf" target="_blank">
+              <a href="/WiCySWebsite/slides/WiCyS-Network-Security-Lab-2025.pdf" target="_blank">
                  Network Security Lab
               </a>
             </p>
@@ -84,7 +87,7 @@ export default function Oct() {
           <p><strong>Details:</strong> An introduction to John the Ripper. Which is a well known free password cracking software tool! </p>
           <p>
             <strong>Slides: </strong>
-              <a href="/slides/John-the-Ripper-Presentation" target="_blank">
+              <a href="/WiCySWebsite/slides/John-the-Ripper-Presentation" target="_blank">
                  John the Ripper Slides
               </a>
             </p>
@@ -103,7 +106,7 @@ export default function Oct() {
           <p><strong>Details:</strong> Casual chat about career navigation within cybersecurity, what certifications to get, how IT experience helps, where to apply for interships. Oriented around people who aren't CS majors or people who aren't sure what career path to take.  </p>
           <p>
             <strong>Slides: </strong>
-              <a href="/slides/Morningstar.pdf" target="_blank">
+              <a href="/WiCySWebsite/slides/Morningstar.pdf" target="_blank">
                  Morningstar Guest Speaker Slides
               </a>
             </p>
@@ -136,7 +139,7 @@ export default function Oct() {
           <p><strong>Details:</strong> What cyber security is like in the field, a day in the life of Incident Response, and walk through an investigation. </p>
           <p>
             <strong>Slides: </strong>
-              <a href="/slides/Sidley.pdf" target="_blank">
+              <a href="/WiCySWebsite/slides/Sidley.pdf" target="_blank">
                  Sidley Guest Speaker Slides
               </a>
             </p>
@@ -154,7 +157,7 @@ export default function Oct() {
           <p><strong>Details:</strong> Navigate a simple website with 3-5 different prompts, if you input incorrect answer a jumpscare pops up, otherwise proceed to next prompt. Lets see who wins? Muhaha </p>
           <p>
             <strong>Slides: </strong>
-              <a href="/slides/Wicys-Hackoween.pdf" target="_blank">
+              <a href="/WiCySWebsite/slides/Wicys-Hackoween.pdf" target="_blank">
                  Hackoween CTF Slides
               </a>
             </p>

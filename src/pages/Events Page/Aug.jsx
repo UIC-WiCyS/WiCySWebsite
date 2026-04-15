@@ -1,5 +1,6 @@
 import TitleBar from "../../components/TitleBar.jsx";
 import folderImg from "../../assets/picsEvents/folder.svg";
+import BackButton from "../../components/BackButton.jsx";
 import "./Aug.css"; 
 
 export default function Aug() {
@@ -8,6 +9,7 @@ export default function Aug() {
       <TitleBar title="August Events" />
 
       <section className="aug-content">
+        <BackButton />
         <h2>Welcome to August 🎉</h2>
         <p>Here are all the events happening this month:</p>
 

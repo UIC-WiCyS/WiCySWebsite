@@ -1,5 +1,6 @@
 import TitleBar from "../../components/TitleBar.jsx";
 import folderImg from "../../assets/picsEvents/folder.svg";
+import BackButton from "../../components/BackButton.jsx";
 import "./May.css"; 
 
 export default function May() {
@@ -8,6 +9,7 @@ export default function May() {
       <TitleBar title="May Events" />
 
       <section className="may-content">
+        <BackButton />
         <h2>Welcome to May 🎉</h2>
         <p> Have a great Summer, see you next fall! </p>
 

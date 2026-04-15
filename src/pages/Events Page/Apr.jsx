@@ -7,16 +7,16 @@ import sessionHijacking from "../../assets/picsEvents/sessionHijacking.png";
 import protocols from "../../assets/picsEvents/protocols.png";
 import honeypotsAndDeceptions from "../../assets/picsEvents/honeypotsAndDeceptions.png";
 import thriftShop from "../../assets/picsEvents/thriftShop.png";
-
+import BackButton from "../../components/BackButton.jsx";
 
 import "./Apr.css"; 
 
 export default function Apr() {
   return (
     <main className="apr-page">
-      <TitleBar title="April Events" />
-
+      <TitleBar title="April Events" />    
       <section className="apr-content">
+        <BackButton />
         <h2>Welcome to April 🎉</h2>
         <p>Here are all the events happening this month:</p>
 
@@ -60,7 +60,7 @@ export default function Apr() {
           
   
         </div>
-        <div className="event-card-active">
+        <div className="event-card-passed">
             <img
             src={sessionHijacking}             
             alt="Session Hijacking"
