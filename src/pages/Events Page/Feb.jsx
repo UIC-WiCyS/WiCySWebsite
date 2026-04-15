@@ -115,7 +115,7 @@ export default function Feb() {
           <p><strong>Details:</strong> CTF!! </p>
           <p>
             <strong>Slides: </strong>
-              <a href="/WiCySWebsite/slides/Ignite-The-Flame-Presentation.pdf" target="_blank">
+              <a href="/WiCySWebsite/slides/Ignite-The-Flame-Presentation" target="_blank">
                 Ignite the Flame Slides
               </a>
             </p>
