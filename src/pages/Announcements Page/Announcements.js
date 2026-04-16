@@ -11,21 +11,21 @@ export const announcements = [
     },
     {
         id: "event-002",
-        date: "3/31",
-        title: "Coffee run in the lounge!",
+        date: "4/16",
+        title: "Protocols Event happening TODAY!",
         author: "Khin Yuupar Myat",
-        summary: "Coffee in the lounge <3 Come support wicys!!",
-        body: `Stop by the wicys x logica lounge and pick up either a WHITE CHOCOLATE LAVENDAR or a CARAMEL coffee for $5!
+        summary: "Protocols Event Today!",
+        body: ` Come to SELE 2264 for our Protocols Event at 4-5 PM!
         `
     },
     {
         id: "event-003",
-        date: "3/20",
-        title: "Off For Break",
-        author: "Coda Richmond",
-        summary: "Spring Break, yay!",
+        date: "4/21",
+        title: "Last Workshop",
+        author: "Ammani Khan and Hooriya Kazmi",
+        summary: "Honeypots and Deceptions workshop on 4/21",
         body: ` 
-        Have a wonderful spring break everyone! We will be back with new events after break :)!
+        Our last workshop of the semester! Come to Honeypots and deception to learn how to lay digital traps and deploy a live canary token. 
         `
     }
 
