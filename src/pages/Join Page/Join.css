@@ -16,7 +16,7 @@
         transform:translateX(0px);
     }
 }
-.reveal{  /* safari support version, might update it later not what i wanted*/
+.reveal{  /* safari support version, might update it later*/
     opacity: 0;
     transform:translateX(-100px);
     transition:1.5s ease;
@@ -88,7 +88,6 @@
     justify-content:center;
     gap: clamp(10px, 3vw, 30px);
     flex-wrap: wrap;
-    /* gap: clamp(10px, 4vw, 60px); */
     height: auto;
 
 }
@@ -106,12 +105,12 @@
 .bx1 h2{
     color: #FFFFFF;
     font-size: clamp(8px, 3vw, 30px);
-    text-align: right;
 }
-.bx2 h2{
+.bx2,.bx2 h2,h1{
     color: #FFFFFF;
     font-size: clamp(8px, 3vw, 30px);
     text-align: left;
+    padding: right 150px;
 }
 .bx2 h1{
     color: #6DD3CE;
@@ -146,19 +145,19 @@
 
 .bx3whskinny h1{
     color: #FFFFFF;
-    font-size: clamp(45px, 3vw, 50px);
+    font-size: clamp(15px, 3vw, 50px);
     text-align: left;
     margin: 0;
 }
 .bx3whskinny h2{
     color: #6DD3CE;
-    font-size:clamp(35px, 3vw,50px);
+    font-size:clamp(15px, 3vw,50px);
     text-align: center;
     margin: 0;
 } 
 .bx3whskinny h3{
     color: #6DD3CE;
-    font-size:clamp(35px, 3vw,50px);
+    font-size:clamp(15px, 3vw,50px);
     text-align: center;
     margin: 0;
 } 
@@ -170,56 +169,67 @@
     width: 70vw;
     margin: 70px auto;
 }
-.joingr:hover{
+
+.joingr, .joinpu {
+    border: none;
+    outline: none;
+    transition: transform 0.5s ease-in-out;
+}
+
+.joingr:hover, .joinpu:hover {
     transform: scale(1.05);
-    transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
-.joingr{
+.joingr {
     background: #B1D34A;
-    padding: 40px;
+    padding: clamp(20px, 3vw, 40px);
     border-radius: 24px;        
-    width:40%;
-    height:clamp(130px, 4vw, 150px);
-    color: #B1D34A; 
+    width: 40%;
+    height: auto;
+    min-height: clamp(100px, 12vw, 150px);
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.joingr h1{
+.joingr h1, .joingr h2 {
     color: #FFFFFF;
-    font-size: clamp(30px, 4.5vw, 40px);
-    margin-top: -20px;
+    font-size: clamp(18px, 3.5vw, 45px);
+    margin: 0;
+    padding: 0;
     text-align: center;
 }
-.joingr h2{
-    color: #FFFFFF;
-    font-size: clamp(23px, 3vw, 35px);
-    text-align: center;
-    margin-top: -20px;
-} 
-.joinpu:hover{
-    transform: scale(1.05);
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
+
+.joingr, .joinpu {
+    border: none;
+    outline: none;
 }
-.joinpu{
+.joinpu {
     background: #9741A3;
-    padding: 40px;
+    padding: clamp(20px, 3vw, 40px);
     border-radius: 24px;        
-    width:40%;
-    height:clamp(130px, 3vw, 150px);
-    color: #9741A3; 
-    margin-left: auto;
+    width: 40%;
+    height: auto;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.joinpu h1,h2{
+    color: #FFFFFF;
+    font-size: clamp(20px, 3vw, 40px);
+    margin-top: -20px;
+    margin: 0;
+    padding-left: 1px
+    
 }
 .joinpu h1{
-    color: #FFFFFF;
-    font-size: clamp(20px, 4.5vw, 40px);
-    margin-top: -20px;
-    text-align: center;
-}
-.joinpu h2{
-    color: #FFFFFF;
-    font-size: clamp(20px, 3vw, 30px);
-    margin-top: -20px;
-    text-align: center;
+    margin-left: 10%;
 }
 
 .bx1, .bx2{
