@@ -7,6 +7,9 @@ import aleena from "../../assets/executive26/aleena2026.jpg"
 import saja from "../../assets/executive26/saja2026.jpg"
 import aye from "../../assets/executive26/aye2026.jpg"
 import raima from "../../assets/executive26/raima2026.jpg"
+import yuuparmod from "../../assets/executive26/yuupar-mod.png"
+import aleenamod from "../../assets/executive26/aleena-mod.png"
+import codamod from "../../assets/executive26/coda-mod.png"
 
 import {Link} from "react-router-dom"
 
@@ -39,13 +42,13 @@ export default function Board(){
 
             <div className= "board">
 
-                <div className="columnMembers">
+                <div className="columnMembers desktopOnly">
 
                     {/* External Vice President: Yuupar */}
                     <div className = "columnTwo"> 
                         <a href="https://www.linkedin.com/in/heramyat/" target="_blank" rel="noopener noreferrer">
                             <div className="captionColumn">
-                                <p className = "name">Yuupar</p>
+                                <p className = "name">Khin Yuupar Myat</p>
                             </div>
 
                             <div className="columnImg"> 
@@ -82,7 +85,7 @@ export default function Board(){
                     <div className = "columnThree"> 
                         {/*<a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">*/}
                             <div className="captionColumn">
-                                <p className = "name"> Aleena</p>
+                                <p className = "name"> Aleena Mehmood</p>
                             </div>
 
                             <div className="columnImg"> 
@@ -98,6 +101,49 @@ export default function Board(){
                     
                 </div>
 
+                {/* this is for MOBILE ONLY, top 3 were not looking good */}
+                <div className="mobileOnly">
+                    <a href="https://www.linkedin.com/in/coda-richmond?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer">
+                        <div className = "leftMember"> 
+                                
+                                <div className="executiveRightPhoto"> 
+                                    <img src={codamod} alt="Photo of the president Coda"/> 
+                                </div>
+
+                                <div className="caption">
+                                    <p className = "name">Coda Richmond</p>
+                                    <p className = "position">President</p>
+                                </div>
+                        </div>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/heramyat/" target="_blank" rel="noopener noreferrer">
+                        <div className = "rightMember"> 
+                
+                            <div className="executiveRightPhoto"> 
+                                <img src={yuuparmod} alt="Photo of the external vice president yuupar"/> 
+                            </div>
+                        
+                            <div className="caption">
+                                <p className = "name">Khin Yuupar Myat</p>
+                                <p className = "position">External Vice President</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <div className = "leftMember"> 
+                            
+                            <div className="executiveRightPhoto"> 
+                                <img src={aleenamod} alt="Photo of the internal vice president aleena"/> 
+                            </div>
+
+                            <div className="caption">
+                                <p className = "name">Aleena Mehmood</p>
+                                <p className = "position">Internal Vice President</p>
+                            </div>
+                    </div>
+                </div>
+
 
                 {/*Engagement Director: Saja*/}
                 {/*<a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">*/}
@@ -108,7 +154,7 @@ export default function Board(){
                             </div>
 
                             <div className="caption">
-                                <p className = "name">Saja</p>
+                                <p className = "name">Saja Bushara</p>
                                 <p className = "position">Engagement Director</p>
                             </div>
                     </div>
@@ -124,7 +170,7 @@ export default function Board(){
                             </div>
                             
                             <div className="caption">
-                                <p className = "name">Aye</p>
+                                <p className = "name">Aye Kyawt Zin</p>
                                 <p className = "position">Treasurer</p>
                             </div>
                     </div>
@@ -138,7 +184,7 @@ export default function Board(){
                         </div>
 
                         <div className="caption">
-                            <p className = "name">Raima</p>
+                            <p className = "name">Raima Chowdhury</p>
                             <p className = "position">Secratary</p>
                         </div>
                     </div>
