@@ -1,5 +1,5 @@
 .app-content {
-    padding-top: 50px;
+    /* padding-top: 50px; */
 }
 .title-card {
     --panel: #01172F;
@@ -7,12 +7,12 @@
     --radius: 8px;
 
     position: relative;
-    width: 70vw;
-    height: 40vw;
-    margin: 24px auto;
+    width: 100vw;
+    height: 50vw;
+    /* margin: 24px auto; */
     border-radius: var(--radius);
     background: var(--panel);
-    outline: 4px solid white;
+    /* outline: 4px solid white; */
     box-shadow: 0 12px 40px rgba(0, 0, 0, .35);
     overflow: hidden;
 
@@ -32,7 +32,7 @@
 
 .title-text {
     font-family: "VT323", monospace;
-    font-size: clamp(4.0rem, 7vw, 6rem);
+    font-size: clamp(1.0rem, 7vw, 6rem);
     line-height: 1.05;
     color: var(--accent);
     letter-spacing: .06em;
@@ -41,8 +41,8 @@
 
 .title-underline {
     display: block;
-    height: 12px;
-    width: 50vw;
+    height: clamp(6px, 1vw, 12px);
+    width: clamp(24vw, 60vw, 60vw);
     margin: 0 auto;
     background: var(--accent);
     border-radius: 2px;
@@ -50,14 +50,14 @@
 
 /* size/position the corner svgs */
 .title-corner{
-  position:absolute;
-  width: clamp(110px, 14vw, 190px);
+  position: absolute;
+  width: clamp(10px, 14vw, 190px);
   height: auto;
   filter: drop-shadow(0 2px 8px rgba(0,0,0,.25));
 }
 
 .title-corner .title-corner-path{
-  fill: #b1d34a;     /* lime */
+  fill: #b1d34a;    
 }
 
 
@@ -65,11 +65,11 @@
 .title-corner.tl{ top: 26px; left: 26px; fill: #b1d34a; }
 .title-corner.br{
   right: 26px; bottom: 26px;
-  transform: scale(-1, -1);   /* mirror TL to BR */
+  transform: scale(-1, -1);   /* mirror */
   rotate: (270deg);
   fill: #b1d34a;
 }
 
-/* Make skinnier / smaller (non-uniform scale) */
+/* make skinnier/smaller */
 .title-corner.--skinny { transform: scaleX(0.85) scaleY(0.85); }
 .title-corner.br.--skinny { transform: scale(-1, -1) scaleX(0.8); } /* mirrored & narrower */

@@ -1,18 +1,49 @@
-.app-content {
-    padding-top: 50px;
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
-/* Parent Container */
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'VT323', monospace;
+}
+
+/* .app-content {
+    padding-top: 100px;
+} */
+
+.typingTitle {
+  width: 100%;
+  max-width: 95vw;
+  text-align: center;
+  font-family: 'VT323', monospace;
+  color: #B1D34A;
+  font-size: clamp(32px, 6vw, 72px);
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 0 0 10px 0;
+  text-shadow: 
+    0 0 10px #B1D34A,
+    0 0 20px #B1D34A;
+  letter-spacing: 2px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
 .SecurityCam {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
 /* security camera screen */
 .cam-frame {
     position: relative; /* makes it a positioning element, needed for HUD REC, other overlays */
-    width: 70vw;
+    width: 65vw;
     height: 40vw;
     /* aspect-ratio: 16/9; come back to this later */
     background: #000; /*if no image is loaded set it to black */
@@ -22,28 +53,28 @@
 }
 
 .cam-overlay {
-    position: absolute; /*due to cam-frame */
-    inset: 0; /* top, bottom, left, right all 0 */
-    background: rgba(0,0,0,0.3); 
+  position: absolute; /*due to cam-frame */
+  inset: 0; /* top, bottom, left, right all 0 */
+  background: rgba(0,0,0,0.3); 
 }
 
 .cam-hud {
-    position: absolute;
-    inset: 0;
-    display: flex;
-    justify-content: space-between;
-    padding: 8px 12px;
-    color: #9741A3;
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 12px;
+  color: #9741A3;
 }
 
 .rec {
-    animation: blink 1s steps(2, jump-none) infinite;
-    font-size: 1.5rem;
+  animation: blink 1s steps(2, jump-none) infinite;
+  font-size: clamp(1.0rem, 1.0rem, 1.5rem);
 }
 @keyframes blink { 50% {opacity: 0.2; } }
 
 .time {
-    font-size: 1.5rem;
+  font-size: 1.0rem;
 }
 
 /* all frames stacked */
@@ -62,11 +93,304 @@
   opacity: 1;
 }
 
-/* (optional) pause slideshow on hover */
 .cam-frame:hover { --paused: 1; }
-/* If you want pause, change the JS interval to use requestAnimationFrame or keep it simple: skip pause for now */
 
-/* (accessibility) reduce animation if user prefers */
-@media (prefers-reduced-motion: reduce) {
-  .cam__img { transition: none; }
+.Home{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh; 
+  height: auto;
+}
+
+.rectangle {
+  width: 100vw;
+  min-height: 100vh;
+  height: auto;
+
+  background-color: #01172F;
+  background-size: 700px;        /* fills rectangle */
+  background-position: center;   /* center it */
+  background-repeat: no-repeat;
+
+  border: 8px solid #2C2C54;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.screen-img{
+width: 90vw;
+height: 90vh;
+}
+
+.screen-wrapper {
+  position: relative;
+  width: 90vw;
+  height: 90vh;
+}
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.overlay-text h1 {
+  color: #B1D34A;
+  font-size: clamp(32px, 6vw, 72px);
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 0 0 10px 0;
+  text-shadow: 
+    0 0 10px #B1D34A,
+    0 0 20px #B1D34A;
+}
+
+.overlay-text h2 {
+  color: white;
+  font-size: clamp(20px, 4vw, 48px);
+  font-weight: bold;
+  margin: 0 0 30px 0;
+  letter-spacing: 3px;
+}
+
+.overlay-text button {
+ background-color: #B1D94A;
+  color: #01172F;
+  border: none;
+  padding: clamp(8px, 1.5vw, 14px) clamp(16px, 3vw, 30px);
+  font-size: clamp(12px, 2vw, 18px);
+  font-weight: bold;
+  cursor: pointer;
+  pointer-events: auto;
+  text-transform: lowercase;
+  font-family: 'VT323', monospace;
+
+}
+
+.overlay-text button:hover {
+  background-color: #B1D94A;
+}
+.mission {
+  width: min(1100px, 92vw);
+  margin: 0 auto;
+  padding: clamp(18px, 3vw, 40px);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(18px, 4vw, 60px);
+}
+
+.mission-card {
+  flex: 1;
+  max-width: 520px;
+  margin-top: 200px;
+}
+
+.mission-img {
+  width: 100%;
+  aspect-ratio: 16 / 9;        
+  object-fit: cover;
+  border-radius: 8px;
+  border: 4px solid rgba(255,255,255,0.18);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+}
+
+
+.mission-text {
+  flex: 1;
+  margin-top: 200px;
+  max-width: 520px;
+  text-align: center;
+}
+
+.mission-text h2 {
+  font-family: 'VT323', monospace;
+  color: #B1D34A;
+  font-size: clamp(24px, 3.5vw, 46px);
+  letter-spacing: 2px;
+  margin: 0;
+  text-shadow: 0 0 10px rgba(177, 211, 74, 0.5);
+}
+
+.mission-line {
+  width: min(320px, 70%);
+  height: 2px;
+  background: rgba(177, 211, 74, 0.6);
+  margin: clamp(10px, 1.2vw, 16px) auto clamp(14px, 2vw, 22px);
+}
+
+.mission-text p {
+  font-family: 'VT323', monospace;
+  color: white;
+  line-height: 1.6;
+  font-size: clamp(14px, 1.8vw, 20px);
+  margin: 0;
+}
+
+
+@media (max-width: 850px) {
+  .mission {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .mission-card {
+    max-width: 100%;
+    margin-top: 200px; 
+  }
+
+  .mission-text {
+    max-width: 100%;
+    margin-top: 12px; 
+  }
+}
+/* ===== Remember to section ===== */
+.remember {
+  width: min(1100px, 92vw);
+  margin: 0 auto;
+  padding: clamp(18px, 3vw, 40px);
+}
+
+.remember-title {
+   margin-top: 100px;
+  text-align: center;
+  font-family: 'VT323', monospace;
+  font-size: clamp(22px, 3vw, 40px);
+  color: #B1D34A;
+  letter-spacing: 2px;
+  margin-bottom: clamp(14px, 2vw, 26px);
+  text-shadow: 0 0 10px rgba(177, 211, 74, 0.35);
+}
+
+.remember-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(14px, 2.5vw, 34px);
+  align-items: start;
+}
+
+.remember-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.remember-photo {
+  width: 100%;
+  border-radius: 10px;
+  border: 4px solid rgba(177, 211, 74, 0.25);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+  overflow: hidden;
+}
+
+.remember-photo img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+}
+
+.remember-word {
+  margin-top: 20px;
+  font-family: 'VT323', monospace;
+  font-size: clamp(22px, 3vw, 44px);
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px rgba(255,255,255,0.15);
+}
+.remember-card:hover .remember-word {
+  color: #9741A3;
+  text-shadow: 0 0 12px rgba(184, 108, 255, 0.7);
+  transform: scale(1.05);
+}
+
+.remember-word.green {
+  color: #B1D34A;
+  text-shadow: 0 0 10px rgba(177, 211, 74, 0.45);
+}
+.mission,
+.remember {
+  width: 100%;              
+  max-width: 1100px;       
+  margin: 0 auto;
+  padding: clamp(18px, 3vw, 40px);
+}
+
+@media (max-width: 850px) {
+  .remember-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.sponsors {
+  width: min(1100px, 92vw);
+  margin: 100px auto 0;   
+  padding: clamp(18px, 3vw, 40px);
+  text-align: center;
+  margin-bottom: 100px;
+
+}
+
+.sponsors-title {
+  font-family: 'VT323', monospace;
+  color: #B1D34A;
+  font-size: clamp(22px, 3vw, 40px);
+  letter-spacing: 2px;
+  margin: 0;       
+  text-shadow: 0 0 10px rgba(177, 211, 74, 0.35);
+}
+
+.sponsors-line {
+  width: min(420px, 70%);
+  height: 2px;
+  background: rgba(177, 211, 74, 0.6);
+  margin: 18px auto 34px; 
+}
+
+.sponsors-grid {
+  display: flex;
+  justify-content: center;
+  gap: clamp(18px, 4vw, 60px);
+  flex-wrap: wrap;
+}
+
+
+.sponsors-card {
+  
+  width: 220px;
+  height: 150px;
+  
+  border-radius: 10px;
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  
+}
+
+.sponsors-logo {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+@media (max-width: 600px) {
+
+  .typingTitle {
+    font-size: clamp(22px, 7vw, 40px);
+    letter-spacing: 1px;
+    padding: 0 14px;
+  }
+
 }
