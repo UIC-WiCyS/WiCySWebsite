@@ -25,17 +25,19 @@ export default function BoardExecutive(){
             </div>
 
             <div className="buttons">
-                <div className = "executiveButton">
-                    <Link to = "/board">
-                        <button>Executive Board</button>
-                    </Link>
-                </div>
+                <Link to="/board" className="executiveButton">
+                    Executive Board
+                </Link>
 
-                <div className = "boardButton">
+            <Link to="/board/members" className="boardButton">
+                    Board
+            </Link>
+
+                {/* <div className = "boardButton">
                     <Link to = "/board/members">
                         <button>Board</button>
                     </Link>
-                </div>
+                </div> */}
             </div>
 
             {/* Board Members */}
