@@ -73,7 +73,7 @@ export default function Apr() {
           
   
         </div>
-        <div className="event-card-active">
+        <div className="event-card-passed">
             <img
             src={protocols}             
             alt="Protocols"
