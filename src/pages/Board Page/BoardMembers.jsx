@@ -9,7 +9,6 @@ import giselle from "../../assets/board26/giselle.jpg"
 import hiba from "../../assets/board26/hiba.jpg"
 import hooriya from "../../assets/board26/hooriya.jpg"
 import malika from "../../assets/board26/malika.jpg"
-import martha from "../../assets/board26/martha.jpg"
 import samira from "../../assets/board26/samira.jpg"
 import simran from "../../assets/board26/simran.jpg"
 import srijani from "../../assets/board26/srijani.jpg"
@@ -26,30 +25,35 @@ export default function BoardExecutive(){
             </div>
 
             <div className="buttons">
-                <div className = "executiveButton">
-                    <Link to = "/board">
-                        <button>Executive Board</button>
-                    </Link>
-                </div>
+                <Link to="/board" className="executiveButton">
+                    Executive Board
+                </Link>
 
-                <div className = "boardButton">
+            <Link to="/board/members" className="boardButton">
+                    Board
+            </Link>
+
+                {/* <div className = "boardButton">
                     <Link to = "/board/members">
                         <button>Board</button>
                     </Link>
-                </div>
+                </div> */}
             </div>
 
             {/* Board Members */}
 
             <div className= "board">
 
-                {/*Board Member 1*/}
+                {/*Board Members: Communication Team*/}
+
                 <a href="https://www.linkedin.com/in/ammanikhan" target="_blank" rel="noopener noreferrer">
                     <div className = "rightMember">    
                         <div className="rightPhoto"> 
                             <img src={ammani}/> 
                         </div>
                         <div className="caption">
+                            <p className = "name">Ammani Khan</p>
+                            <p className = "position">Communications Chair</p>
                             <p className = "name">Ammani Khan</p>
                             <p className = "position">Communications Chair</p>
                         </div>
@@ -81,7 +85,7 @@ export default function BoardExecutive(){
                             <p className = "position">Communications Committee</p>
                         </div>
                     </div>
-                </a>
+                {/*</a>*/}
 
                 {/*Board Member 3*/}
                 {/*<a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">*/}
@@ -120,9 +124,10 @@ export default function BoardExecutive(){
                             <p className = "position">Social Media Committee</p>
                         </div>
                     </div>
-                {/*</a>*/}
+                </a>
 
-                {/*Board Member 4*/}
+                {/*Board Members: Social Media Team*/}
+
                 {/*<a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">*/}
                     <div className = "rightMember"> 
                         <div className="rightPhoto"> 
@@ -135,7 +140,6 @@ export default function BoardExecutive(){
                     </div>
                 {/*</a>*/}
 
-                {/*Board Member 5*/}
                 {/*<a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">*/}
                     <div className = "leftMember">    
                         <div className="leftPhoto"> 
@@ -159,7 +163,7 @@ export default function BoardExecutive(){
                             <p className = "position">Fundraising Committee</p>
                         </div>
                     </div>
-                </a>
+                {/*</a>*/}
 
                 {/*Board Member 9*/}
                 <a href="https://www.linkedin.com/in/martha-barraza?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
@@ -181,11 +185,16 @@ export default function BoardExecutive(){
                         <div className="rightPhoto"> 
                             <img src={angela}/> 
                         </div>
+                            <img src={angela}/> 
+                        </div>
                         <div className="caption">
+                            <p className = "name">Angela Camargo</p>
+                            <p className = "position">Web Admin Committee</p>
                             <p className = "name">Angela Camargo</p>
                             <p className = "position">Web Admin Committee</p>
                         </div>
                     </div>
+                </a>
                 </a>
 
                 {/*Board Member 7*/}
@@ -208,6 +217,8 @@ export default function BoardExecutive(){
                             <img src={valeria}/> 
                         </div>   
                         <div className="caption">
+                            <p className = "name wrap">Valeria Marquez Enriquez</p>
+                            <p className = "position">Web Admin Committee</p>
                             <p className = "name wrap">Valeria Marquez Enriquez</p>
                             <p className = "position">Web Admin Committee</p>
                         </div>
