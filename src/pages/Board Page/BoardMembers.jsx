@@ -13,6 +13,7 @@ import samira from "../../assets/board26/samira.jpg"
 import simran from "../../assets/board26/simran.jpg"
 import srijani from "../../assets/board26/srijani.jpg"
 import valeria from "../../assets/board26/valeria.jpg"
+import martha from "../../assets/board26/martha.jpg"
 
 import {Link} from "react-router-dom"
 
@@ -163,7 +164,7 @@ export default function BoardExecutive(){
                             <p className = "position">Fundraising Committee</p>
                         </div>
                     </div>
-                {/*</a>*/}
+                </a>
 
                 {/*Board Member 9*/}
                 <a href="https://www.linkedin.com/in/martha-barraza?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
@@ -185,8 +186,6 @@ export default function BoardExecutive(){
                         <div className="rightPhoto"> 
                             <img src={angela}/> 
                         </div>
-                            <img src={angela}/> 
-                        </div>
                         <div className="caption">
                             <p className = "name">Angela Camargo</p>
                             <p className = "position">Web Admin Committee</p>
@@ -194,7 +193,6 @@ export default function BoardExecutive(){
                             <p className = "position">Web Admin Committee</p>
                         </div>
                     </div>
-                </a>
                 </a>
 
                 {/*Board Member 7*/}

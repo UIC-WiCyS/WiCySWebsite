@@ -44,7 +44,7 @@ export default function NavBar() {
 
                 <div className="logo-link">
                     <NavLink to="/home" className={link}>
-                        <img src={logo} altName="WiCyS Logo" className="logo"/>
+                        <img src={logo} alt="WiCyS Logo" className="logo"/>
                     </NavLink>
                 </div>
 
@@ -69,7 +69,7 @@ export default function NavBar() {
                 <NavLink to="/join" className={link} onClick={closeMenu}>Join Us</NavLink>
 
                 <NavLink to="/home" className={link} onClick={closeMenu}>
-                    <img src={logo} altName="WiCyS Logo" className="logo mobile-logo"/>
+                    <img src={logo} alt="WiCyS Logo" className="logo mobile-logo"/>
                 </NavLink>
             </div>
                 </div>
