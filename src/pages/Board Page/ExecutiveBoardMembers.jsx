@@ -65,7 +65,7 @@ export default function Board(){
                     {/* President: Coda */}
 
                     <div className = "columnOne"> 
-                        <a href="https://www.linkedin.com/in/coda-richmond?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" 
+                        <a href="https://www.linkedin.com/in/coda-richmond/" 
                         target="_blank" rel="noopener noreferrer">
                             <div className="captionColumn">
                                 <p className = "name"> Coda Richmond</p> 
@@ -83,7 +83,8 @@ export default function Board(){
 
                     {/*Internal Vice President: Aleena */}
                     <div className = "columnThree"> 
-                        {/*<a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">*/}
+                        <a href="https://www.linkedin.com/in/aleena-mehmood/" 
+                        target="_blank" rel="noopener noreferrer">
                             <div className="captionColumn">
                                 <p className = "name"> Aleena Mehmood</p>
                             </div>
@@ -96,7 +97,7 @@ export default function Board(){
                                 <p className = "position">Internal </p>
                                 <p className = "position">Vice President</p>
                             </div>
-                        {/*</a>*/}
+                        </a>
                     </div>
                     
                 </div>
@@ -132,7 +133,8 @@ export default function Board(){
                     </a>
 
                     <div className = "leftMember"> 
-                            
+                        <a href="https://www.linkedin.com/in/aleena-mehmood/" 
+                        target="_blank" rel="noopener noreferrer">
                             <div className="executiveRightPhoto"> 
                                 <img src={aleenamod} alt="Photo of the internal vice president aleena"/> 
                             </div>
@@ -141,6 +143,7 @@ export default function Board(){
                                 <p className = "name">Aleena Mehmood</p>
                                 <p className = "position">Internal Vice President</p>
                             </div>
+                        </a>
                     </div>
                 </div>
 

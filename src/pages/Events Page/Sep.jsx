@@ -43,7 +43,7 @@ export default function Sep() {
           <p><strong>Details:</strong> Our first general board meeting of the semester. We will be going over what WiCyS entails. </p>
           <p>
             <strong>Slides:</strong>
-              <a href="/WiCySWebsite/slides/WiCyS-GBM-September.pdf" target="_blank">
+              <a href="#/WiCySWebsite/slides/WiCyS-GBM-September.pdf" target="_blank">
                  WiCyS GBM September Slides
               </a>
             </p>
@@ -62,7 +62,7 @@ export default function Sep() {
           <p><strong>Details:</strong> An event to learn what cybersecurity is and why it matters. We’ll cover what blue teaming (defense) and red teaming (offense) are all about, and share possible job paths you can take in the field. Perfect for anyone curious about getting started in cybersecurity! </p>
            <p>
             <strong>Slides:</strong>
-              <a href="/WiCySWebsite/slides/Intro-to-cyber-WiCyS-fall-2025.pdf" target="_blank">
+              <a href="#/WiCySWebsite/slides/Intro-to-cyber-WiCyS-fall-2025.pdf" target="_blank">
                  Intro to cyber WiCyS Slides
               </a>
             </p>
@@ -80,7 +80,7 @@ export default function Sep() {
           <p><strong>Details:</strong> This event shows how attackers can use Nmap to scan a target VM and map out its open ports and services. On the defense side, participants will learn to catch and analyze that same scan in real time using Wireshark, helpful to have very basic linux or coding knowledge </p>
           <p>
             <strong>Slides:</strong>
-              <a href="/WiCySWebsite/slides/WiCyS-Network-Security-Lab-2025.pdf" target="_blank">
+              <a href="#/WiCySWebsite/slides/WiCyS-Network-Security-Lab-2025.pdf" target="_blank">
                  Network Security Lab
               </a>
             </p>

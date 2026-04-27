@@ -1,7 +1,7 @@
 // src/main.jsx
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 
 import './index.css'
 
@@ -29,11 +29,11 @@ import Footer from "./components/Footer.jsx";
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/WiCySWebsite"> 
+    <HashRouter> 
 
-    <div className="grid-overlay" aria-hidden="true" />
+      <div className="grid-overlay" aria-hidden="true" />
 
-    <div className="app-content">
+      <div className="app-content">
         <Navbar />
   
         <div className="nav-spacer" aria-hidden="true"></div>
@@ -56,7 +56,7 @@ createRoot(document.getElementById('root')).render(
           <Route path="/about" element={<About />} />
 
           <Route path="/board" element={<Board />} /> 
-          <Route path="/board/members" element={<BoardMemebers />} /> //for board members button
+          <Route path="/board/members" element={<BoardMemebers />} />     {/* /for board members button */}
           
           <Route path="/announcements" element={<Announcements />} />
           <Route path="/join" element={<Join />} />
@@ -66,8 +66,8 @@ createRoot(document.getElementById('root')).render(
 
         <Footer />
         
-    </div>
-    </BrowserRouter>
+      </div>
+    </HashRouter>
   </StrictMode>
 )
 

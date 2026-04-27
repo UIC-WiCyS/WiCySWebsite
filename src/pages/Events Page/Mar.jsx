@@ -46,7 +46,7 @@ export default function Mar() {
           <p><strong>Details:</strong> Aon partner!</p>
           <p>
             <strong>Slides: </strong>
-              <a href="/WiCySWebsite/slides/WiCyS-Aon-GRC.pdf" target="_blank">
+              <a href="#/WiCySWebsite/slides/WiCyS-Aon-GRC.pdf" target="_blank">
                 WiCyS Aon GRC Slides
               </a>
             </p>

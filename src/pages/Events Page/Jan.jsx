@@ -27,7 +27,7 @@ export default function Jan() {
           <p><strong>Details:</strong> This technical workshop introduces students to Wireshark, a widely used and essential tool for network and cybersecurity professionals. Students will learn how to use Wireshark by exploring key features such as sql-like display filters and packet analysis techniques. The session will also include a beginner-friendly lab in which students will investigate network traffic to identify the “bad tomato” attempting to phish company employees. </p>
           <p>
             <strong>Slides: </strong>
-              <a href="/WiCySWebsite/slides/Intro-to-Wireshark.pdf" target="_blank">
+              <a href="#/WiCySWebsite/slides/Intro-to-Wireshark.pdf" target="_blank">
                 Intro to Wireshark Slides
               </a>
             </p>
