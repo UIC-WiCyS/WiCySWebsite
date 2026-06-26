@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import "./Home.css";
 import { ReactTyped } from "react-typed";
 
+import VantaBackground from "./VantaBackground.jsx"
+
 import pic1 from "../../assets/pics/MainPage/Photo1.JPG";
 import pic2 from "../../assets/pics/MainPage/Photo2.JPG";
 import screen from "../../assets/pics/MainPage/screen.svg";
@@ -45,47 +47,58 @@ export default function Home() {
 
   return (
     <div className="Home">
-      <div className="rectangle" style={{ backgroundImage: `url(${tetris})` }}>
-        <div className="typingTitle">
-          <ReactTyped strings={["Women in Cybersecurity @ UIC"]} typeSpeed={50} showCursor={true}/>
-        </div>
-        <div className="SecurityCam">
-          <div className="cam-frame">
-            {IMAGES.map((src, idx) => (
-              <img
-                key={src}
-                src={src}
-                alt={`Security frame ${idx + 1}`}
-                className={`cam__img ${i === idx ? "is-active" : ""}`}
-                aria-hidden={i !== idx}
-              />
-            ))}
+      <div className="rectangle">
+        <div className="landing">
+          <div className="typingTitle">
+            <ReactTyped strings={["WICYS @ UIC"]} typeSpeed={50} showCursor={true}/>
+          </div>
 
-            <div className="cam-overlay" />
-            <div className="cam-hud">
-              <span className="rec">● REC</span>
-              <span className="time">{time}</span>
-            </div>
+          <div className="tagline">
+            <p>
+              Empowering the next generation of  <span style={{color:"#B1D34A", fontFamily: "VT323, monospace", fontSize: "40px", fontWeight:"bold"}}>cyber defenders</span>. 
+            </p>
+            <button className="learn-more">
+              Learn More
+            </button>
           </div>
         </div>
+
+
+        <div className="pic-frame">
+          {IMAGES.map((src, idx) => (
+            <img
+              key={src}
+              src={src}
+              alt={`Security frame ${idx + 1}`}
+              className={`cam__img ${i === idx ? "is-active" : ""}`}
+              aria-hidden={i !== idx}
+            />
+          ))}
+
+        </div>
+
+        <section className="animated-bg">
+          <div className="animated-box">
+            <VantaBackground />
+          </div>
+        </section>
 
         <section className="mission">
           <div className="mission-card">
-            <img className="mission-img" src={pic5} alt="Team photo" />
+            <h1>OUR MISSION</h1>
+            <p>“Recruit, retain, and advance women in cybersecurity.”</p>
+            <p style={{color:"#C2CEAF", fontSize: "clamp(20px, 2vw, 18px)", textAlign: "left", padding:"0px 5vw"}}>— WiCyS National Mission</p>
           </div>
 
           <div className="mission-text">
-            <h2>Our Mission</h2>
-            <div className="mission-line"></div>
-            <p>
-              We are a group of individuals passionate about making a positive
-              impact through collaboration, innovation and community.
-            </p>
+            WiCyS @ UIC is the official student chapter of Women in CyberSecurity, a national nonprofit dedicated to bringing together women in cybersecurity from academia, government, and industry.
+            <br /> <br />
+            We believe that a diverse workforce makes security stronger. Our chapter creates space for students of all backgrounds to learn, compete, connect with professionals, and launch careers in cybersecurity.
           </div>
         </section>
 
         <section className="remember">
-          <div className="remember-title">remember to</div>
+          <div className="remember-title">REMEMBER TO</div>
 
           <div className="remember-grid">
             <div className="remember-card">
@@ -112,7 +125,7 @@ export default function Home() {
         </section>
 
         <section className="sponsors">
-          <h2 className="sponsors-title">Meet our sponsors!</h2>
+          <h2 className="sponsors-title">MEET OUR SPONSORS</h2>
           <div className="sponsors-line" />
 
           <div className="sponsors-grid">
