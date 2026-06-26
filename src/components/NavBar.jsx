@@ -1,7 +1,7 @@
 import {NavLink} from "react-router-dom"
 import { useEffect, useState } from "react";
 import "./NavBar.css"
-import logo from "../assets/wicys_logo.png"
+import logo from "../assets/wicys_full_logo.png"
 import Scroll from "./scroll"
 
 export default function NavBar() {
@@ -38,18 +38,17 @@ export default function NavBar() {
             <Scroll />
 
             <div className="nav-links">
-                <NavLink to="/events" className={link}>Events</NavLink>
-                <NavLink to="/board" className={link}>Our Board</NavLink>
-
-
                 <div className="logo-link">
                     <NavLink to="/home" className={link}>
                         <img src={logo} alt="WiCyS Logo" className="logo"/>
                     </NavLink>
                 </div>
-
                 
+                <div style={{flexGrow: 1}}></div>
+
+                <NavLink to="/events" className={link}>Events</NavLink>
                 <NavLink to="/announcements" className={link}>Announcements</NavLink>
+                <NavLink to="/board" className={link}>Board</NavLink>
                 <NavLink to="/join" className={link}>Join Us</NavLink>
             </div>
 
