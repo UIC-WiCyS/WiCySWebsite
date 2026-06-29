@@ -9,8 +9,8 @@ import Navbar from './components/NavBar.jsx'
 import Home from './pages/Home Page/Home.jsx'
 import Events from './pages/Events Page/Events.jsx'
 import About from './pages/About Page/About.jsx'
-import Board from './pages/Board Page/ExecutiveBoardMembers.jsx' //file for executive members
-import BoardMemebers from './pages/Board Page/BoardMembers.jsx' //file for board members
+import Board26_27 from './pages/Board Page/Board26-27.jsx' //board for 2026-2027
+import Board25_26 from './pages/Board Page/Board25-26.jsx' //board for 2025-2026
 import Announcements from './pages/Announcements Page/Announcements.jsx'
 import Join from './pages/Join Page/Join.jsx'
 import Aug from "./pages/Events Page/Aug.jsx";
@@ -55,8 +55,8 @@ createRoot(document.getElementById('root')).render(
           <Route path="/events/may" element={<May />} />
           <Route path="/about" element={<About />} />
 
-          <Route path="/board" element={<Board />} /> 
-          <Route path="/board/members" element={<BoardMemebers />} />     {/* /for board members button */}
+          <Route path="/board/2026_2027" element={<Board26_27 />} /> 
+          <Route path="/board/2025/2026" element={<Board25_26 />} />   
           
           <Route path="/announcements" element={<Announcements />} />
           <Route path="/join" element={<Join />} />
