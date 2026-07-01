@@ -56,7 +56,7 @@ createRoot(document.getElementById('root')).render(
           <Route path="/about" element={<About />} />
 
           <Route path="/board/2026_2027" element={<Board26_27 />} /> 
-          <Route path="/board/2025/2026" element={<Board25_26 />} />   
+          <Route path="/board/2025_2026" element={<Board25_26 />} />   
           
           <Route path="/announcements" element={<Announcements />} />
           <Route path="/join" element={<Join />} />
