@@ -12,13 +12,13 @@ export default function Board26_27(){
                 <TitleBar title= "Our Board"/>
             </div>
 
-            <div className = "buttons">
-                <Link to= "/board/2026_2027" className = "Year2026_27">
-                    2026-2027                
+            <div className = "yearButtons">
+                <Link to= "/board/2026_2027" className = "currYear">
+                    2026 - 2027                
                 </Link>
 
-                <Link to= "/board/2025_2026" className = "Year2025_26">
-                    2025-2026                
+                <Link to= "/board/2025_2026" className = "Button2025_26">
+                    2025 - 2026
                 </Link>
             </div>
 

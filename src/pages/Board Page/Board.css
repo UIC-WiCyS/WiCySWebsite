@@ -1,8 +1,53 @@
 .TitleBar{
-    margin-bottom: 10%; 
+    margin-bottom: 1%; 
 }
 
 .board {
     display: flex;
     flex-direction: column;    
+}
+
+.yearButtons{
+    width: 100%;
+    max-width: 100vw;
+    margin-top: auto;
+    margin-bottom: 10%; 
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    column-gap: 25px;
+    overflow-x: auto;
+
+    font-size: 20px;
+    font-family: 'VT323', monospace;
+
+    border-bottom: 2px solid #68A1C1;
+    border-top: 2px solid #68A1C1;
+    background-color: #01172F;
+    
+}
+
+.yearButtons::-webkit-scrollbar{
+    display: none;
+}
+
+.yearButtons a:hover{
+    text-decoration: underline;
+    color: #9731A3;
+    font-size: 22px;
+}
+
+.yearButtons a{
+    text-decoration: none;
+    color: #fff;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    flex: 0 0 auto;
+    white-space: nowrap;
+}
+
+.currYear{
+    margin-left: 5%;
 }
