@@ -1,46 +1,36 @@
-.folder-grid {
- display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-  justify-items: center;
-  margin-top: 5rem;
+.events-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
 }
 
-@media (max-width: 1000px) {
-  .folder-grid { grid-template-columns: repeat(2, 1fr); }
+.events-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-@media (max-width: 650px) {
-  .folder-grid { grid-template-columns: 1fr; }
+.flyers-container {
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+  color: white;
 }
 
-.folder-link {
-  text-decoration: none;
+.flyer {
+  width: 400px;
+  height: auto;
+  border-radius: 2rem;
 }
 
-.folder-wrapper {
-  position: relative;
-  width:300px;
-  cursor: pointer;
-  transition: transform 0.2s ease;
-}
+.flyer:hover {
 
-.folder-wrapper:hover {
-  transform: scale(1.05);
-}
-
-.folder-img {
-  width: 100%;
-  display: block;
-}
-
-.folder-label {
-  position: absolute;
-  left: 50%;
-  top: 60%;
-  transform: translate(-50%, -50%);
-  font-weight: 800;
-  font-size: 3rem;
-  color: #00A5E0;
-  pointer-events: none;
 }
