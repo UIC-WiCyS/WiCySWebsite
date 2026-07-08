@@ -15,6 +15,13 @@
   text-align: center;
 }
 
+.events-title {
+  font-family: 'Playfair Display', serif;
+  color: #C2CEAF;
+  font-size: large;
+  text-decoration: underline;
+}
+
 .flyers-container {
   justify-content: center;
   align-items: center;
@@ -29,8 +36,10 @@
   width: 400px;
   height: auto;
   border-radius: 2rem;
+  transition: ease-in-out 0.5s;
 }
 
 .flyer:hover {
-
+  transition: ease-in-out 0.5s;
+  filter: drop-shadow(0px 0px 20px #B1D34A);
 }

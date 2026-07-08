@@ -12,7 +12,7 @@ export default function Events() {
 			<div className="events-main">
 				{Array.from(eventsData).map((semester, i) => (
 					<section className="events-section" key={i}>
-						<h1>{semester.name}</h1>
+						<h1 className="events-title">{semester.name}</h1>
 						<div className="flyers-container">
 							{/* no events */}
 							{(semester.events == [] || semester.events.length == 0) && 
