@@ -1,6 +1,6 @@
 export const boardInfo25 = {
     year: "2025 - 2026",
-    "exec": [
+    "prez": [
         {
             name: "Khin Yuupar Myat",
             role: "External Vice President",
@@ -21,7 +21,9 @@ export const boardInfo25 = {
             linkedin: "https://www.linkedin.com/in/aleena-mehmood/",
             degree: "",
             photo: "src/assets/pics/BoardPhotos/2025-2026/Exec25-26/aleena.jpg"
-        },
+        }
+    ],
+    "exec": [
         {
             name: "Saja Bushara",
             role: "Engagement Director",
@@ -42,7 +44,7 @@ export const boardInfo25 = {
             linkedin: "https://www.linkedin.com/in/raima-chowdhury-uic2027/",
             degree: "",
             photo: "src/assets/pics/BoardPhotos/2025-2026/Exec25-26/raima.jpg"
-        },
+        }
     ],
     "comms": [
         {

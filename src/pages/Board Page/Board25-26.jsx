@@ -2,9 +2,18 @@ import TitleBar from "../../components/TitleBar.jsx";
 import './Board.css'
 
 import {Link} from "react-router-dom"
+import { boardInfo25 } from "./data/board25-26.js";
+
+
+function getRole(role){
+            
+    if (role.toLowerCase().includes("chair") || role.toLowerCase().includes("president")){
+        return "typeA"; /* assigned to presidents and chair members*/
+    }
+    return "typeB"; /* assigned to those in the committe */
+}
 
 export default function Board25_26(){ 
-    
     return (
         <main>
             <div className = "TitleBar">
@@ -21,6 +30,93 @@ export default function Board25_26(){
                 </Link>
             </div> 
 
+
+             <div className="team"> 
+                <h1 className="teamName"> Executive Board </h1> 
+                <div className = "teamMember">
+                    {boardInfo25.prez.map((member,index) => (
+                        <div key={index} className={`member ${getRole(member.role)}`}>
+                            <a href={member.linkedin}>
+                                {member.photo && <img src={member.photo}/>}
+                                <h3>{member.name}</h3>
+                                <p>{member.role}</p>
+                            </a>
+                        </div>
+                    ))}
+                </div>
+                <div className = "teamMember">
+                    {boardInfo25.exec.map((member,index) => (
+                        <div key={index} className={`member ${getRole(member.role)}`}>
+                            <a href={member.linkedin}>
+                                {member.photo && <img src={member.photo}/>}
+                                <h3>{member.name}</h3>
+                                <p>{member.role}</p>
+                            </a>
+                        </div>
+                    ))}
+                </div>
+            </div>
+
+
+            <div className="team">
+                <h1 className="teamName"> Communications </h1> 
+                <div className = "teamMember">
+                    {boardInfo25.comms.map((member,index) => (
+                        <div key={index} className={`member ${getRole(member.role)}`}>
+                            <a href={member.linkedin}>
+                                {member.photo && <img src={member.photo}/>}
+                                <h3>{member.name}</h3>
+                                <p>{member.role}</p>
+                            </a>
+                        </div>
+                    ))}
+                </div>
+            </div>
+            
+            <div className="team">
+                <h1 className="teamName"> Social Media </h1> 
+                <div className = "teamMember">
+                    {boardInfo25.media.map((member,index) => (
+                        <div key={index} className={`member ${getRole(member.role)}`}>
+                            <a href={member.linkedin}>
+                                {member.photo && <img src={member.photo}/>}
+                                <h3>{member.name}</h3>
+                                <p>{member.role}</p>
+                            </a>
+                        </div>
+                    ))}
+                </div>
+            </div>
+
+            <div className="team">     
+                <h1 className="teamName"> Fundraising </h1>
+                <div className = "teamMember">
+                    {boardInfo25.fund.map((member,index) => (
+                        <div key={index} className={`member ${getRole(member.role)}`}>
+                            <a href={member.linkedin}>
+                                {member.photo && <img src={member.photo}/>}
+                                <h3>{member.name}</h3>
+                                <p>{member.role}</p>
+                            </a>
+                        </div>
+                    ))}
+                </div>
+            </div>
+
+            <div className="team"> 
+                <h1 className="teamName"> Wed Dev </h1>
+                <div className = "teamMember">
+                    {boardInfo25.web.map((member,index) => (
+                        <div key={index} className={`member ${getRole(member.role)}`}>
+                            <a href={member.linkedin}>
+                                {member.photo && <img src={member.photo}/>}
+                                <h3>{member.name}</h3>
+                                <p>{member.role}</p>
+                            </a>
+                        </div>
+                    ))}
+                </div>
+            </div>
 
         </main>
     );

@@ -1,6 +1,6 @@
 export const boardInfo26 = {
     year: "2026 - 2027",
-    "exec": [
+    "prez": [
         {
             name: "Breanna Brown",
             role: "Co-President",
@@ -29,6 +29,8 @@ export const boardInfo26 = {
             degree: "",
             photo: "src/assets/pics/BoardPhotos/2026-2027/Exec/Srijani.jpg"
         },
+    ],
+    "exec": [
         {
             name: "Samira Ali",
             role: "Engagement Director",

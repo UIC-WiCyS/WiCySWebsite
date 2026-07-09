@@ -26,7 +26,6 @@
     border-bottom: 2px solid #68A1C1;
     border-top: 2px solid #68A1C1;
     background-color: #01172F;
-    
 }
 
 .yearButtons::-webkit-scrollbar{
@@ -36,7 +35,7 @@
 .yearButtons a:hover{
     text-decoration: underline;
     color: #9731A3;
-    font-size: 22px;
+    font-size: 21px;
 }
 
 .yearButtons a{
@@ -50,4 +49,133 @@
 
 .currYear{
     margin-left: 5%;
+}
+
+@media screen and (max-height: 300px) {
+	button {
+		margin-top: 40px;
+	}
+}
+
+.team{ /*includes the title and members*/
+    margin-bottom: 100px;
+}
+
+.teamName{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: flex-start;
+
+    color: #C2CEAF;
+    font-size: 35px;
+
+    color: #C2CEAF;
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: normal;
+}
+
+.teamMember {
+    display: flex;
+    gap: 30px;
+
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    padding: 20px;
+    justify-items: center;
+    justify-content: center;
+}
+
+.teamMember a{
+    width: 250px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: .5px; 
+
+    border-radius: 30px;
+    border: 1px solid #fff;
+    background-color: #061E37;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    transition: all 0.4s ease-in-out;
+}
+
+/*Presidents and Chair Members (typeA)*/
+.member.typeA a:hover{
+    border: 1px solid #9731A3;
+    background: #01172fc1;
+    box-shadow: 0 0 50px 0 #9731A3;
+}
+
+/*Executives and Committees Members */
+.member.typeB a:hover{
+    border: 1px solid #B1D34A;
+    background: #01172fc1;
+    box-shadow: 0 0 50px 0 #B1D34A;
+}
+
+.member.typeA  a:hover img{
+    width: 160px;
+    height: 160px;
+    border: 2px solid #9731A3;
+    
+    transition: all 0.4s ease-in-out;
+
+}
+
+.member.typeB  a:hover img{
+    width: 160px;
+    height: 160px;
+    border: 2px solid #B1D34A;
+    transition: all 0.4s ease-in-out;
+}
+
+/*images*/
+.teamMember img{
+    display: block;
+    justify-content: center;
+    margin-top: 0%;
+    margin-bottom: 20%;
+
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 179px;
+    border: 1px solid #ffffff;
+
+}
+
+h3,p{
+    margin:0;
+    padding: 0;
+    font-family: Inter;
+
+}
+
+/*name*/
+.teamMember h3{
+    display: flex;
+    justify-content: center;
+    color:#fff;
+    font-size: 20px;
+    font-weight: 800;
+
+
+}
+
+/*position*/
+.teamMember p{
+    display: flex;
+    justify-content: center;
+    color: #B1D34A;
+    font-size: 15px;
+    font-weight: 700;
 }
