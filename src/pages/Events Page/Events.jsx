@@ -24,7 +24,6 @@ export default function Events() {
 									{/* <img src={new URL(`../../assets/eventFlyers/${item.img}`, import.meta.url).href} alt={item.alt} />  */}
 									<img className="flyer" src={`eventFlyers/${item.img}`} alt={item.alt} /> 
 								</div>
-									
 							)}
 						</div>
 					</section>
