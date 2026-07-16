@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <div className="grid-overlay" aria-hidden="true" />    
+      <div className="" aria-hidden="true" />    
     </>
   )
 }
