@@ -82,6 +82,7 @@
 
 .teamMember {
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
 
     max-width: 1200px;
