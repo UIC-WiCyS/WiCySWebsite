@@ -63,7 +63,7 @@ export default function NavBar() {
                   ✕  
 
                 <NavLink to="/events" className={link} onClick={closeMenu}>Events</NavLink>
-                <NavLink to="/board" className={link} onClick={closeMenu}>Our Board</NavLink>
+                <NavLink to="/board/2026_2027" className={link} onClick={closeMenu}>Our Board</NavLink> 
                 <NavLink to="/announcements" className={link} onClick={closeMenu}>Announcements</NavLink>
                 <NavLink to="/join" className={link} onClick={closeMenu}>Join Us</NavLink>
 
