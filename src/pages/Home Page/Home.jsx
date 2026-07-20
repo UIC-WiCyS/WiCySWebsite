@@ -4,6 +4,7 @@ import { ReactTyped } from "react-typed";
 
 import VantaBackground from "./VantaBackground.jsx"
 
+import coda_pic from "../../assets/pics/MainPage/coda_pic.jpg";
 import pic1 from "../../assets/pics/MainPage/Photo1.JPG";
 import pic2 from "../../assets/pics/MainPage/Photo2.JPG";
 import screen from "../../assets/pics/MainPage/screen.svg";
@@ -15,7 +16,7 @@ import imanage from "../../assets/pics/MainPage/imanage.svg";
 import logicGate from "../../assets/pics/MainPage/logicGateLogo.png";
 import tetris from "../../assets/pics/MainPage/tetris.svg";
 
-const IMAGES = [pic1, pic2, pic3];
+const IMAGES = [coda_pic];
 
 export default function Home() {
   const [i, setI] = useState(0);

@@ -18,8 +18,9 @@
 .events-title {
   font-family: 'Playfair Display', serif;
   color: #C2CEAF;
-  font-size: large;
+  font-size: xx-large;
   text-decoration: underline;
+  filter: drop-shadow(0px 0px 20px #973197);
 }
 
 .flyers-container {
@@ -33,7 +34,7 @@
 }
 
 .flyer {
-  width: 400px;
+  width: 360px;
   height: auto;
   border-radius: 2rem;
   transition: ease-in-out 0.5s;

@@ -22,7 +22,7 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <HashRouter> 
 
-      <div className="grid-overlay" aria-hidden="true" />
+      <div className="" aria-hidden="true" />
 
       <div className="app-content">
         <Navbar />

@@ -11,8 +11,8 @@ a:hover {
 
     display: flex;
     align-items: center;
-    gap: 12px;
-    padding: 0 12px;
+    gap: 16px;
+    padding: 0 20px;
     color: #C2CEAF;
     background-color: #01172F;
     width: 100%;
