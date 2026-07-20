@@ -48,7 +48,7 @@ export default function NavBar() {
 
                 <NavLink to="/events" className={link}>Events</NavLink>
                 <NavLink to="/announcements" className={link}>Announcements</NavLink>
-                <NavLink to="/board" className={link}>Board</NavLink>
+                <NavLink to="/board/2026_2027" className={link}>Board</NavLink>
                 <NavLink to="/join" className={link}>Join Us</NavLink>
             </div>
 
