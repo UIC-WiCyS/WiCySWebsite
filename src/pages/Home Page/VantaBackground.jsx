@@ -19,8 +19,8 @@ export default function VantaBackground(props) {
       color: 0xb1d34a,
       backgroundColor: 0x01172f,
       points: 16.00,
-      maxDistance: 31.00,
-      spacing: 18.00
+      maxDistance: 32.00,
+      spacing: 24.00
     }))
     }
     return () => {

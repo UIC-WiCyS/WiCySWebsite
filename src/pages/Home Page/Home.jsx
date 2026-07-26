@@ -1,3 +1,4 @@
+import {NavLink} from "react-router-dom"
 import { useEffect, useState } from "react";
 import "./Home.css";
 import { ReactTyped } from "react-typed";
@@ -58,9 +59,9 @@ export default function Home() {
             <p>
               Empowering the next generation of  <span style={{color:"#B1D34A", fontFamily: "VT323, monospace", fontSize: "40px", fontWeight:"bold"}}>cyber defenders</span>. 
             </p>
-            <button className="learn-more">
+            <NavLink to="/join" className="learn-more">
               Learn More
-            </button>
+            </NavLink>
           </div>
         </div>
 
@@ -81,6 +82,9 @@ export default function Home() {
         <section className="animated-bg">
           <div className="animated-box">
             <VantaBackground />
+            <div style={{display: "flex", width: "100%", justifyContent: "center", paddingTop: "108px"}}>
+              <h2 style={{position: "relative", zIndex: 100, color: "#B1D34A", fontSize: "108px"}}><span style={{textDecoration: "underline"}}>THE</span> place to be :)</h2>
+            </div>
           </div>
         </section>
 
