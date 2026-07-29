@@ -1,3 +1,75 @@
 .TitleBar{
     margin-bottom: 1%; 
 }
+
+.secOne{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 5px; 
+    background-color: #061E37;
+}
+
+.secOne img{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:5vw;
+    margin-bottom:.5vw;
+    width: 80%;
+    height: auto;
+    aspect-ratio: 711/331;
+
+    border-radius: 30px;
+}
+
+.secOne h1{
+    color: #B1D34A;
+    text-align: center;
+    margin-top:.5vw;
+    margin-bottom:.5vw;
+    font-family: VT323;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.secOne h2{
+    color: #FFF;
+    text-align: center;
+    margin-top:.5vw;
+    margin-bottom:5vw;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.secTwo{
+    display: flex;
+    justify-content: center;
+    margin-top:15vw;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 5px; 
+
+}
+
+
+.secTwo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 5px; 
+}
+
+.secTwo img{
+    width: 250px;
+    height: 350px;
+
+}
