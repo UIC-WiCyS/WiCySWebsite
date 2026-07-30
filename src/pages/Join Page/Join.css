@@ -133,6 +133,7 @@
     flex-direction: column;
     gap: 5px; 
     background-color: #061E37;
+    transition: all 0.4s ease-in-out;
 }
 
 .title{
@@ -160,8 +161,8 @@
     border-radius: 30px;
     border: 5px solid #B1D34A;
     background: #C7DE83;
+    transition: all 0.4s ease-in-out;
 }
-
 
 .nMembership{
     width: 1028px;
@@ -173,8 +174,7 @@
     border-radius: 30px;
     border: 5px solid #432F62;
     background: #E899DC;
-
-
+    transition: all 0.4s ease-in-out
 }
 
 .join h1{
@@ -201,6 +201,20 @@
     line-height: normal;
 
 }
+
 .join .lastIteam{
     margin-bottom:5vw;
+}
+
+.uChapter:hover{
+    transform: scale(1.03);
+    letter-spacing: 2px;
+    box-shadow: 0 0 0 5px #B1D34A;
+}
+
+.nMembership:hover{
+    transform: scale(1.03);
+    letter-spacing: 3px;
+    box-shadow: 0 0 0 5px #9731A3;
+
 }
