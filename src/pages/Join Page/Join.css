@@ -56,20 +56,71 @@
     flex-wrap: wrap;
     flex-direction: column;
     gap: 5px; 
-
 }
 
-
-.secTwo{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    gap: 5px; 
+.collage{
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.secTwo img{
-    width: 250px;
-    height: 350px;
+/*First Image*/
+.collage .rowOne img:first-child{
+    width: 381px;
+    height: 422px;
+    aspect-ratio: 65/72;
+    margin-right: 45px;
+    border-radius: 30px;
+    gap: 10px
+}
 
+/*Second Image*/
+.collage .rowOne img:nth-child(2){
+    width: 587px;
+    height: 422px;
+    aspect-ratio: 577/404;
+    border-radius: 30px;
+    gap: 10px
+}
+
+/*Thrid Image*/
+.collage .rowTwo img:first-child{
+    width: 579px;
+    height: 435px;
+    aspect-ratio: 189/142;
+    margin-top: 50px;
+    margin-right: 45px;
+    border-radius: 30px;
+}
+
+/*Fourth Image*/
+.collage .rowTwo img:nth-child(2){
+    width: 383px;
+    height: 435px;
+    aspect-ratio: 383/428;
+    margin-top: 50px;
+    border-radius: 30px; 
+}
+
+.secTwo h1{
+    color: #9731A3;
+    text-align: center;
+    margin-top:.5vw;
+    margin-bottom:.5vw;
+    font-family: VT323;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.secTwo h2{
+    color: #FFF;
+    text-align: center;
+    margin-top:.5vw;
+    margin-bottom:5vw;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
