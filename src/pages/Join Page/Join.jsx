@@ -36,26 +36,17 @@ return (
     </div>
     
     <div className="join">
-        <h1> Join WiCyS today!  </h1>
-        <h2>UIC: Our chapter of WiCyS on campus for FREE</h2>
-        <h3>National Member: Annual Membership Fee</h3>
-    </div>
-      
-    <div className="join">
-        <button onClick={()=>window.location.href='https://tr.ee/xiblB3PHxi'} className="joingr">
-        
-        <div className="gText">
-            <h1>UIC</h1>
-            <h2> CHAPTER</h2>
-        </div>
+        <div className="title"> Join WiCyS Today!</div>
 
-        </button>  
-            <button onClick={()=>window.location.href='https://womenincybersecuritywicys.my.site.com/registration/s/'} className="joinpu">
-            <div className="pText">
-            <h1>NATIONAL</h1>
-            <h2>MEMBERSHIP</h2>
-            </div>   
+        <button onClick={()=>window.location.href='https://tr.ee/xiblB3PHxi'} className="uChapter">
+                <h1>UIC CHAPTER</h1>
+        </button> 
+        <h2>Our chapter of WiCyS on campus for FREE </h2>
+
+        <button onClick={()=>window.location.href='https://womenincybersecuritywicys.my.site.com/registration/s/'} className="nMembership">
+            <h1>NATIONAL MEMBERSHIP</h1> 
         </button>
+        <h2 className="lastIteam">Annual Member Fee</h2>
         
     </div>
     </main>

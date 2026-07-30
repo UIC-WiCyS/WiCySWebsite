@@ -52,7 +52,6 @@
 .secTwo{
     display: flex;
     justify-content: center;
-    margin-top:15vw;
     flex-wrap: wrap;
     flex-direction: column;
     gap: 5px; 
@@ -61,6 +60,8 @@
 .collage{
     margin-left: auto;
     margin-right: auto;
+    margin-top:5vw;
+    margin-bottom:.5vw;
 }
 
 /*First Image*/
@@ -123,4 +124,83 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.join{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 5px; 
+    background-color: #061E37;
+}
+
+.title{
+    width: 708px;
+    color: #C2CEAF;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:5vw;
+    margin-bottom:.5vw;
+    font-family: VT323;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.uChapter{
+    width: 1028px;
+    height: 251px;
+    margin-top:.5vw;
+    margin-bottom:.5vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    border: 5px solid #B1D34A;
+    background: #C7DE83;
+}
+
+
+.nMembership{
+    width: 1028px;
+    height: 251px;
+    margin-top:.5vw;
+    margin-bottom:.5vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    border: 5px solid #432F62;
+    background: #E899DC;
+
+
+}
+
+.join h1{
+    color: #061E37;
+    text-align: center;
+    margin-top:.5vw;
+    margin-bottom:.5vw;
+    font-family: VT323;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.join h2{
+    color: #C2CEAF;
+    text-align: center;
+    margin-top:.5vw;
+    margin-bottom:1vw;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.join .lastIteam{
+    margin-bottom:5vw;
 }
