@@ -3,45 +3,33 @@ import "./Announcements.css"
 import { announcements } from './Announcements.js';
 import TitleBar from "../../components/TitleBar.jsx";
 export default function Announcements(){ 
-    const [featured, ...older] = announcements;
-
     return (
         <main>
             <TitleBar title="Announcements" />
+                {/* banner */}
+                <div className='announcements-banner'>
+                    <p className='anno-banner-txt'>
+                        you rock :)
+                    </p>
+                </div>
             <div className="announcements">
-                <aside className="directory-card">
-                    <ul>
-                        {announcements.map((a, index) => (
-                            <li key={a.id}>
-                                {index === 0 && <span className="tag-new"></span>}
-                                <a href={`#${a.id}`}>{a.summary}</a>
-                            </li>
-                        ))}
-                    </ul>
-                </aside>
-                
-                {/* for newest blog post to always be featured on top of page */}
-                <section id={featured.id} className="announcement-card featured-card">
-                        <header>
-                            <h3>{featured.date} {featured.title}</h3>
-                            <p className="announcement-meta">By {featured.author}</p>
-                        </header>
-                        <p className="announcement-body">
-                            {featured.body}
-                        </p>
-                </section>
 
-                {older.map(a => (
-                    <article id = {a.id} key = {a.id} className="announcement-card wide-card">
-                        <header>
-                            <h3>{a.date} {a.title}</h3>
-                            <p className="announcement-meta">By {a.author}</p>
-                        </header>
-                        <p className="announcement-body">
-                            {a.body}
-                        </p>
-                    </article>
-                ))}
+                {/* title */}
+                <h3 className='announcements-text'>Stay up to date with us!</h3>
+
+                {/* texts */}
+                <div className='announcements'>
+                    {announcements.map((item, id)=>(
+                        <div key={id} className="announcements-card" style={{backgroundColor: id % 2 == 0 ? "#C7DE83":"#E899DC", textAlign: id%2==0 ? "right" : "left", alignSelf: id%2==0 ? "end" : "start"}}>
+                            <p>
+                                {item.body}
+                            </p>
+                            <p>
+                                {item.date}
+                            </p>
+                        </div>
+                    ))}
+                </div>
             </div>
         </main>
     )
