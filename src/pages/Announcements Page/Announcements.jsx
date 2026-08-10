@@ -20,7 +20,7 @@ export default function Announcements(){
                 {/* texts */}
                 <div className='announcements'>
                     {announcements.map((item, id)=>(
-                        <div key={id} className="announcements-card" style={{backgroundColor: id % 2 == 0 ? "#C7DE83":"#E899DC", textAlign: id%2==0 ? "right" : "left", alignSelf: id%2==0 ? "end" : "start"}}>
+                        <div key={id} className="announcements-card" style={{backgroundColor: id % 2 == 0 ? "#C7DE83":"#E899DC", textAlign: id%2==0 ? "right" : "left", alignSelf: id%2==0 ? "end" : "start", borderRadius: id%2==0 ? "50px 50px 5px 50px" : "50px 50px 50px 5px"}}>
                             <p>
                                 {item.body}
                             </p>

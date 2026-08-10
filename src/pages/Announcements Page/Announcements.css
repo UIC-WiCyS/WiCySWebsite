@@ -47,14 +47,17 @@
     margin: 8px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 820px) {
   .announcements {
-    grid-template-columns: 1fr;
-    padding: clamp(32px, 6vw, 72px);
-    padding: 1.5rem 1rem;
     gap: 1.25rem;
   }
 
+    .announcements-card {
+        font-size: large;
+        max-width: 100%;
+        margin: 1rem;
+        padding: 8px 16px;
+    }
 }
 
 @keyframes marquee {
