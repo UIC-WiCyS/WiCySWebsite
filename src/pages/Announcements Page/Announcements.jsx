@@ -2,16 +2,19 @@ import React from 'react';
 import "./Announcements.css"
 import { announcements } from './Announcements.js';
 import TitleBar from "../../components/TitleBar.jsx";
+import Marquee from "react-fast-marquee";
+
 export default function Announcements(){ 
     return (
         <main>
             <TitleBar title="Announcements" />
-                {/* banner */}
-                <div className='announcements-banner'>
-                    <p className='anno-banner-txt'>
-                        you rock :)
-                    </p>
-                </div>
+            {/* banner */}
+            <div className='announcements-banner'>
+                <Marquee autoFill={true} gradient={true} gradientColor="#384E77">
+                    <p style={{padding: "0px 9px"}}>you rock :)</p>
+                </Marquee>
+            </div>
+
             <div className="announcements">
 
                 {/* title */}
