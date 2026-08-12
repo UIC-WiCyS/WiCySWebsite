@@ -21,8 +21,8 @@
     width: 80%;
     height: auto;
     aspect-ratio: 711/331;
-
     border-radius: 30px;
+    box-shadow: 0 0 50px 0 #021833;
 }
 
 .secOne h1{
@@ -64,6 +64,10 @@
     margin-bottom:.5vw;
 }
 
+.collage img{
+    box-shadow: 0 0 50px 0 #021833;
+}
+
 /*First Image*/
 .collage .rowOne img:first-child{
     width: 381px;
@@ -71,7 +75,7 @@
     aspect-ratio: 65/72;
     margin-right: 45px;
     border-radius: 30px;
-    gap: 10px
+    gap: 10px;
 }
 
 /*Second Image*/
@@ -80,7 +84,7 @@
     height: 422px;
     aspect-ratio: 577/404;
     border-radius: 30px;
-    gap: 10px
+    gap: 10px;
 }
 
 /*Thrid Image*/
@@ -154,13 +158,14 @@
 .uChapter{
     width: 1028px;
     height: 251px;
-    margin-top:.5vw;
+    margin-top:5vw;
     margin-bottom:.5vw;
     margin-left: auto;
     margin-right: auto;
     border-radius: 30px;
     border: 5px solid #B1D34A;
     background: #C7DE83;
+    box-shadow: 0 0 50px 0 #010e1d;
     transition: all 0.4s ease-in-out;
 }
 
@@ -174,7 +179,8 @@
     border-radius: 30px;
     border: 5px solid #432F62;
     background: #E899DC;
-    transition: all 0.4s ease-in-out
+    box-shadow: 0 0 50px 0 #010e1d;
+    transition: all 0.4s ease-in-out;
 }
 
 .join h1{
@@ -193,7 +199,7 @@
     color: #C2CEAF;
     text-align: center;
     margin-top:.5vw;
-    margin-bottom:1vw;
+    margin-bottom:5vw;
     font-family: Inter;
     font-size: 30px;
     font-style: normal;
@@ -206,13 +212,15 @@
 }
 
 .uChapter:hover{
-    transform: scale(1.03);
+    transform: scale(1);
     letter-spacing: 2px;
-    box-shadow: 0 0 0 5px #B1D34A;
+    box-shadow: 0 0 25px 0 #b1d34aaa;
+    border: #B1D34A;
 }
 
 .nMembership:hover{
-    transform: scale(1.03);
+    transform: scale(1);
     letter-spacing: 3px;
-    box-shadow: 0 0 0 5px #9731A3;
+    box-shadow: 0 0 25px 0 #9831a3e6;
+    border: #9731A3;
 }
