@@ -1,12 +1,20 @@
-.announcements {
+.announcements, .announcements-cont {
     display: flex;
     flex-direction: column;
-    gap: 2rem 2.5rem;
+    gap: 1rem;
     text-decoration: none;
     margin: 0px 32px;
     margin-bottom: 32px;
     scroll-behavior: smooth;
     font-family: "VT323", monospace;
+    background-color: #01172F;
+}
+
+.announcements-cont {
+    background-color: #061E37;
+    padding: 32px 0px;
+    border-radius: 32px;
+    text-align: center;
 }
 
 .announcements-banner {
@@ -18,55 +26,64 @@
     position: relative;
 }
 
-.anno-banner-txt {
-    animation: marquee 8s linear infinite;
-}
-
-.announcements-text {
+.announcements-head {
     color: #9731A3;
     align-self: center;
     font-size: x-large;
     text-decoration: underline;
 }
 
-.announcements-card {
-    line-height: 1.25;
+.announcements-card, .announcements-text {
+    line-height: 1.5;
     display: flex;
     text-decoration: none;
     flex-direction: column;
-    align-self: center;
     font-size: x-large;
     border-radius: 50px;
     padding: 8px 32px;
-    width: fit-content;
-    max-width: 50%;
+    /* width: fit-content; */
     text-wrap: wrap;
-    height: fit-content;
-    margin: 1rem 16rem;
+    /* height: fit-content; */
+    margin: 1rem 20rem;
 }
 
-.announcements-card p {
-    margin: 8px;
+.announcements-text {
+    max-width: 75%;
+    margin: 0px;
 }
+
+.text-heart:hover {
+    fill: #0F8B8D;
+    transform: scale(1.25);
+    transition: all 0.15s ease-in-out;
+}
+
 
 @media (max-width: 820px) {
     .announcements {
         gap: 1.25rem;
+        margin: 0px;
     }
 
     .announcements-banner {
         width: 100vw;
     }
 
+    .announcements-cont {
+        margin: 4px;
+    }
+
     .announcements-card {
         font-size: large;
         max-width: 100%;
+        margin: 0px;
+        padding: 8px 16px;
+    }
+
+    .announcements-text {
+        font-size: large;
+        max-width: 80%;
         margin: 1rem;
         padding: 8px 16px;
     }
-}
-
-@keyframes marquee {
-    0%   { transform: translate(0, 0); }
-    100% { transform: translate(-100%, 0); }
 }
