@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react'
 import "./Announcements.css"
 import { announcements } from './Announcements.js';
 import TitleBar from "../../components/TitleBar.jsx";
@@ -6,6 +6,12 @@ import Marquee from "react-fast-marquee";
 import {CheckCheck, Heart} from "lucide-react";
 
 export default function Announcements(){ 
+    const announcement_end = useRef(null);
+    
+    useEffect(() => {
+        announcement_end.current?.scrollIntoView({ behavior: "smooth", block: "start",});
+    }, []);
+
     return (
         <main>
             <TitleBar title="Announcements" />
@@ -57,6 +63,9 @@ export default function Announcements(){
                         </div>
                     ))}
                 </div>
+
+                {/* dummy div */}
+                <div ref={announcement_end} style={{scrollBehaviour: "smooth"}}/> 
             </div>
         </main>
     )

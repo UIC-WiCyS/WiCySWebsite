@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .announcements, .announcements-cont {
     display: flex;
     flex-direction: column;
