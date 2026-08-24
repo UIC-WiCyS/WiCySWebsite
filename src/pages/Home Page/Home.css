@@ -130,6 +130,14 @@ body {
   font-size: 24px;
   font-weight: bold;
   width: fit-content;
+  transition: all 0.2s ease-in-out;
+}
+
+.learn-more:hover {
+  background-color: #9731A3;
+  color: black;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
 }
 
 @media (max-width: 850px) {
