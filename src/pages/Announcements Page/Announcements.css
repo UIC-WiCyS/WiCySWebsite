@@ -50,6 +50,7 @@ html {
     text-wrap: wrap;
     /* height: fit-content; */
     margin: 1rem;
+    font-family: "VT323", monospace;
 }
 
 .announcements-text {
