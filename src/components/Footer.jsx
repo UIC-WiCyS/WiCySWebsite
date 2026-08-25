@@ -11,7 +11,7 @@ export default function Footer () {
                 <p style={{fontSize: "smaller"}}>We love our committed members. 
                     <br /> Remember to stay involved, and 
                     <br />keep up with WiCyS!</p>
-                <p style={{color: "#384E77", fontSize: "larger", lineHeight: 0}}>© {new Date().getFullYear()} WiCyS UIC Chapter</p> 
+                <p style={{color: "#384E77", fontSize: "larger", lineHeight: 2}}>© {new Date().getFullYear()} WiCyS UIC Chapter</p> 
            </div>
 
             <div style={{flexGrow: 1}}/>
@@ -19,17 +19,18 @@ export default function Footer () {
            <div className="footer-nav">
                 <div className="footer-links">
                     <p style={{fontWeight: "bolder", fontSize: "medium"}}>Links</p>
-                    <a href="https://www.instagram.com/wicysatuic/" target="_blank">Instagram</a>
-                    <a href="https://discord.gg/VAdD4kf7Yw" target="_blank">Discord</a>
-                    <a href="https://www.wicys.org/" target="_blank">WiCyS National</a>
+                    <a style={{color: "#B1D34A"}} href="https://linktr.ee/wicysatuic" target="_blank">Linktree</a>
+                    <a style={{color: "#B1D34A"}} href="https://www.instagram.com/wicysatuic/" target="_blank">Instagram</a>
+                    <a style={{color: "#B1D34A"}} href="https://discord.gg/VAdD4kf7Yw" target="_blank">Discord</a>
+                    <a style={{color: "#B1D34A"}} href="https://www.wicys.org/" target="_blank">WiCyS National</a>
                 </div>
                 
                 <div className="footer-links">
                     <p style={{fontWeight: "bolder", fontSize: "medium"}}>Pages</p>
-                    <NavLink to="/" >Home</NavLink>
-                    <NavLink to="/events" >Events</NavLink>
-                    <NavLink to="/announcements" >Announcements</NavLink>
-                    <NavLink to="/board" >Board</NavLink>
+                    <NavLink style={{color: "#B1D34A"}}to="/" >Home</NavLink>
+                    <NavLink style={{color: "#B1D34A"}}to="/events" >Events</NavLink>
+                    <NavLink style={{color: "#B1D34A"}}to="/announcements" >Announcements</NavLink>
+                    <NavLink style={{color: "#B1D34A"}}to="/board" >Board</NavLink>
                 </div>
            </div>
         </footer>
