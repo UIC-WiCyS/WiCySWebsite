@@ -38,7 +38,7 @@ export default function Board26_27(){
                     {boardInfo26.prez.map((member,index) => (
                         <div key={index} className={`member ${getRole(member.role)}`}>
                             <a href={member.linkedin}>
-                                {member.photo && <img src={member.photo}/>}
+                                {member.photo && <img src={`${import.meta.env.BASE_URL}.${member.photo}`}/>}
                                 <h3>{member.name}</h3>
                                 <p>{member.role}</p>
                             </a>
@@ -49,7 +49,7 @@ export default function Board26_27(){
                     {boardInfo26.exec.map((member,index) => (
                         <div key={index} className={`member ${getRole(member.role)}`}>
                             <a href={member.linkedin}>
-                                {member.photo && <img src={member.photo}/>}
+                                {member.photo && <img src={`${import.meta.env.BASE_URL}.${member.photo}`}/>}
                                 <h3>{member.name}</h3>
                                 <p>{member.role}</p>
                             </a>
@@ -64,7 +64,7 @@ export default function Board26_27(){
                     {boardInfo26.comms.map((member,index) => (
                         <div key={index} className={`member ${getRole(member.role)}`}>
                             <a href={member.linkedin}>
-                                {member.photo && <img src={member.photo}/>}
+                                {member.photo && <img src={`${import.meta.env.BASE_URL}.${member.photo}`}/>}
                                 <h3>{member.name}</h3>
                                 <p>{member.role}</p>
                             </a>
@@ -79,7 +79,7 @@ export default function Board26_27(){
                     {boardInfo26.media.map((member,index) => (
                         <div key={index} className={`member ${getRole(member.role)}`}>
                             <a href={member.linkedin}>
-                                {member.photo && <img src={member.photo}/>}
+                                {member.photo && <img src={`${import.meta.env.BASE_URL}.${member.photo}`}/>}
                                 <h3>{member.name}</h3>
                                 <p>{member.role}</p>
                             </a>
@@ -94,7 +94,7 @@ export default function Board26_27(){
                     {boardInfo26.web.map((member,index) => (
                         <div key={index} className={`member ${getRole(member.role)}`}>
                             <a href={member.linkedin}>
-                                {member.photo && <img src={member.photo}/>}
+                                {member.photo && <img src={`${import.meta.env.BASE_URL}.${member.photo}`}/>}
                                 <h3>{member.name}</h3>
                                 <p>{member.role}</p>
                             </a>
