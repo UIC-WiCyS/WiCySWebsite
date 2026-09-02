@@ -26,5 +26,10 @@ export const announcements = [
         time: "9:03 AM",
         body: `stop by our booth during the involvement to learn more about what WiCyS is up to! directions will be posted day of on our Instagram!`
     },
+    {
+        date: "September 02, 2026",
+        time: "9:00 AM",
+        body: `involvemnt fair is today! come visit us!`
+    },
     // add new texts here!
 ];

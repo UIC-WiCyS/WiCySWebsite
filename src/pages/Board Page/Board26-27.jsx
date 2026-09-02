@@ -89,7 +89,7 @@ export default function Board26_27(){
             </div>
 
             <div className="team"> 
-                <h1 className="teamName"> Wed Dev </h1>
+                <h1 className="teamName"> Web Dev </h1>
                 <div className = "teamMember">
                     {boardInfo26.web.map((member,index) => (
                         <div key={index} className={`member ${getRole(member.role)}`}>
