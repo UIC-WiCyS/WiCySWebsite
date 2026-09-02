@@ -165,11 +165,12 @@ h3,p{
 .teamMember h3{
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 100%;
     color:#fff;
     font-size: 20px;
     font-weight: 800;
-
-
+    text-align: center;
 }
 
 /*position*/
