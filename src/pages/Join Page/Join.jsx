@@ -43,7 +43,7 @@ return (
         </button> 
         <h2>Our chapter of WiCyS on campus for FREE </h2>
 
-        <button onClick={()=>window.location.href='https://womenincybersecuritywicys.my.site.com/registration/s/'} className="nMembership">
+        <button onClick={()=>window.location.href='https://www.wicys.org/'} className="nMembership">
             <h1>NATIONAL MEMBERSHIP</h1> 
         </button>
         <h2 className="lastIteam">Annual Member Fee</h2>
