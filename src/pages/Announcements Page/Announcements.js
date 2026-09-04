@@ -31,5 +31,15 @@ export const announcements = [
         time: "9:00 AM",
         body: `involvemnt fair is today! come visit us!`
     },
+    {
+        date: "September 03, 2026",
+        time: "7:34 PM",
+        body: `the website is fully completed!`
+    },
+    {
+        date: "September 06, 2026",
+        time: "5:42 PM",
+        body: `the 1st general board meeting is on sep 8th from  5:30-6:30PM !! join us in eib 124!!!`
+    },
     // add new texts here!
 ];
