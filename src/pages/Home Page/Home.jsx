@@ -82,8 +82,8 @@ export default function Home() {
         <section className="animated-bg">
           <div className="animated-box">
             <VantaBackground />
-            <div style={{display: "flex", width: "100%", justifyContent: "center", paddingTop: "108px"}}>
-              <h2 style={{position: "relative", zIndex: 100, color: "#B1D34A", fontSize: "108px"}}><span style={{textDecoration: "underline"}}>THE</span> place to be :)</h2>
+            <div className="vanta-text">
+              <h2 style={{position: "relative", zIndex: 100, color: "#B1D34A"}}><span style={{textDecoration: "underline", textDecorationColor: "#B1D34A"}}>THE</span> place to be :)</h2>
             </div>
           </div>
         </section>

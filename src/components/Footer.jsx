@@ -5,34 +5,39 @@ import {NavLink} from "react-router-dom"
 
 export default function Footer () {
     return (
-        <footer className="footer">
-           <div>
-                <img src={logo} alt="WiCyS Logo" className="logo"/>
-                <p style={{fontSize: "smaller"}}>We love our committed members. 
-                    <br /> Remember to stay involved, and 
-                    <br />keep up with WiCyS!</p>
-                <p style={{color: "#384E77", fontSize: "larger", lineHeight: 2}}>© {new Date().getFullYear()} WiCyS UIC Chapter</p> 
-           </div>
+        <div style={{textAlign:"center", color: "white"}}>
+            <footer className="footer">
+            <div>
+                    <img src={logo} alt="WiCyS Logo" className="logo"/>
+                    <p style={{fontSize: "smaller"}}>We love our committed members. 
+                        <br /> Remember to stay involved, and 
+                        <br />keep up with WiCyS!</p>
+                    <p style={{color: "#384E77", fontSize: "larger", lineHeight: 2}}>© {new Date().getFullYear()} WiCyS UIC Chapter</p> 
+            </div>
 
-            <div style={{flexGrow: 1}}/>
+                <div style={{flexGrow: 1}}/>
 
-           <div className="footer-nav">
-                <div className="footer-links">
-                    <p style={{fontWeight: "bolder", fontSize: "medium"}}>Links</p>
-                    <a style={{color: "#B1D34A"}} href="https://linktr.ee/wicysatuic" target="_blank">Linktree</a>
-                    <a style={{color: "#B1D34A"}} href="https://www.instagram.com/wicysatuic/" target="_blank">Instagram</a>
-                    <a style={{color: "#B1D34A"}} href="https://discord.gg/VAdD4kf7Yw" target="_blank">Discord</a>
-                    <a style={{color: "#B1D34A"}} href="https://www.wicys.org/" target="_blank">WiCyS National</a>
-                </div>
-                
-                <div className="footer-links">
-                    <p style={{fontWeight: "bolder", fontSize: "medium"}}>Pages</p>
-                    <NavLink style={{color: "#B1D34A"}}to="/" >Home</NavLink>
-                    <NavLink style={{color: "#B1D34A"}}to="/events" >Events</NavLink>
-                    <NavLink style={{color: "#B1D34A"}}to="/announcements" >Announcements</NavLink>
-                    <NavLink style={{color: "#B1D34A"}}to="/board" >Board</NavLink>
-                </div>
-           </div>
-        </footer>
+            <div className="footer-nav">
+                    <div className="footer-links">
+                        <p style={{fontWeight: "bolder", fontSize: "medium"}}>Links</p>
+                        <a style={{color: "#B1D34A"}} href="https://linktr.ee/wicysatuic" target="_blank">Linktree</a>
+                        <a style={{color: "#B1D34A"}} href="https://www.instagram.com/wicysatuic/" target="_blank">Instagram</a>
+                        <a style={{color: "#B1D34A"}} href="https://discord.gg/VAdD4kf7Yw" target="_blank">Discord</a>
+                        <a style={{color: "#B1D34A"}} href="https://www.wicys.org/" target="_blank">WiCyS National</a>
+                    </div>
+                    
+                    <div className="footer-links">
+                        <p style={{fontWeight: "bolder", fontSize: "medium"}}>Pages</p>
+                        <NavLink style={{color: "#B1D34A"}}to="/" >Home</NavLink>
+                        <NavLink style={{color: "#B1D34A"}}to="/events" >Events</NavLink>
+                        <NavLink style={{color: "#B1D34A"}}to="/announcements" >Announcements</NavLink>
+                        <NavLink style={{color: "#B1D34A"}}to="/board" >Board</NavLink>
+                    </div>
+            </div>
+            </footer>
+        
+        <p style={{fontSize:"smaller"}}>Made with <a href="https://github.com/UIC-WiCyS/WiCySWebsite" target="_blank">{" <3 "}</a> by WiCyS</p>
+
+        </div>
     );
 }
