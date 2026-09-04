@@ -2,6 +2,10 @@ export const eventsData = [
     {
         name: "Current",
         events: [
+            {
+                img: "fall26/fall26_first_gbm.webp",
+                alt: "First General Board Meeting"
+            },
             // {
             //     img: "",
             //     alt: ""
@@ -15,6 +19,14 @@ export const eventsData = [
     {
         name: "Previous",
         events: [
+            {
+                img: "fall26/fall26_involvement_fair.webp",
+                alt: "Involvement Fair"
+            },
+            // {
+            //     img: "",
+            //     alt: ""
+            // },
         ],
     },
     {
