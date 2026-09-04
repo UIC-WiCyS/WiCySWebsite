@@ -37,7 +37,7 @@ export default function Board25_26(){
                     {boardInfo25.prez.map((member,index) => (
                         <div key={index} className={`member ${getRole(member.role)}`}>
                             <a href={member.linkedin}>
-                                {member.photo && <img src={member.photo}/>}
+                                {member.photo && <img src={`${import.meta.env.BASE_URL}.${member.photo}`}/>}
                                 <h3>{member.name}</h3>
                                 <p>{member.role}</p>
                             </a>
@@ -48,7 +48,7 @@ export default function Board25_26(){
                     {boardInfo25.exec.map((member,index) => (
                         <div key={index} className={`member ${getRole(member.role)}`}>
                             <a href={member.linkedin}>
-                                {member.photo && <img src={member.photo}/>}
+                                {member.photo && <img src={`${import.meta.env.BASE_URL}.${member.photo}`}/>}
                                 <h3>{member.name}</h3>
                                 <p>{member.role}</p>
                             </a>
@@ -64,7 +64,7 @@ export default function Board25_26(){
                     {boardInfo25.comms.map((member,index) => (
                         <div key={index} className={`member ${getRole(member.role)}`}>
                             <a href={member.linkedin}>
-                                {member.photo && <img src={member.photo}/>}
+                                {member.photo && <img src={`${import.meta.env.BASE_URL}.${member.photo}`}/>}
                                 <h3>{member.name}</h3>
                                 <p>{member.role}</p>
                             </a>
@@ -79,7 +79,7 @@ export default function Board25_26(){
                     {boardInfo25.media.map((member,index) => (
                         <div key={index} className={`member ${getRole(member.role)}`}>
                             <a href={member.linkedin}>
-                                {member.photo && <img src={member.photo}/>}
+                                {member.photo && <img src={`${import.meta.env.BASE_URL}.${member.photo}`}/>}
                                 <h3>{member.name}</h3>
                                 <p>{member.role}</p>
                             </a>
@@ -94,7 +94,7 @@ export default function Board25_26(){
                     {boardInfo25.fund.map((member,index) => (
                         <div key={index} className={`member ${getRole(member.role)}`}>
                             <a href={member.linkedin}>
-                                {member.photo && <img src={member.photo}/>}
+                                {member.photo && <img src={`${import.meta.env.BASE_URL}.${member.photo}`}/>}
                                 <h3>{member.name}</h3>
                                 <p>{member.role}</p>
                             </a>
@@ -104,12 +104,12 @@ export default function Board25_26(){
             </div>
 
             <div className="team"> 
-                <h1 className="teamName"> Wed Dev </h1>
+                <h1 className="teamName"> Web Dev </h1>
                 <div className = "teamMember">
                     {boardInfo25.web.map((member,index) => (
                         <div key={index} className={`member ${getRole(member.role)}`}>
                             <a href={member.linkedin}>
-                                {member.photo && <img src={member.photo}/>}
+                                {member.photo && <img src={`${import.meta.env.BASE_URL}.${member.photo}`}/>}
                                 <h3>{member.name}</h3>
                                 <p>{member.role}</p>
                             </a>

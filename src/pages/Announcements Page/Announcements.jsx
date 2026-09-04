@@ -17,7 +17,7 @@ export default function Announcements(){
             <TitleBar title="Announcements" />
             {/* banner */}
             <div className='announcements-banner'>
-                <Marquee autoFill={true} gradient={true} gradientColor="#384E77">
+                <Marquee autoFill={false} gradient={true} gradientColor="#384E77">
                     <p style={{padding: "0px 9px"}}>you rock :)</p>
                 </Marquee>
             </div>
@@ -51,7 +51,7 @@ export default function Announcements(){
                                 
                                 <div style={{display: "flex", justifyContent: "center", alignItems: "center", gap: "1rem"}}>
                                     {/* time */}
-                                    <p style={{color:"#C2CEAF", fontSize: "small", lineHeight: 0}}>{item.time}</p>
+                                    <p style={{color:"#C2CEAF", fontSize: "small", lineHeight: 3}}>{item.time}</p>
                                     
                                     {/* read symbol */}
                                     {

@@ -12,19 +12,24 @@ export const announcements = [
         body: `be there or be SQUARE`
     },
     {
-        date: "August 11, 2026",
-        time: "11:27 AM",
-        body: `WEBSITE UPDATEDDDDD`
-    },
-    {
         date: "August 24, 2026",
         time: "8:00 AM",
         body: `welcome back! 1st day, good luck, have fun!`
     },
     {
-        date: "August 24, 2026",
-        time: "8:00 AM",
-        body: `welcome back! 1st day, good luck, have fun! welcome back! 1st day, good luck, have fun! welcome back! 1st day, good luck, have fun!`
+        date: "August 26, 2026",
+        time: "11:27 AM",
+        body: `website updated! see all the new changes!`
+    },
+    {
+        date: "August 28, 2026",
+        time: "9:03 AM",
+        body: `stop by our booth during the involvement to learn more about what WiCyS is up to! directions will be posted day of on our Instagram!`
+    },
+    {
+        date: "September 02, 2026",
+        time: "9:00 AM",
+        body: `involvemnt fair is today! come visit us!`
     },
     // add new texts here!
 ];

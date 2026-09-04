@@ -31,7 +31,7 @@
     margin-top:.5vw;
     margin-bottom:.5vw;
     font-family: VT323;
-    font-size: 70px;
+    font-size: 55px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -43,7 +43,7 @@
     margin-top:.5vw;
     margin-bottom:5vw;
     font-family: Inter;
-    font-size: 30px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -112,7 +112,7 @@
     margin-top:.5vw;
     margin-bottom:.5vw;
     font-family: VT323;
-    font-size: 70px;
+    font-size: 55px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -124,7 +124,7 @@
     margin-top:.5vw;
     margin-bottom:5vw;
     font-family: Inter;
-    font-size: 30px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -149,14 +149,14 @@
     margin-top:5vw;
     margin-bottom:.5vw;
     font-family: VT323;
-    font-size: 100px;
+    font-size: 70px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
 .uChapter{
-    width: 1028px;
+    width: 800px;
     height: 251px;
     margin-top:5vw;
     margin-bottom:.5vw;
@@ -170,7 +170,7 @@
 }
 
 .nMembership{
-    width: 1028px;
+    width: 800px;
     height: 251px;
     margin-top:.5vw;
     margin-bottom:.5vw;
@@ -189,7 +189,7 @@
     margin-top:.5vw;
     margin-bottom:.5vw;
     font-family: VT323;
-    font-size: 90px;
+    font-size: 65px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -201,7 +201,7 @@
     margin-top:.5vw;
     margin-bottom:5vw;
     font-family: Inter;
-    font-size: 30px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
