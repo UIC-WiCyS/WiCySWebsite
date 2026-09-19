@@ -41,5 +41,15 @@ export const announcements = [
         time: "5:42 PM",
         body: `the 1st general board meeting is on sep 8th from  5:30-6:30PM !! join us in eib 124!!!`
     },
+    {
+        date: "September 15, 2026",
+        time: "9:23 AM",
+        body: `croffles bake sale today! super delicious from OVERLAY`
+    },
+    {
+        date: "September 19, 2026",
+        time: "4:19 PM",
+        body: `come join wics x wicys for a MINI-CTF on sep 21!!! super beginner friendly :3`
+    },
     // add new texts here!
 ];
