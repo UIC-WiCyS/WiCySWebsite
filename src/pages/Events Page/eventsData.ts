@@ -3,8 +3,8 @@ export const eventsData = [
         name: "Current",
         events: [
             {
-                img: "fall26/fall26_first_gbm.webp",
-                alt: "First General Board Meeting"
+                img: "fall26/wicys_x_wics_ctf.webp",
+                alt: ""
             },
             // {
             //     img: "",
@@ -20,8 +20,28 @@ export const eventsData = [
         name: "Previous",
         events: [
             {
+                img: "fall26/wicys_x_google.png",
+                alt: "WiCyS x Google Michael Moss"
+            },
+            {
+                img: "fall26/fall26_croffles.png",
+                alt: "Overlay Croffles Bake Sale!"
+            },
+            {
+                img: "fall26/bluecon.png",
+                alt: "BlueCon Gathering with WiCyS"
+            },
+            {
+                img: "fall26/fall26_first_gbm.webp",
+                alt: "First General Board Meeting"
+            },
+            {
                 img: "fall26/fall26_involvement_fair.webp",
                 alt: "Involvement Fair"
+            },
+            {
+                img: "",
+                alt: ""
             },
             // {
             //     img: "",
