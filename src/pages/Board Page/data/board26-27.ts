@@ -56,7 +56,7 @@ export const boardInfo26 = {
     "comms": [
         {
             name: "Malika Syeda",
-            role: "Communications chair",
+            role: "Communications Chair",
             linkedin: "https://www.linkedin.com/in/malikarsyeda",
             degree: "",
             photo: "/boardPhotos/2026-2027/chair/Malika.jpg"
@@ -74,12 +74,19 @@ export const boardInfo26 = {
             linkedin: "https://www.linkedin.com/in/zona-noman-a05479243/",
             degree: "",
             photo: "/boardPhotos/2026-2027/committee26/Zona.JPG"
+        },
+        {
+            name: "Esha Shah",
+            role: "Communications Committee",
+            linkedin: "",
+            degree: "",
+            photo: "/boardPhotos/icon.jpg"
         }
     ],
     "media": [
         {
             name: "Simran Ashraf",
-            role: "Social Media chair",
+            role: "Social Media Chair",
             linkedin: "https://www.linkedin.com/in/simran-ashraf-973836342/",
             degree: "",
             photo: "/boardPhotos/2026-2027/chair/Simran.JPG"
@@ -109,14 +116,14 @@ export const boardInfo26 = {
     "web": [
         {
             name: "Hooriya Kazmi",
-            role: "Web Admin Co-chair",
+            role: "Web Admin Co-Chair",
             linkedin: "https://www.linkedin.com/in/hkazmi1/",
             degree: "",
             photo: "/boardPhotos/2026-2027/chair/Hooriya.jpg"
         },
         {
             name: "Josephine Lee",
-            role: "Web Admin Co-chair",
+            role: "Web Admin Co-Chair",
             linkedin: "https://www.linkedin.com/in/josephine-b-l/",
             degree: "",
             photo: "/boardPhotos/2026-2027/chair/Josephine.JPG"
