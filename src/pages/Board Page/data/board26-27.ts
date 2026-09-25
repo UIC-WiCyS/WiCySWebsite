@@ -62,9 +62,9 @@ export const boardInfo26 = {
             photo: "/boardPhotos/2026-2027/chair/Malika.jpg"
         },
         {/* Note: Update Photo*/
-            name: "Alina Alina",
+            name: "Alina Hajira",
             role: "Communications Committee",
-            linkedin: "",
+            linkedin: "https://www.linkedin.com/in/alina-h-4508a2213",
             degree: "",
             photo: "/boardPhotos/icon.jpg"
         },
@@ -78,7 +78,7 @@ export const boardInfo26 = {
         {
             name: "Esha Shah",
             role: "Communications Committee",
-            linkedin: "",
+            linkedin: "www.linkedin.com/in/esha-shah-93b6972a4",
             degree: "",
             photo: "/boardPhotos/icon.jpg"
         }
