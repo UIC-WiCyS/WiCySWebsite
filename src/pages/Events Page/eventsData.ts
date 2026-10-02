@@ -3,12 +3,8 @@ export const eventsData = [
         name: "Current",
         events: [
             {
-                img: "fall26/backdoors&breaches.png",
-                alt: "Backdoors & Breaches Game Day"
-            },
-            {
-                img: "fall26/convenience_store_popup.png",
-                alt: "Convenience Store Popup"
+                img: "wicys_x_aon_fall26.png",
+                alt: "WiCyS x Aon Panel Talk"
             },
             // {
             //     img: "",
@@ -23,6 +19,14 @@ export const eventsData = [
     {
         name: "Previous",
         events: [
+            {
+                img: "fall26/convenience_store_popup.png",
+                alt: "Convenience Store Popup"
+            },
+            {
+                img: "fall26/backdoors&breaches.png",
+                alt: "Backdoors & Breaches Game Day"
+            },
             {
                 img: "fall26/wicys_x_wics_ctf.webp",
                 alt: ""

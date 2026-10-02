@@ -51,5 +51,15 @@ export const announcements = [
         time: "4:19 PM",
         body: `come join wics x wicys for a MINI-CTF on sep 21!!! super beginner friendly :3`
     },
+    {
+        date: "October 01, 2026",
+        time: "8:09 AM",
+        body: `come visit our popup convenience store for asian snacks! 🥠`
+    },
+    {
+        date: "October 06, 2026",
+        time: "10:26 AM",
+        body: `join us as we chat with AON about cyber career paths!! food from pompei 😋`
+    },
     // add new texts here!
 ];
