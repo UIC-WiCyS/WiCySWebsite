@@ -3,7 +3,7 @@ export const eventsData = [
         name: "Current",
         events: [
             {
-                img: "wicys_x_aon_fall26.png",
+                img: "fall26/wicys_x_aon_fall26.png",
                 alt: "WiCyS x Aon Panel Talk"
             },
             // {
