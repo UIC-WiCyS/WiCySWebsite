@@ -61,5 +61,20 @@ export const announcements = [
         time: "10:26 AM",
         body: `join us as we chat with AON about cyber career paths!! food from pompei 😋`
     },
+    {
+        date: "October 12, 2026",
+        time: "7:38 AM",
+        body: `good luck on midterms!!! free hot choco today! come take a break from studying 🍫📖`
+    },
+    {
+        date: "October 19, 2026",
+        time: "2:54 PM",
+        body: `incident response with morningstar today!!! food from pompei 😋 and welcome back coda!`
+    },
+    // {
+    //     date: "",
+    //     time: "",
+    //     body: ``
+    // },
     // add new texts here!
 ];

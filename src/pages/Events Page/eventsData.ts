@@ -2,23 +2,31 @@ export const eventsData = [
     {
         name: "Current",
         events: [
+                {
+                    img: "fall26/hot_chocolate_break.png",
+                    alt: "Hot Chocolate Study Break"
+                },
+                {
+                    img: "fall26/wicys_x_morningstar.png",
+                    alt: "WiCyS x Morningstar: Incident Response"
+                },
+                // {
+                //     img: "",
+                //     alt: ""
+                // },
+                // {
+                //     img: "",
+                //     alt: ""
+                // },
+                ],
+            },
+            {
+        name: "Previous",
+        events: [
             {
                 img: "fall26/wicys_x_aon_fall26.png",
                 alt: "WiCyS x Aon Panel Talk"
             },
-            // {
-            //     img: "",
-            //     alt: ""
-            // },
-            // {
-            //     img: "",
-            //     alt: ""
-            // },
-        ],
-    },
-    {
-        name: "Previous",
-        events: [
             {
                 img: "fall26/convenience_store_popup.png",
                 alt: "Convenience Store Popup"
