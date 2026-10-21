@@ -71,6 +71,11 @@ export const announcements = [
         time: "2:54 PM",
         body: `incident response with morningstar today!!! food from pompei 😋 and welcome back coda!`
     },
+    {
+        date: "October 22, 2026",
+        time: "8:42 AM",
+        body: `thrift store pop-up tdy @ QUAD !! come buy discounted items :D`
+    },
     // {
     //     date: "",
     //     time: "",

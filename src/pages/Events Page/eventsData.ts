@@ -3,8 +3,8 @@ export const eventsData = [
         name: "Current",
         events: [
             {
-                img: "fall26/wicys_x_morningstar.png",
-                alt: "WiCyS x Morningstar: Incident Response"
+                img: "fall26/thrift_store.png",
+                alt: "WiCyS Thrift Store"
             },
             {
                 img: "fall26/hackoween_26.png",
@@ -23,6 +23,10 @@ export const eventsData = [
             {
         name: "Previous",
         events: [
+            {
+                img: "fall26/wicys_x_morningstar.png",
+                alt: "WiCyS x Morningstar: Incident Response"
+            },
             {
                 img: "fall26/hot_chocolate_break.png",
                 alt: "Hot Chocolate Study Break"
