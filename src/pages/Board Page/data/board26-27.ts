@@ -80,7 +80,7 @@ export const boardInfo26 = {
             role: "Communications Committee",
             linkedin: "www.linkedin.com/in/esha-shah-93b6972a4",
             degree: "",
-            photo: "/boardPhotos/icon.jpg"
+            photo: "/boardPhotos/2026-2027/committee26/Esha.JPG"
         }
     ],
     "media": [
@@ -111,6 +111,13 @@ export const boardInfo26 = {
             linkedin: "",
             degree: "",
             photo: "/boardPhotos/2026-2027/committee26/Naomi.JPG"
+        },
+        {
+            name: "Alliyah Manuel",
+            role: "Social Media Committee",
+            linkedin: "https://www.linkedin.com/in/alliyah-manuel-cs/",
+            degree: "",
+            photo: "/boardPhotos/2026-2027/committee26/Alliyah.JPG"
         }
     ],
     "web": [
@@ -134,6 +141,13 @@ export const boardInfo26 = {
             linkedin: "https://www.linkedin.com/in/angela-camargo-/",
             degree: "",
             photo: "/boardPhotos/2026-2027/committee26/Angela.JPG"
+        },
+        {
+            name: "Hansika Modupalli",
+            role: "Web Admin Committee",
+            linkedin: "",
+            degree: "",
+            photo: "/boardPhotos/2026-2027/committee26/Hansika.jpg"
         },
         
     ]
