@@ -66,7 +66,7 @@ export const boardInfo26 = {
             role: "Communications Committee",
             linkedin: "https://www.linkedin.com/in/alina-h-4508a2213",
             degree: "",
-            photo: "/boardPhotos/icon.jpg"
+            photo: "/boardPhotos/2026-2027/committee26/Alina.jpg"
         },
         {
             name: "Zona Noman",
@@ -145,7 +145,7 @@ export const boardInfo26 = {
         {
             name: "Hansika Modupalli",
             role: "Web Admin Committee",
-            linkedin: "",
+            linkedin: "https://www.linkedin.com/in/hansika-modupalli/",
             degree: "",
             photo: "/boardPhotos/2026-2027/committee26/Hansika.jpg"
         },
