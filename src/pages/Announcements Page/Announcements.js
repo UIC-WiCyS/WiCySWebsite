@@ -76,6 +76,11 @@ export const announcements = [
         time: "8:42 AM",
         body: `thrift store pop-up tdy @ QUAD !! come buy discounted items :D`
     },
+    {
+        date: "November 04, 2026",
+        time: "9:24 AM",
+        body: `henna AND chai fundraiser today !!! prices start at $3 :3`
+    },
     // {
     //     date: "",
     //     time: "",
