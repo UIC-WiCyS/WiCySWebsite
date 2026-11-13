@@ -81,6 +81,11 @@ export const announcements = [
         time: "9:24 AM",
         body: `henna AND chai fundraiser today !!! prices start at $3 :3`
     },
+    {
+        date: "November 18, 2026",
+        time: "12:09 PM",
+        body: `join us today at for office visit and tour at cisco! learn about their internships, career pathways, etc`
+    },
     // {
     //     date: "",
     //     time: "",
