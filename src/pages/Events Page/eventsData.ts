@@ -6,6 +6,10 @@ export const eventsData = [
                 img: "fall26/cisco_office_visit.png",
                 alt: "WiCyS x Cisco Office Visit"
             },
+            {
+                img: "fall26/churros_hot_choco.png",
+                alt: "WiCyS Churros Fundraiser"
+            },
                 // {
                 //     img: "",
                 //     alt: ""

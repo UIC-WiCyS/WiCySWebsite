@@ -86,6 +86,11 @@ export const announcements = [
         time: "12:09 PM",
         body: `join us today at for office visit and tour at cisco! learn about their internships, career pathways, etc`
     },
+    {
+        date: "November 19, 2026",
+        time: "8:37 AM",
+        body: `churros for sale at the wicys lounge! 😋`
+    },
     // {
     //     date: "",
     //     time: "",
